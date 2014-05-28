@@ -1,0 +1,449 @@
+﻿/* ==|== primary code =====================================================
+ Author: Jorge DD Martins
+ Code for R64Cloud
+ ========================================================================== */
+
+
+@import url(../assets/home.css);
+
+
+body {
+	background: #f8f8f8;
+	font-family: 'robotoregular';
+	padding: 0;
+}
+
+header.top_head, 
+header.top_head nav[role="navigation"], 
+section[role="main"], 
+section[role="main"] div.content, 
+section[role="main"] div.content div.rcloud-info, 
+section[role="main"] div.content div.rcloud-info div.middle-rcinfo div.rcloud-blk, 
+div.blk-prod, 
+div.blk-prod div.img-site, 
+div.down-main {
+	position: relative;
+}
+
+
+/* HEADER */
+header.top_head {
+	background: #fff;
+	height: 96px;
+	box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.1);
+}
+
+header.top_head nav[role="navigation"] {
+	height: 100%;
+	margin: auto;
+	width: 87%;
+}
+
+header.top_head nav[role="navigation"] div.logo-stage {
+	position: absolute;
+	width: 154px;
+	height: auto;
+	left: 0;
+	top: 0;
+}
+
+header.top_head nav[role="navigation"] div.logo-stage img {
+	width: 100%;
+	height: auto;
+}
+
+header.top_head nav[role="navigation"] a.l-r64 {
+	position: absolute;
+	color: #000;
+	font-size: 24px;
+	letter-spacing: -1px;
+	left: 174px;
+	top: 55px;
+	background: url(../img/icons/64.png) no-repeat;
+	background-position: 100%;
+	padding-right: 33px;
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+
+header.top_head nav[role="navigation"] a.l-r64:hover {
+	background: url(../img/icons/64-h.png) no-repeat;
+	background-position: 100%;
+	text-decoration: none;
+	padding-right: 43px;
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+
+
+header.top_head nav[role="navigation"] div.nav-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+}
+
+
+header.top_head nav[role="navigation"] div.nav-right a {
+	width: 80px;
+	height: 50px;
+	margin-left: 35px;
+	margin-top: 7.7%;
+}
+
+header.top_head nav[role="navigation"] div.nav-right a img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+/* SECTION */
+section[role="main"] {
+	margin-top: 4.5%;
+}
+
+
+section[role="main"] div.content {
+	width: 95.5%;
+	margin: auto;
+	height: 100%;
+}
+
+
+/* HOME */
+
+section[role="main"] div.content figure.str-img, 
+section[role="main"] div.content figure.str-img img, 
+section[role="main"] div.content figure.str-img div.img-main {
+	width: 100%;
+}
+
+section[role="main"] div.content figure.str-img img {
+	height: auto;
+}
+
+
+section[role="main"] div.content figure.str-img div.img-main {
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+
+section[role="main"] div.content figure.str-img div.img-main div {
+	top: 50%;
+}
+
+
+section[role="main"] div.content figure.str-img div.img-main div div.tit-cloud {
+	width: 63.7%;
+	margin: auto;
+	height: 100%;
+	margin-bottom: 5%;
+}
+
+
+section[role="main"] div.content figure.str-img div.img-main div div.tit-cloud img {
+	width: 100%;
+	height: auto;
+}
+
+
+section[role="main"] div.content figure.str-img div.img-main div button.cloudbtn {
+	background: #851e36;
+	padding-top: 1.2%;
+	padding-bottom: 1.1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: #fff;
+	margin: auto;
+	border-radius: 9px;
+	font-size: 22px;
+	letter-spacing: -1px;
+	box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.5);
+}
+
+section[role="main"] div.content figure.str-img div.img-main div button.cloudbtn:focus {
+	outline: none;
+}
+
+section[role="main"] div.content div.rcloud-info {
+	display: block;
+	background: #eeeeef;
+	margin-bottom: 20px;
+}
+
+
+section[role="main"] div.content div.rcloud-info div.middle-rcinfo {
+	width: 83.9%;
+	max-width: 1268px;
+	margin: auto;
+	padding-bottom: 2%;
+	padding-top: 2.5%;
+}
+
+
+section[role="main"] div.content div.rcloud-info div.middle-rcinfo div.rcloud-blk, 
+section[role="main"] div.content div.rcloud-info div.middle-rcinfo div.rcloud-blk-dw {
+	width: 33.1%;
+	max-width: 419px;
+	position: relative;
+}
+
+section[role="main"] div.content div.rcloud-info div.middle-rcinfo div.rcloud-blk {
+	padding-top: 13.9%;
+	padding-bottom: 13.9%;
+}
+
+
+section[role="main"] div.content div.rcloud-info div.middle-rcinfo div.rcloud-blk-dw {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+
+div.in {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+div.mac-block {
+	width: 69%;
+	max-width: 288px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+div.mac-block img {
+	width: 100%;
+	height: auto;
+}
+
+div.mac-pro-block {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+div.mac-pro-block div.mac-pro-in {
+	position: relative;
+	width: 70%;
+	max-width: 291px;
+}
+
+div.mac-pro-block div.mac-pro-in img {
+	width: 100%;
+	height: auto;
+}
+
+div.iphone-block {
+	width: 68.5%;
+	max-width: 286px;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+
+div.iphone-block img {
+	width: 100%;
+	height: auto;
+}
+
+div.blk-prod {
+	width: 70.3%;
+	max-width: 293px;
+	height: 100%;
+}
+
+div.blk-prod div.img-site {
+	display: block;
+}
+
+
+div.blk-prod div.img-site div {
+	width: 63.6%;
+	height: 100%;
+}
+
+div.blk-prod div.img-site div img {
+	width: 100%;
+	height: auto;
+}
+
+span.prod-tit {
+	display: block;
+	color: #000;
+	letter-spacing: -3px;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 12px; 
+}
+
+p.descr-blk {
+	color: #4c4d4e;
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: -1px;
+	margin-top: 10px;
+}
+
+
+div.plus-stage {
+	margin-top: 20px;
+}
+
+div.plus-stage a {
+	font-size: 20px;
+	letter-spacing: -2px;
+	color: #851e36;
+}
+
+
+div.down-main {
+	margin-bottom: 50px;
+}
+
+div.dm-in {
+	width: 70%;
+	height: 100%;
+}
+
+div.tt-info {
+	margin-top: 10px;
+}
+
+div.tt-info span {
+	color: #000;
+	font-size: 36px;
+	letter-spacing: -3px;
+	margin-right: 5%;
+	top: 5px;
+}
+
+div.tt-info button.btn-arrtop {
+	background: #71001a;
+	color: #fff;
+	border-radius: 9px;
+	padding-top: 1%;
+	padding-bottom: 0.9%;
+	padding-left: 5.5%;
+	padding-right: 5.5%;
+	font-size: 23px;
+	letter-spacing: -1px;
+}
+
+
+footer {
+	background: #fff url(../img/foot.jpg);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 45px;
+	border-top: 2px solid #ddd;
+}
+
+
+footer div.blk-foot {
+	width: 95.5%;
+	height: 100%;
+}
+
+
+footer div.blk-foot div.blfoot-in {
+	position: relative;
+	width: 33.33%;
+	height: 100%;
+}
+
+
+footer div.blk-foot div.blfoot-in ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	padding-top: 2%;
+}
+
+footer div.blk-foot div.blfoot-in ul li {
+	font: 14px 'robotolight';
+	color: #000;
+	display: inline;
+	margin-left: 15px;
+}
+
+footer div.blk-foot div.blfoot-in ul li:before {
+	content: ' - ';
+	margin-right: 15px; 
+}
+
+footer div.blk-foot div.blfoot-in ul li:first-child:before {
+	content: '';
+	margin: 0;
+}
+
+footer div.blk-foot div.blfoot-in ul li a {
+	color: #000;
+}
+
+
+i[s13] {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: -17px;
+}
+
+i[a13] {
+	width: 24px;
+	height: 18px;
+	float: left;
+	margin-top: 2%;
+}
+
+i[m13] {
+	width: 22px;
+	height: 22px;
+	float: right;
+	margin-top: 2%;
+}
+
+i[jdd13] {
+	width: 52px;
+	height: 23px;
+	float: right;
+	margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+
+<html ng-app="r64cloudApp">
+	
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<title>R64Cloud +</title>
+		<meta name="description" content="">
+		<meta name="author" content="@Jorge DD Martins">
+		<meta name="viewport" content="width=device-width,initial-scale=1.1">
+		<link rel="stylesheet" href="css/main.css">
+		<link href="css/bootstrap.css" rel="stylesheet" />
+		<link href="css/main-bootstrap.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/boostrap-jdd.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+		<script src="js/script.js"></script>
+	</head>
+
+	<body ng-controller="r64cloudController">
+
+		<header class="top_head">
+			<nav role="navigation">
+				<div class="logo-stage">
+					<a href="#"><img ng-src="{{ ilogo }}" /></a>
+				</div>
+				<a class="l-r64" href="#cloud">{{ lcloud }}</a>
+
+				<div class="nav-right">
+					<a class="flt-right" href=""><img ng-src="{{ menu }}" /></a>
+					<a class="flt-right" href=""><img ng-src="{{ contacts }}" /></a>
+					<a class="flt-right marg-lft" href=""><img ng-src="{{ search }}" /></a>
+				</div>
+
+			</nav>
+		</header>
+ 
+		<section role="main">
+
+			<div class="content">
+
+				<div ng-view></div>
+
+			</div>
+			
+
+		</section>
+
+		<footer>
+			<div class="blk-foot marg-aut">
+				<div class="blfoot-in flt-left">
+					<ul>
+						<li>c. R64Cloud </li>
+						<li><a href="">Privacy</a></li>
+					</ul>
+				</div>
+				<div class="blfoot-in flt-left text-center">
+					<a href=""><i a13><img src="{{ icoa13 }}" /></i></a>
+					<a href=""><i s13><img src="{{ icos13 }}" /></i></a>
+					<a href=""><i m13><img src="{{ icom13 }}" /></i></a>
+				</div>
+				<div class="blfoot-in flt-left">
+					<a href="https://plus.google.com/+JorgeDDMartins/posts" target="_blank"><i jdd13><img src="{{ icojdd13 }}" /></i></a>
+				</div>
+			</div>
+		</footer>
+		
+		
+				
+		
+		
+		<script src="http://platform.twitter.com/widgets.js"></script>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+		<!-- scripts concatenated and minified via ant build script-->
+		<!--<script defer src="js/plugins.js"></script>
+		<!-- end scripts-->
+		<!--<script>
+		window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+		Modernizr.load({
+		load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+		});
+		</script>-->
+		<!--[if lt IE 7 ]>
+		<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+		<![endif]-->
+	</body>
+</html>
