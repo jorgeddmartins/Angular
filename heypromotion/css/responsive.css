@@ -1,0 +1,127 @@
+/* =============================================================================
+                      TABLETS & SMARTPHONES
+   ========================================================================== */
+
+
+@media screen and (max-width: 1024px) {
+	
+    div.mainController div.footer {
+        padding-bottom: 5.2%;
+    }
+
+    div.mainController div.footer div.foot_ins span.s_more a {
+        padding-right: 3%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1008px) {
+
+    div.mainController div.section div.down_section h1 {
+      letter-spacing: -3px;
+    }
+
+    div.mainController div.footer {
+       padding-bottom: 8.2%;
+       margin-top: 30px;
+    }
+
+    div.mainController div.footer div.foot_ins span.s_more a {
+      padding-right: 4%;;
+    }
+
+}
+ 
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+
+  div.mainController div.header div.nav {
+    min-height: 70px;
+  }
+
+  div.mainController div.header div.nav a.nav_menu {
+    background: #fff url(../img/icons/nav_mob.png) no-repeat;
+    background-position: 50% 60%;
+    width: 74px;
+    height: 100%;
+    right: 10px;
+}
+
+  div.mainController div.header div.nav div.logo_hey {
+    width: 45%;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+  }
+
+  div.mainController div.section,
+  div.mainController div.header div.links_nav{
+    display: none;
+  }
+
+  div.mainController div.section div.top_banner {
+    height: auto;
+  }
+
+  
+  section[data-role="mobcontroller"] {
+    display: block;
+  }
+
+  div.mainController div.footer {
+    padding-bottom: 40.2%;
+    margin-bottom: 20px;
+  }
+
+  div.mainController div.footer div.foot_ins span.s_more {
+    display: block;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+
+  div.mainController div.footer div.foot_ins span.s_more a {
+    padding-right: 9%;
+    margin-left: 0;
+  }
+
+  div.mainController div.footer div.foot_ins div.socials {
+    position: relative;
+    right: 1%;
+    text-align: center;
+  }
+
+  div.mainController div.footer div.foot_ins div.socials img {
+    margin-left: 3px;
+}
+
+  div.mainController div.footer div.foot_ins span.copy_r {
+     margin-top: 10px;
+     font-size: 14px;
+  }
+
+  div.modal-dialog {
+    margin-top: 15%;
+    width: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+
+ 
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+
+

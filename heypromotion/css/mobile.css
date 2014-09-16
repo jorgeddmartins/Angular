@@ -1,0 +1,52 @@
+/* =============================================================================
+                      FOR TABLETS & SMARTPHONES
+   ========================================================================== */
+
+
+div.mob_home div.banner_top img, 
+div.mob_home div.mob_container, 
+div.prods_cont, 
+div.mob_home div.mob_container div.prods_cont img, 
+div.pro_ins {
+	width: 100%;
+}
+
+
+div.mob_home div.mob_container {
+	margin-bottom: 6%;
+}
+
+
+div.mob_home div.mob_container span.pagett {
+	color: #276406;
+	font-size: 38px;
+	letter-spacing: 1px;
+	padding-left: 8%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+div.mob_home div.mob_container div.prods_cont div.prod_1, 
+div.mob_home div.mob_container div.prods_cont div.prod_2, 
+div.mob_home div.mob_container div.prods_cont div.prod_3, 
+div.mob_home div.mob_container div.prods_cont div.prod_4 {
+	width: 50%;
+	padding-top: 60%;
+	padding-bottom: 62.5%;
+	position: relative;
+}
+
+div.mob_home div.mob_container div.prods_cont img {
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,161 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html ng-app="heypromoApp">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<title>HEY PROMOTION!!!</title>
+		<meta name="description" content="">
+		<meta name="author" content="@Jorge DD Martins">
+		<meta name="viewport" content="width=device-width,initial-scale=1.1">
+		<link rel="stylesheet" href="css/main.css">
+		<link href="css/bootstrap.css" rel="stylesheet" />
+		<link href="css/main-bootstrap.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/mobile.css">
+		<link rel="stylesheet" href="css/boostrap-jdd.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="js/libs/modernizr-2.0.6.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+		<script src="js/mobile.js"></script>
+	</head>
+	
+	<body ng-controller="heypromoController">
+
+		<div class="mainController">
+			<div class="header">
+				<div class="nav posit-rel">
+					<div class="logo_hey disp-inblk">
+						<a href="/"><img src="img/logo.png" /></a>
+					</div>
+						<a href="#" class="nav_menu posit-abso" data-toggle="modal" data-target="#myModal"></a>
+
+							<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+					<div class="links_nav posit-abso">
+						<a href="#" class="nav_link disp-inblk">Products</a>
+						<a href="#" class="nav_link disp-inblk">Contacts</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="section">
+				<div class="top_banner">
+					<img src="img/banner/banner.png" width="100%" height="auto" />
+				</div>
+				<div class="down_section disp-inblk">
+
+					<h1>Pick One <br /> Below!!!</h1>
+
+					<div class="product_1 flt-left">
+						<div class="up_prod">
+							<a href=""></a>
+						</div>
+						<img src="img/products/1.png" />
+					</div>
+
+					<div class="product_2 flt-left">
+						<div class="up_prod">
+							<a class="arrow_second" href=""></a>
+						</div>
+						<img src="img/products/2.png" />
+					</div>
+
+					<div class="product_3 flt-left">
+						<div class="up_prod">
+							<a class="arrow_third" href=""></a>
+						</div>
+						<img src="img/products/3.png" />
+					</div>
+
+					<div class="product_4 flt-left">
+						<div class="up_prod">
+							<a class="arrow_fourth" href=""></a>
+						</div>
+						<img src="img/products/4.png" />
+					</div>
+
+				</div>
+			</div>
+
+		
+
+		<section class="disp-none" data-role="mobcontroller">
+			
+			<div class="mob_content">
+				
+				<div data-ng-view></div>
+
+			</div>
+
+		</section>
+
+		<div class="footer">
+				<div class="foot_ins">
+					<span class="s_more">
+						<a href="">See More</a>
+					</span>
+					<div class="socials">
+						<a href="http://www.linkedin.com" target="_blank"><img src="img/icons/linkedin.png" /></a>
+						<a href="http://www.myspace.com" target="_blank"><img src="img/icons/myspace.png" /></a>
+						<a href="http://www.twitter.com" target="_blank"><img src="img/icons/twitter.png" /></a>
+						<a href="https://plus.google.com/+JorgeDDMartins/posts" target="_blank"><img src="img/icons/google.png" /></a>
+						<a href="http://www.facebook.com" target="_blank"><img src="img/icons/facebook.png" /></a>
+						<a href="http://www.instagram.com" target="_blank"><img src="img/icons/instagram.png" /></a>
+					</div>
+					<span class="copy_r">C. HeyPromotion, 2014. All Rights Reserved</span>
+				</div>
+		</div>
+	</div>
+	
+						
+		<script src="http://platform.twitter.com/widgets.js"></script>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+		<!-- scripts concatenated and minified via ant build script-->
+		<!--<script defer src="js/plugins.js"></script>
+		<script defer src="js/script.js"></script>
+		<!-- end scripts-->
+		<!--<script>
+		window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+		Modernizr.load({
+		load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+		});
+		</script>-->
+		<!--[if lt IE 7 ]>
+		<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+		<![endif]-->
+	</body>
+</html>
