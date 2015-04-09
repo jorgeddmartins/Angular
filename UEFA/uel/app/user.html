@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="uclApp">
+    <!--<![endif]-->
+  <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <link rel="shortcut icon" href="favicon.ico" />
+            <title>UCL Barnd Support</title>
+            <meta name="description" content="">
+            <meta name="keywords" content="">
+            <meta name="author" content="DesignWerk">
+            <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+            <meta name="HandheldFriendly" content="true" />
+            <meta name="apple-touch-fullscreen" content="yes" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <link rel="stylesheet" href="../css/main.css">
+            <link rel="stylesheet" href="../css/user.css">
+            <link href="../css/bootstrap.css" rel="stylesheet" />
+            <link href="../css/main-bootstrap.css" rel="stylesheet" />
+            <link rel="stylesheet" href="../css/mobile.css">
+            <link rel="stylesheet" href="../css/responsive.css">
+            <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+            <link rel="stylesheet" type="text/css" href="css/component.css" />
+            
+            <!--[if lt IE 9]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+            <![endif]-->
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+            <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+            <script src="../src/app.js"></script>
+            <script src="../js/modernizr-2.0.6.min.js"></script>
+            <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+            <script>
+				$(document).ready(function(){
+					$("#hide").click(function(){
+						$(".tohide").hide();
+					});
+					$("#hide2").click(function(){
+						$(".tohidesmall").hide();
+					});
+				});
+			</script>
+            
+  </head>
+  <body class="back-user cbp-spmenu-push">
+
+      
+      <div class="desktop-app">
+          
+          <header role="banner">
+              <nav role="navigation">
+                  <div class="logo_box log-user">
+                      <a href="../index.html"><img class="i-logo" src="../img/logo.png" /></a>
+                  </div>
+                  <div class="user-time">
+                      <div class="top-user-nav">
+                          <a href="history.html" class="t-nav-icon clock-ico"></a>
+                          <a href="" class="t-nav-icon user-login-icon"></a>
+                          <a href="../index.html" class="t-nav-icon history-ico"></a>
+                      </div>
+                      <div class="top-user-welcome">
+                          <span class="user-call">Welcome back User</span>
+                      </div>
+                  </div>
+              </nav>
+              
+          </header>
+          
+          <section role="main">
+              
+              <div class="checkout-panel" id="downl-panel-user">
+                  <div class="checkout-panel-content">
+                      <div class="top-blk-downl">
+                          <div class="downl-all-blks">
+                              <span class="downl-tw-queue">Download</span>
+                              <span class="downl-tw-queue">Queue at</span>
+                              <span class="downl-tw-queue f-bold">3.23 GB</span>
+                          </div>
+                          <div class="buttons-all">
+                              <a href="" class="manage-itmes pos-right delete-item"></a>
+                              <a href="" class="manage-itmes pos-left5 share-item" data-toggle="modal" data-target="#forgot2"></a>
+                              
+                              <div class="modal fade" id="forgot2" tabindex="-1" role="dialog" aria-hidden="true">
+                      <div class="modal-dialog reset-modal">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="resetLabel">EMAIL DOWNLOAD QUEUE</h4>
+                              </div> 
+                              <div class="modal-body">
+                                  <p class="modal-form-txt margbtt25 green-modal">Your download queue has been emailed to "emailAddress@hosting.com". Do you want to keep your download queue?</p>
+                                  <form action="" method="post">
+                                      <button type="button" class="btn btn-default margbtt10 btn-width-queue" data-dismiss="modal" aria-label="Close">Keep queue</button>
+                                      <a href="" class="manage-itmes pos-right delete-item del-i-queue"></a>
+                                  </form>
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>     
+                </div>
+              </div>
+                      
+                      <div class="scroll-thumbs">
+                          
+                          <div class="tohide">
+                          <div class="blk-queue">
+                              <div class="queue-blk">
+                              <div class="queue-hover">
+                                    <div class="queue-download">
+                                        <img src="../img/icons/download.png" />
+                                    </div>
+                                    <div class="queue-delete" id="hide">
+                                        <img src="../img/icons/delete.png" />
+                                    </div>
+                                </div>
+                                  <div class="queue-box-im">
+                                      <img class="queueim" src="../img/user/1.jpg" />
+                                  </div>
+                                  <div class="item-deal">
+                                      <span class="item-txt clgrey">Toolkit Image 01</span>
+                                      <span class="item-txt clgrey">Europa League</span>
+                                      <span class="item-txt margtcl">33.5 MB</span>
+                                  </div>
+                              </div>
+                              <div class="queue-options">
+                                  <ul class="option-file">
+                                      <li class="tohidesmall">TIFF - CMYK - 2.3 MB
+                                      	<div class="option-file-hover">
+                                        	<div class="queue-download">
+                                        		<img src="../img/icons/download.png" />
+                                    		</div>
+                                            <div class="tohidesmall">
+                                            <div class="queue-delete" id="hide2">
+                                        		<img src="../img/icons/delete.png" />
+                                    		</div>
+                                            </div>
+                                        </div>
+                                      </li>
+                                      <li>png - rgb - 1.2 MB
+                                      <div class="option-file-hover">
+                                        	<div class="queue-download">
+                                        		<a href=""><img src="../img/icons/download.png" /></a>
+                                    		</div>
+                                            <div class="queue-delete">
+                                        		<a href=""><img src="../img/icons/delete.png" /></a>
+                                    		</div>
+                                        </div>
+                                      </li>
+                                      <li>ai - rgb - 30 MB
+                                      <div class="option-file-hover">
+                                        	<div class="queue-download">
+                                        		<a href=""><img src="../img/icons/download.png" /></a>
+                                    		</div>
+                                            <div class="queue-delete">
+                                        		<a href=""><img src="../img/icons/delete.png" /></a>
+                                    		</div>
+                                        </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          </div>
+                          
+                          <div class="blk-queue">
+                              <div class="queue-blk">
+                              <div class="queue-hover">
+                                    <div class="queue-download">
+                                        <a href=""><img src="../img/icons/download.png" /></a>
+                                    </div>
+                                    <div class="queue-delete">
+                                        <a href=""><img src="../img/icons/delete.png" /></a>
+                                    </div>
+                                </div>
+                                  <div class="queue-box-im">
+                                      <img class="queueim" src="../img/user/8.jpg" />
+                                  </div>
+                                  <div class="item-deal">
+                                      <span class="item-txt clgrey">Toolkit Image 01</span>
+                                      <span class="item-txt clgrey">Europa League</span>
+                                      <span class="item-txt margtcl">12.4 MB</span>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <div class="blk-queue">
+                              <div class="queue-blk">
+                              <div class="queue-hover">
+                                    <div class="queue-download">
+                                        <a href=""><img src="../img/icons/download.png" /></a>
+                                    </div>
+                                    <div class="queue-delete">
+                                        <a href=""><img src="../img/icons/delete.png" /></a>
+                                    </div>
+                                </div>
+                                  <div class="queue-box-im">
+                                      <img class="queueim" src="../img/user/1.jpg" />
+                                  </div>
+                                  <div class="item-deal">
+                                      <span class="item-txt clgrey">Toolkit Image 01</span>
+                                      <span class="item-txt clgrey">Europa League</span>
+                                      <span class="item-txt margtcl">12.0 MB</span>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="user-content wid-100">
+                  <div class="col-md-12 user-ins-content wid-100">
+                      <div class="col-md-2 user-nav" id="nav-usern">
+                          <div class="panel-nav-group">
+                              <a class="nav-step" href="introduction.html">Introduction</a>
+                              <a class="nav-step" href=""><i class="nav-ico brand-ico"></i>Brand Manual</a>
+                              <div tabindex="0" class="onclick-menu"><span><i class="nav-ico indentity-ico"></i>Core Brand Identity</span>
+                                  <ul class="onclick-menu-content">
+                                      <li><a class="nav-step-group" href="corebrand-mainlogo.html">Main Logo</a></li>
+                                      <li><a class="nav-step-group" href="">Secondary Logo</a></li>
+                                      <li><a class="nav-step-group" href="">Logotype</a></li>
+                                      <li><a class="nav-step-group" href="">Symbol</a></li>
+                                      <li><a class="nav-step-group" href="">Wordmark</a></li>
+                                      <li><a class="nav-step-group" href="">Official Typeface</a></li>
+                                      <li><a class="nav-step-group" href="">Brand Colours</a></li>
+                                      <li><a class="nav-step-group" href="">Trophy</a></li>
+                                      <li><a class="nav-step-group" href="">Anthem</a></li>
+                                  </ul>
+                              </div>
+                              
+                              <div tabindex="0" class="onclick-menu"><span class="back-orange"><i class="nav-ico indentity-ico"></i>2015-18 Visual Identity</span>
+                                  <ul class="onclick-menu-content" style="display: block; visibility: visible;">
+                                      <li><a class="nav-step-group focus-leftnav" href="">Key Visual Overview</a></li>
+                                      <li><a class="nav-step-group" href="">Trophy Views</a></li>
+                                      <li><a class="nav-step-group" href="">Background  Views</a></li>
+                                      <li><a class="nav-step-group" href="">Vector Artwork</a></li>
+                                  </ul>
+                              </div>
+                              
+                              <div tabindex="0" class="onclick-menu"><span><i class="nav-ico indentity-ico"></i>Broadcast Toolkit</span>
+                                  <ul class="onclick-menu-content">
+                                      <li><a class="nav-step-group" href="">Toolkit Manual 2015/18</a></li>
+                                      <li><a class="nav-step-group" href="">Multilateral TV Graphics</a></li>
+                                      <li><a class="nav-step-group" href="">Unilateral TV Graphics</a></li>
+                                      <li><a class="nav-step-group" href="">Map Package</a></li>
+                                      <li><a class="nav-step-group" href="">Audio Files</a></li>
+                                      <li><a class="nav-step-group" href="">Club Logos</a></li>
+                                  </ul>
+                              </div>
+                              
+                              <a class="nav-step" href=""><i class="nav-ico club-ico"></i>Club Production Items</a>
+                              <a class="nav-step" href=""><i class="nav-ico broadcast-ico"></i>Brand Activation</a>
+                              <a class="nav-step" href=""><i class="nav-ico final-ico"></i>Final 2016 Basel OFF-AIR</a>
+                              <a class="nav-step" href=""><i class="nav-ico final-ico"></i>Final 2016 Basel ON-AIR</a>
+                              
+                          </div>
+                      </div>
+                      
+                      <div class="col-md-10 user-blocks">
+                          <div class="header-blk">
+                              <h3 class="blk-title">2015-18 visual identity</h3>
+                              <div class="nav-logout">
+                                  <a href="user-list.html"><i class="nav-log-opt list-ico"></i></a>
+                                  <a href="user.html"><i class="nav-log-opt square-list"></i></a>
+                              </div>
+                          </div>
+                          
+                          <div class="col-md-12 blks-section">
+                              
+                              <div id="toedit">
+                                  <div class="panel-user">
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      
+                                                      <ul class="dropdown-menu drop-opt-user">
+                                                          <li class="addall">
+                                                              <span>Add all to Queue</span>
+                                                              <input type="checkbox" name="allqueue" value="" id="queueall" />
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                              <input type="checkbox" name="allqueue" value="" id="queuefileall" />
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                              <input type="checkbox" name="allqueue" value="" id="queuefileall" />
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                              <input type="checkbox" name="allqueue" value="" id="queuefileall" />
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima">
+                                                  <img class="userimg" src="../img/user/1.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/1.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 01</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user">
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima">
+                                                  <img class="userimg" src="../img/user/2.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/2.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 02</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user">
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima-right">
+                                                  <img class="userimg" src="../img/user/3.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/3.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 03</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user">
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima-right">
+                                                  <img class="userimg" src="../img/user/4.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/4.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 04</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user">
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima">
+                                                  <img class="userimg" src="../img/user/5.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/5.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 05</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user">
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima">
+                                                  <img class="userimg" src="../img/user/6.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/6.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 06</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user">
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima-right">
+                                                  <img class="userimg" src="../img/user/7.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/7.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 07</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user">
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima-right">
+                                                  <img class="userimg" src="../img/user/8.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/8.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 08</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user">
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima">
+                                                  <img class="userimg" src="../img/user/1.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/1.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 09</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user">
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima">
+                                                  <img class="userimg" src="../img/user/2.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/2.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 10</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user">
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima-right">
+                                                  <img class="userimg" src="../img/user/3.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/3.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 11</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user">
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima-right">
+                                                  <img class="userimg" src="../img/user/4.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/4.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 12</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user top-up-opt">
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima">
+                                                  <img class="userimg" src="../img/user/5.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/5.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 13</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user top-up-opt">
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima">
+                                                  <img class="userimg" src="../img/user/6.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/6.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 14</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user top-up-opt">
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima-right">
+                                                  <img class="userimg" src="../img/user/7.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/7.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 15</span>
+                                      </div>
+                                      
+                                      <div class="user-file-mob">
+                                          <div class="user-file-box">
+                                              <div class="blk-options">
+                                                  <div class="up-bar"></div>
+                                                  <div class="left-bar"></div>
+                                                  <div class="right-bar"></div>
+                                                  <div class="bottom-bar"></div>
+                                                  <div class="queue-box">
+                                                      <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                                                      <ul class="dropdown-menu drop-opt-user top-up-opt">
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall-file">
+                                                              <span>PSD</span>
+                                                              <span>CMYK</span>
+                                                              <span>103.7 MB</span>
+                                                          </li>
+                                                          <li class="addall"><span>Add all to Queue</span></li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-hover-ima-right">
+                                                  <img class="userimg" src="../img/user/8.jpg" />
+                                              </div>
+                                              <img class="userimg" src="../img/user/8.jpg" />
+                                          </div>
+                                          <span class="user-mob-title">Trophy Center View</span>
+                                          <span class="user-mob-title">Image 16</span>
+                                      </div>
+                                      
+                                      
+                                      <div class="opacity-bar"></div>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+              </div>
+          </section>
+      </div>
+      
+      <div ng-view></div>
+ 
+<!-- <script src="http://code.jquery.com/jquery.js"></script> -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+    (function($){
+     $(window).load(function(){
+        $("#toedit .panel-user").mCustomScrollbar({
+            setHeight:300,
+            theme:"uel-uefa"
+            });
+                    
+        $("#nav-usern .panel-nav-group").mCustomScrollbar({
+            setHeight:300,
+            theme:"uel-uefa"
+            });
+                    
+        $("#downl-panel-user .scroll-thumbs").mCustomScrollbar({
+            setHeight:300,
+            theme:"uel-uefa"
+            });
+                    
+        });
+     })(jQuery);
+	</script>
+
+  </body>
+</html>
+

@@ -1,0 +1,11 @@
+.wrapper, .wrapper2 {
+	width: 200px;
+	height: 200px;
+	background-color: #EEE;
+	margin: 50px;
+	padding: 20px;
+}
+
+.mCSB_container, .mCSB_container.mCS_no_scrollbar {
+	margin-right: 15px;
+}

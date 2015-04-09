@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="uclApp">
+    <!--<![endif]-->
+  <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <link rel="shortcut icon" href="favicon.ico" />
+            <title>UCL Barnd Support</title>
+            <meta name="description" content="">
+            <meta name="keywords" content="">
+            <meta name="author" content="DesignWerk">
+            <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+            <meta name="HandheldFriendly" content="true" />
+            <meta name="apple-touch-fullscreen" content="yes" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <link rel="stylesheet" href="../css/main.css">
+            <link rel="stylesheet" href="../css/user.css">
+            <link href="../css/bootstrap.css" rel="stylesheet" />
+            <link href="../css/main-bootstrap.css" rel="stylesheet" />
+            <link rel="stylesheet" href="../css/mobile.css">
+            <link rel="stylesheet" href="../css/responsive.css">
+            <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+            <link rel="stylesheet" type="text/css" href="css/component.css" />
+            <script src="js/modernizr.custom.js"></script>
+            <!--[if lt IE 9]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+            <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+            <script src="../js/modernizr-2.0.6.min.js"></script>
+            </script>
+            
+  </head>
+  <body class="back-user cbp-spmenu-push">
+      
+      <div class="desktop-app">
+      
+          <header role="banner">
+              <nav role="navigation">
+                  <div class="logo_box log-user">
+                      <a href="../index.html"><img class="i-logo" src="../img/logo.png" /></a>
+                  </div>
+                  <div class="user-time">
+                      <div class="top-user-nav">
+                          <a href="" class="t-nav-icon user-login-icon"></a>
+                          <a href="" class="t-nav-icon clock-ico"></a>
+                          <a href="" class="t-nav-icon history-ico"></a>
+                      </div>
+                      <div class="top-user-welcome">
+                          <span class="user-call">Welcome back User</span>
+                      </div>
+                  </div>
+              </nav>
+          
+          </header>
+          
+          <section role="main">
+              
+              <div class="checkout-panel" id="downl-panel-user">
+                  <div class="checkout-panel-content">
+                      <div class="top-blk-downl">
+                          <div class="downl-all-blks">
+                              <span class="downl-tw-queue">Download</span>
+                              <span class="downl-tw-queue">Queue at</span>
+                              <span class="downl-tw-queue f-bold">3.23 GB</span>
+                          </div>
+                          <div class="buttons-all">
+                              <a href="" class="manage-itmes pos-right delete-item"></a>
+                              <a href="" class="manage-itmes pos-left5 share-item"></a>
+                          </div>
+                      </div>
+                      
+                      <div class="scroll-thumbs">
+                          
+                          <div class="blk-queue">
+                          <div class="queue-blk">
+                              <div class="queue-box-im">
+                                  <img class="queueim" src="../img/user/1.jpg" />
+                              </div>
+                              <div class="item-deal">
+                                  <span class="item-txt clgrey">Toolkit Image 01</span>
+                                  <span class="item-txt clgrey">Europa League</span>
+                                  <span class="item-txt margtcl">33.5 MB</span>
+                              </div>
+                          </div>
+                          <div class="queue-options">
+                              <ul class="option-file">
+                                  <a href=""><li>TIFF - CMYK - 2.3 MB</li></a>
+                                  <a href=""><li>png - rgb - 1.2 MB</li></a>
+                                  <a href=""><li>ai - rgb - 30 MB</li></a>
+                              </ul>
+                          </div>
+                          </div>
+                          
+                          <div class="blk-queue">
+                          <div class="queue-blk">
+                              <div class="queue-box-im">
+                                  <img class="queueim" src="../img/user/2.jpg" />
+                              </div>
+                              <div class="item-deal">
+                                  <span class="item-txt clgrey">Toolkit Image 01</span>
+                                  <span class="item-txt clgrey">Europa League</span>
+                                  <span class="item-txt margtcl">2.5 MB</span>
+                              </div>
+                          </div>
+                          <div class="queue-options">
+                              <ul class="option-file">
+                                  <a href=""><li>TIFF - CMYK - 2.3 MB</li></a>
+                                  <a href=""><li>png - rgb - 1.2 MB</li></a>
+                                  <a href=""><li>ai - rgb - 30 MB</li></a>
+                              </ul>
+                          </div>
+                          </div>
+                          
+                          
+                          <div class="blk-queue">
+                          <div class="queue-blk">
+                              <div class="queue-box-im">
+                                  <img class="queueim" src="../img/user/3.jpg" />
+                              </div>
+                              <div class="item-deal">
+                                  <span class="item-txt clgrey">Toolkit Image 01</span>
+                                  <span class="item-txt clgrey">Europa League</span>
+                                  <span class="item-txt margtcl">4.0 MB</span>
+                              </div>
+                          </div>
+                          </div>
+                          
+                          <div class="blk-queue">
+                          <div class="queue-blk">
+                              <div class="queue-box-im">
+                                  <img class="queueim" src="../img/user/4.jpg" />
+                              </div>
+                              <div class="item-deal">
+                                  <span class="item-txt clgrey">Toolkit Image 01</span>
+                                  <span class="item-txt clgrey">Europa League</span>
+                                  <span class="item-txt margtcl">12.8 MB</span>
+                              </div>
+                          </div>
+                          </div>
+                          
+                          <div class="blk-queue">
+                          <div class="queue-blk">
+                              <div class="queue-box-im">
+                                  <img class="queueim" src="../img/user/5.jpg" />
+                              </div>
+                              <div class="item-deal">
+                                  <span class="item-txt clgrey">Toolkit Image 01</span>
+                                  <span class="item-txt clgrey">Europa League</span>
+                                  <span class="item-txt margtcl">33.5 MB</span>
+                              </div>
+                          </div>
+                          </div>
+                          
+                          <div class="blk-queue">
+                          <div class="queue-blk">
+                              <div class="queue-box-im">
+                                  <img class="queueim" src="../img/user/6.jpg" />
+                              </div>
+                              <div class="item-deal">
+                                  <span class="item-txt clgrey">Toolkit Image 01</span>
+                                  <span class="item-txt clgrey">Europa League</span>
+                                  <span class="item-txt margtcl">40.5 MB</span>
+                              </div>
+                          </div>
+                          </div>
+                          
+                          <div class="blk-queue">
+                          <div class="queue-blk">
+                              <div class="queue-box-im">
+                                  <img class="queueim" src="../img/user/7.jpg" />
+                              </div>
+                              <div class="item-deal">
+                                  <span class="item-txt clgrey">Toolkit Image 01</span>
+                                  <span class="item-txt clgrey">Europa League</span>
+                                  <span class="item-txt margtcl">22.6 MB</span>
+                              </div>
+                          </div>
+                          </div>
+                          
+                          <div class="blk-queue">
+                          <div class="queue-blk">
+                              <div class="queue-box-im">
+                                  <img class="queueim" src="../img/user/8.jpg" />
+                              </div>
+                              <div class="item-deal">
+                                  <span class="item-txt clgrey">Toolkit Image 01</span>
+                                  <span class="item-txt clgrey">Europa League</span>
+                                  <span class="item-txt margtcl">12.4 MB</span>
+                              </div>
+                          </div>
+                          </div>
+                          
+                          <div class="blk-queue">
+                          <div class="queue-blk">
+                              <div class="queue-box-im">
+                                  <img class="queueim" src="../img/user/1.jpg" />
+                              </div>
+                              <div class="item-deal">
+                                  <span class="item-txt clgrey">Toolkit Image 01</span>
+                                  <span class="item-txt clgrey">Europa League</span>
+                                  <span class="item-txt margtcl">12.0 MB</span>
+                              </div>
+                          </div>
+                          </div>
+                          
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="user-content wid-100">
+                  <div class="col-md-12 user-ins-content wid-100">
+                      <div class="col-md-2 user-nav" id="nav-usern">
+                          <div class="panel-nav-group">
+                              <a class="nav-step" href="introduction.html">Introduction</a>
+                              <a class="nav-step" href=""><i class="nav-ico brand-ico"></i>Brand Manual</a>
+                              <div tabindex="0" class="onclick-menu">
+                                  <span class="back-orange"><i class="nav-ico indentity-ico"></i>Core Brand Identity</span>
+                                  <ul class="onclick-menu-content" style="display: block; visibility: visible;">
+                                      <li><a class="nav-step-group focus-leftnav" href="">Main Logo</a></li>
+                                      <li><a class="nav-step-group" href="">Secondary Logo</a></li>
+                                      <li><a class="nav-step-group" href="">Logotype</a></li>
+                                      <li><a class="nav-step-group" href="">Symbol</a></li>
+                                      <li><a class="nav-step-group" href="">Wordmark</a></li>
+                                      <li><a class="nav-step-group" href="">Official Typeface</a></li>
+                                      <li><a class="nav-step-group" href="">Brand Colours</a></li>
+                                      <li><a class="nav-step-group" href="">Trophy</a></li>
+                                      <li><a class="nav-step-group" href="">Anthem</a></li>
+                                  </ul>
+                              </div>
+                              
+                              <div tabindex="0" class="onclick-menu"><span><i class="nav-ico indentity-ico"></i>2015-18 Visual Identity</span>
+                                  <ul class="onclick-menu-content">
+                                      <li><a class="nav-step-group" href="user.html">Key Visual Overview</a></li>
+                                      <li><a class="nav-step-group" href="">Trophy Views</a></li>
+                                      <li><a class="nav-step-group" href="">Background  Views</a></li>
+                                      <li><a class="nav-step-group" href="">Vector Artwork</a></li>
+                                  </ul>
+                              </div>
+                              
+                              <div tabindex="0" class="onclick-menu"><span><i class="nav-ico indentity-ico"></i>Broadcast Toolkit</span>
+                                  <ul class="onclick-menu-content">
+                                      <li><a class="nav-step-group" href="">Toolkit Manual 2015/18</a></li>
+                                      <li><a class="nav-step-group" href="">Multilateral TV Graphics</a></li>
+                                      <li><a class="nav-step-group" href="">Unilateral TV Graphics</a></li>
+                                      <li><a class="nav-step-group" href="">Map Package</a></li>
+                                      <li><a class="nav-step-group" href="">Audio Files</a></li>
+                                      <li><a class="nav-step-group" href="">Club Logos</a></li>
+                                  </ul>
+                              </div>
+                        
+                              <a class="nav-step" href=""><i class="nav-ico club-ico"></i>Club Production Items</a>
+                              <a class="nav-step" href=""><i class="nav-ico broadcast-ico"></i>Brand Activation</a>
+                              <a class="nav-step" href=""><i class="nav-ico final-ico"></i>Final 2016 Basel OFF-AIR</a>
+                              <a class="nav-step" href=""><i class="nav-ico final-ico"></i>Final 2016 Basel ON-AIR</a>
+                              
+                          </div>
+                      </div>
+                      
+                      <div class="col-md-10 user-blocks">
+                          <div class="header-blk">
+                              <h3 class="blk-title">Core Brand Identity</h3>
+                              <div class="nav-logout">
+                                  <a href=""><i class="nav-log-opt filter-ico"></i></a>
+                                  <a href=""><i class="nav-log-opt list-ico"></i></a>
+                                  <a href=""><i class="nav-log-opt square-list"></i></a>
+                              </div>
+                          </div>
+                          
+                          <div class="col-md-12 blks-section">
+                              
+                              <div id="toedit">
+                                  
+                                  <div class="panel-user">
+                                  
+                                  <div class="user-file-mob">
+                                      <span class="user-mob-title">Portrait RGB On Black</span>
+                                      <div class="user-file-box">
+                                          <div class="blk-options">
+                                              <div class="up-bar"></div>
+                                              <div class="left-bar"></div>
+                                              <div class="right-bar"></div>
+                                              <div class="bottom-bar"></div>
+                                               <div class="guide-ic-user">
+                                                   <a ng-click="showoptions=false" href=""><div class="ico-expand">
+                                                      <i class="i-expand"><img src="../img/icons/expand.png" /></i>
+                                                  </div></a>
+                                                   <a ng-click="showoptions=true" href=""><div class="ico-dowload">
+                                                      <i class="i-downl"><img src="../img/icons/downl.png" /></i>
+                                                  </div></a>
+                                                   <div class="wrapper">
+                                                       <p ng-hide="showoptions"></p>
+                                                       <div ng-show="showoptions" class="dlqueue">
+                                                           <ul id="downl-files-group">
+                                                               <li class="downl-file-type">
+                                                                   <span>CMYK 300dpi TIFF</span>
+                                                                   <div class="check-file fl-right">
+                                                                       <input type="checkbox" value="1" id="check-tiff" name="" />
+                                                                       <label for="check-tiff"></label>
+                                                                   </div>
+                                                               </li>
+                                                               <li class="downl-file-type">
+                                                                   <span>RGB 72dpi JPEG</span>
+                                                                   <div class="check-file fl-right">
+                                                                       <input type="checkbox" value="1" id="check-jpeg" name="" />
+                                                                       <label for="check-jpeg"></label>
+                                                                   </div>
+                                                               </li>
+                                                               <li class="downl-file-type">
+                                                                   <span>RGB Vector EPS</span>
+                                                                   <div class="check-file fl-right">
+                                                                       <input type="checkbox" value="1" id="check-eps" name="" />
+                                                                       <label for="check-eps"></label>
+                                                                   </div>
+                                                               </li>
+                                                           </ul>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                          </div>
+                                          <img class="userimg" src="../img/user/logos/1bl.jpg" />
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="user-file-mob">
+                                      <span class="user-mob-title">Portrait RGB On White</span>
+                                      <div class="user-file-box">
+                                          <div class="blk-options">
+                                              <div class="up-bar"></div>
+                                              <div class="left-bar"></div>
+                                              <div class="right-bar"></div>
+                                              <div class="bottom-bar"></div>
+                                              <div class="guide-ic-user">
+                                                  <a ng-click="showoptions=false" href=""><div class="ico-expand">
+                                                      <i class="i-expand"><img src="../img/icons/expand.png" /></i>
+                                                  </div></a>
+                                                  <a ng-click="showoptions=true" href=""><div class="ico-dowload">
+                                                      <i class="i-downl"><img src="../img/icons/downl.png" /></i>
+                                                  </div></a>
+                                                  <div class="wrapper">
+                                                      <p ng-hide="showoptions"></p>
+                                                      <div ng-show="showoptions" class="dlqueue">
+                                                          <ul id="downl-files-group">
+                                                              <li class="downl-file-type">
+                                                                  <span>CMYK 300dpi TIFF</span>
+                                                              </li>
+                                                              <li class="downl-file-type">
+                                                                  <span>RGB 72dpi JPEG</span>
+                                                              </li>
+                                                              <li class="downl-file-type">
+                                                                  <span>RGB Vector EPS</span>
+                                                              </li>
+                                                          </ul>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <img class="userimg" src="../img/user/logos/1wh.jpg" />
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="user-file-mob">
+                                      <span class="user-mob-title">Portrait CMYK On black</span>
+                                      <div class="user-file-box">
+                                          <div class="blk-options">
+                                              <div class="up-bar"></div>
+                                              <div class="left-bar"></div>
+                                              <div class="right-bar"></div>
+                                              <div class="bottom-bar"></div>
+                                              <div class="guide-ic-user">
+                                                  <a ng-click="showoptions=false" href=""><div class="ico-expand">
+                                                      <i class="i-expand"><img src="../img/icons/expand.png" /></i>
+                                                  </div></a>
+                                                  <a ng-click="showoptions=true" href=""><div class="ico-dowload">
+                                                      <i class="i-downl"><img src="../img/icons/downl.png" /></i>
+                                                  </div></a>
+                                                  <div class="wrapper">
+                                                      <p ng-hide="showoptions"></p>
+                                                      <div ng-show="showoptions" class="dlqueue">
+                                                          <ul id="downl-files-group">
+                                                                <li class="downl-file-type">
+                                                                  <span>CMYK 300dpi TIFF</span>
+                                                                </li>
+                                                                <li class="downl-file-type">
+                                                                      <span>RGB 72dpi JPEG</span>
+                                                                </li>
+                                                                <li class="downl-file-type">
+                                                                      <span>RGB Vector EPS</span>
+                                                                </li>
+                                                          </ul>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <img class="userimg" src="../img/user/logos/2bl.jpg" />
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="user-file-mob">
+                                      <span class="user-mob-title">Portrait CMYK On White</span>
+                                      <div class="user-file-box">
+                                          <div class="blk-options">
+                                              <div class="up-bar"></div>
+                                              <div class="left-bar"></div>
+                                              <div class="right-bar"></div>
+                                              <div class="bottom-bar"></div>
+                                              <div class="guide-ic-user">
+                                                  <a ng-click="showoptions=false" href=""><div class="ico-expand">
+                                                      <i class="i-expand"><img src="../img/icons/expand.png" /></i>
+                                                  </div></a>
+                                                  <a ng-click="showoptions=true" href=""><div class="ico-dowload">
+                                                      <i class="i-downl"><img src="../img/icons/downl.png" /></i>
+                                                  </div></a>
+                                                  <div class="wrapper">
+                                                      <p ng-hide="showoptions"></p>
+                                                      <div ng-show="showoptions" class="dlqueue">
+                                                          <ul id="downl-files-group">
+                                                                <li class="downl-file-type">
+                                                                    <span>CMYK 300dpi TIFF</span>
+                                                                </li>
+                                                                <li class="downl-file-type">
+                                                                    <span>RGB 72dpi JPEG</span>
+                                                                </li>
+                                                                <li class="downl-file-type">
+                                                                    <span>RGB Vector EPS</span>
+                                                                </li>
+                                                          </ul>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <img class="userimg" src="../img/user/logos/2wh.jpg" />
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="user-file-mob">
+                                      <span class="user-mob-title">Portrait Pantone On White</span>
+                                      <div class="user-file-box">
+                                          <div class="blk-options">
+                                              <div class="up-bar"></div>
+                                              <div class="left-bar"></div>
+                                              <div class="right-bar"></div>
+                                              <div class="bottom-bar"></div>
+                                              <div class="guide-ic-user">
+                                                  <a ng-click="showoptions=false" href=""><div class="ico-expand">
+                                                      <i class="i-expand"><img src="../img/icons/expand.png" /></i>
+                                                  </div></a>
+                                                  <a ng-click="showoptions=true" href=""><div class="ico-dowload">
+                                                      <i class="i-downl"><img src="../img/icons/downl.png" /></i>
+                                                  </div></a>
+                                                  <div class="wrapper">
+                                                      <p ng-hide="showoptions"></p>
+                                                      <div ng-show="showoptions" class="dlqueue">
+                                                          <ul id="downl-files-group">
+                                                                <li class="downl-file-type">
+                                                                    <span>CMYK 300dpi TIFF</span>
+                                                                </li>
+                                                                <li class="downl-file-type">
+                                                                    <span>RGB 72dpi JPEG</span>
+                                                                </li>
+                                                                <li class="downl-file-type">
+                                                                    <span>RGB Vector EPS</span>
+                                                                </li>
+                                                          </ul>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <img class="userimg" src="../img/user/logos/1wh.jpg" />
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="user-file-mob">
+                                      <span class="user-mob-title">Portrait Pantone On White</span>
+                                      <div class="user-file-box">
+                                          <div class="blk-options">
+                                              <div class="up-bar"></div>
+                                              <div class="left-bar"></div>
+                                              <div class="right-bar"></div>
+                                              <div class="bottom-bar"></div>
+                                              <div class="guide-ic-user">
+                                                  <a ng-click="showoptions=false" href=""><div class="ico-expand">
+                                                      <i class="i-expand"><img src="../img/icons/expand.png" /></i>
+                                                  </div></a>
+                                                  <a ng-click="showoptions=true" href=""><div class="ico-dowload">
+                                                      <i class="i-downl"><img src="../img/icons/downl.png" /></i>
+                                                  </div></a>
+                                                  <div class="wrapper">
+                                                      <p ng-hide="showoptions"></p>
+                                                      <div ng-show="showoptions" class="dlqueue">
+                                                          <ul id="downl-files-group">
+                                                                <li class="downl-file-type">
+                                                                    <span>CMYK 300dpi TIFF</span>
+                                                                </li>
+                                                                <li class="downl-file-type">
+                                                                    <span>RGB 72dpi JPEG</span>
+                                                                </li>
+                                                                <li class="downl-file-type">
+                                                                    <span>RGB Vector EPS</span>
+                                                                </li>
+                                                          </ul>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <img class="userimg" src="../img/user/logos/1bl.jpg" />
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="user-file-mob">
+                                      <span class="user-mob-title">Landscape RGB On White</span>
+                                      <div class="user-file-box">
+                                          <div class="blk-options">
+                                              <div class="up-bar"></div>
+                                              <div class="left-bar"></div>
+                                              <div class="right-bar"></div>
+                                              <div class="bottom-bar"></div>
+                                              <div class="guide-ic-user">
+                                                  <a ng-click="showoptions=false" href=""><div class="ico-expand">
+                                                      <i class="i-expand"><img src="../img/icons/expand.png" /></i>
+                                                  </div></a>
+                                                  <a ng-click="showoptions=true" href=""><div class="ico-dowload">
+                                                      <i class="i-downl"><img src="../img/icons/downl.png" /></i>
+                                                  </div></a>
+                                                  <div class="wrapper">
+                                                      <p ng-hide="showoptions"></p>
+                                                      <div ng-show="showoptions" class="dlqueue">
+                                                          <ul id="downl-files-group">
+                                                                <li class="downl-file-type">
+                                                                    <span>CMYK 300dpi TIFF</span>
+                                                                </li>
+                                                                <li class="downl-file-type">
+                                                                    <span>RGB 72dpi JPEG</span>
+                                                                </li>
+                                                                <li class="downl-file-type">
+                                                                    <span>RGB Vector EPS</span>
+                                                                </li>
+                                                          </ul>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <img class="userimg" src="../img/user/logos/3wh.jpg" />
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="user-file-mob">
+                                      <span class="user-mob-title">Landscape RGB On White</span>
+                                      <div class="user-file-box">
+                                          <div class="blk-options">
+                                              <div class="up-bar"></div>
+                                              <div class="left-bar"></div>
+                                              <div class="right-bar"></div>
+                                              <div class="bottom-bar"></div>
+                                              <div class="guide-ic-user">
+                                                  <a ng-click="showoptions=false" href=""><div class="ico-expand">
+                                                      <i class="i-expand"><img src="../img/icons/expand.png" /></i>
+                                                  </div></a>
+                                                  <a ng-click="showoptions=true" href=""><div class="ico-dowload">
+                                                      <i class="i-downl"><img src="../img/icons/downl.png" /></i>
+                                                  </div></a>
+                                                  <div class="wrapper">
+                                                      <p ng-hide="showoptions"></p>
+                                                      <div ng-show="showoptions" class="dlqueue">
+                                                          <ul id="downl-files-group">
+                                                                <li class="downl-file-type">
+                                                                    <span>CMYK 300dpi TIFF</span>
+                                                                </li>
+                                                                <li class="downl-file-type">
+                                                                    <span>RGB 72dpi JPEG</span>
+                                                                </li>
+                                                                <li class="downl-file-type">
+                                                                    <span>RGB Vector EPS</span>
+                                                                </li>
+                                                          </ul>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <img class="userimg" src="../img/user/logos/3bl.jpg" />
+                                      </div>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              
+              </div>
+          </section>
+    </div>
+    
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+    (function($){
+     $(window).load(function(){
+            $("#toedit .panel-user").mCustomScrollbar({
+                setHeight:300,
+                theme:"uel-uefa"
+            });
+                    
+            $("#nav-usern .panel-nav-group").mCustomScrollbar({
+                setHeight:300,
+                theme:"uel-uefa"
+            });
+                    
+            $("#downl-panel-user .scroll-thumbs").mCustomScrollbar({
+                setHeight:300,
+                theme:"uel-uefa"
+            });
+                    
+        });
+     })(jQuery);
+	</script>
+
+  </body>
+</html>
+

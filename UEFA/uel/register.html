@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="uclApp">
+    <!--<![endif]-->
+  <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <link rel="shortcut icon" href="favicon.ico" />
+            <title>UCL Barnd Support</title>
+            <meta name="description" content="">
+            <meta name="keywords" content="">
+            <meta name="author" content="DesignWerk">
+            <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <link rel="stylesheet" href="css/main.css">
+            <link href="css/bootstrap.css" rel="stylesheet" />
+            <link href="css/main-bootstrap.css" rel="stylesheet" />
+            <link rel="stylesheet" href="css/boostrap-jdd.css">
+            <link rel="stylesheet" href="css/mobile.css">
+            <link rel="stylesheet" href="css/responsive.css">
+                
+                <!--[if lte IE 8]>
+                 <script>
+                    document.createElement('ng-include');
+                    document.createElement('ng-view');
+                    document.createElement('mein-tag');
+                 </script>
+                 <![endif]-->
+                
+            <!--[if lt IE 9]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+            <script src="js/script.js"></script>
+            <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  </head>
+  
+  <body ng-controller="uclcontroller">
+      
+      <!-- <div class="overlay-controll"></div> -->
+      
+          <header role="banner">
+              
+              <nav role="navigation">
+                  <div class="logo_box">
+                      <img class="i-logo" src="img/logo.png" />
+                  </div>
+              </nav>
+          
+          </header>
+          
+          <section role="main">
+              
+              <!-- Start Login Template -->
+              
+              <div class="register_container">
+                  
+                  <div class="ins-register">
+                  
+                  <hgroup>
+                      <h1 class="present-txt">PLEASE REGISTER</h1>
+                  </hgroup>
+                  <div class="access-categ">
+                      <span class="register-txt">Which category would you like to access?</span>
+                      <div class="categ-choose">
+                          <ul class="categ-options fl-left">
+                              <li>
+                                  <span>Agencies</span>
+                                  <div class="check-categ fl-right">
+                                      <input type="checkbox" value="1" id="check-agence" name="" />
+                                      <label for="check-agence"></label>
+                                  </div>
+                              </li>
+                              <li>
+                                  <span>Clubs</span>
+                                  <div class="check-categ fl-right">
+                                      <input type="checkbox" value="1" id="check-clubs" name="" />
+                                      <label for="check-clubs"></label>
+                                  </div>
+                              </li>
+                              <li>
+                                  <span>Sponsors</span>
+                                  <div class="check-categ fl-right">
+                                      <input type="checkbox" value="1" id="check-sponsors" name="" />
+                                      <label for="check-sponsors"></label>
+                                  </div>
+                              </li>
+                          </ul>
+                          <ul class="categ-options fl-right">
+                              <li>
+                                  <span>Broadcasters</span>
+                                  <div class="check-categ fl-right">
+                                      <input type="checkbox" value="1" id="check-broadcasters" name="" />
+                                      <label for="check-broadcasters"></label>
+                                  </div>
+                              </li>
+                              <li>
+                                  <span>Generic</span>
+                                  <div class="check-categ fl-right">
+                                      <input type="checkbox" value="1" id="check-generic" name="" />
+                                      <label for="check-generic"></label>
+                                  </div>
+                              </li>
+                              <li>
+                                  <span>UEFA / TEAM</span>
+                                  <div class="check-categ fl-right">
+                                      <input type="checkbox" value="1" id="check-uefateam" name="" />
+                                      <label for="check-uefateam"></label>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+                  <form action="" method="post" class="user-register">
+                      
+                      <div class="ins-user-register fl-left">
+                          <div class="form-group">
+                              <input class="form-control" type="text" name="firstname" placeholder="First Name" />
+                          </div>
+                          <div class="form-group">
+                              <input class="form-control" type="text" name="lastname" placeholder="Last Name" />
+                          </div>
+                          <div class="form-group">
+                              <input class="form-control" type="email" name="emailaddress" placeholder="Email Address" />
+                          </div>
+                          <div class="form-group">
+                              <input class="form-control" type="email" name="confirmemail" placeholder="Confirm Email" />
+                          </div>
+                      </div>
+                      
+                      <div class="ins-user-register fl-right">
+                          <div class="form-group">
+                              <input class="form-control" type="text" name="username" placeholder="Username" />
+                          </div>
+                          <div class="form-group">
+                              <input class="form-control" type="text" name="company" placeholder="Company" />
+                          </div>
+                          <div class="form-group">
+                              <input class="form-control" type="text" name="jobdesc" placeholder="Job Description" />
+                          </div>
+                      </div>
+                      <div class="submit-stage">
+                          
+                          <p class="register-text">All fields are compulsory for registration.</p>
+                          
+                          <button type="submit" class="btn btn-default">Register</button>
+                      </div>
+                  </form>
+                  
+              </div>
+                  
+            </div>
+              
+              <!-- End Login Template -->
+              
+          </section>
+          
+          <footer role="footconfig"></footer>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="uelApp">
+    <!--<![endif]-->
+  <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <link rel="shortcut icon" href="favicon.ico" />
+            <title>UEL Brand Support</title>
+            <meta name="description" content="">
+            <meta name="keywords" content="">
+            <meta name="author" content="DesignWerk">
+            <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <link rel="stylesheet" href="css/main.css">
+            <link href="css/bootstrap.css" rel="stylesheet" />
+            <link href="css/main-bootstrap.css" rel="stylesheet" />
+            <link rel="stylesheet" href="css/mobile.css">
+            <link rel="stylesheet" href="css/responsive.css">
+            <link rel="stylesheet" href="css/bootstrap-select.css">
+            <!--[if lt IE 9]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+            <![endif]-->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+            <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  			<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+            <script src="app/js/app.js"></script>
+            <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+            <script src="http://code.jquery.com/jquery.js"></script>
+            <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+            <script src="js/bootstrap-select.js"></script>
+            <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+            <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  </head>
+  <body ng-controller="uelcontroller">
+      <div class="video-container">
+      <video autoplay loop id="uelback">
+            <source src="media/uelmoviebj.webm" type="video/webm">
+            <source src="media/uelmoviebj.ogv" type="video/ogg">
+            <source src="media/uelmoviebj.mp4" type="video/mp4">
+        </video>
+      </div>
+          <header role="banner">
+              <nav role="navigation">
+                  <div class="logo_box">
+                      <img class="i-logo" src="{{ logodesk }}" />
+                      <img class="m-logo" src="{{ logomob }}" />
+                  </div>
+              </nav>
+          </header>
+          <section role="main">
+              
+              <div ng-view></div>
+              
+          </section>
+          <footer role="footconfig"></footer>
+  </body>
+</html>
+
+
+
+
+
+

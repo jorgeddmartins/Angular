@@ -1,0 +1,1294 @@
+/* =============================================================================
+                      TABLETS, SMARTPHONES & SMARTWATCHES
+   ========================================================================== */
+
+/* Start Desktop */
+
+@media screen and (min-width: 1921px) and (max-width: 20000px) {
+
+  body div.desktop-app {
+    width: 89.1%;
+    max-width: 1920px;
+    position: relative;
+    margin: auto;
+  }
+
+}
+
+@media screen and (min-width: 1483px) and (max-width: 1900px) {
+
+  section[role="main"] div.checkout-panel {
+      /* width: 14.8%; */
+      width: 237px;
+    }
+
+    div.user-file-mob {
+      width: 22.75%;
+    }
+
+    div.header-blk {
+    margin-top: 30px;
+  }
+  
+  section[role="main"] div.login_container {
+		width: 70%;
+	}
+	
+	ul.drop-opt-user {
+		top: 190%;
+	}
+	
+	ul.top-up-opt {
+		top: -640%;
+	}
+
+}
+
+/* Start Tablets */
+
+@media screen and (min-width: 1025px) and (max-width: 1599px) {
+
+  div.desktop-app {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    max-width: 1024px;
+  }
+
+  section[role="main"] .user-nav {
+    height: auto;
+    width: 210px;
+  }
+	
+	section[role="main"] div.blks-section div.cont-user-file {
+    width: 22.6%;
+    padding-bottom: 8.5%;
+  }
+
+  section[role="main"] div.cont-user-file div.user-file-ins div.top-file-user span.file-title {
+    font-size: 12px;
+  }
+
+  #toedit {
+    width: 97%;
+    height: 93%;
+  }
+
+  section[role="main"] div.blks-section div.cont-user-file div.user-file-ins div.top-file-user {
+    padding: 11px;
+  }
+
+  div.blks-section div.cont-user-file div.user-file-ins div.top-file-user span.file-title {
+    font-size: 12px;
+  }
+
+  div.panel-nav-group a.nav-step {
+    font-size: 12px;
+  }
+
+  a.nav-step i.nav-ico {
+    height: 51%;
+    top: 27%;
+  }
+
+  div.user-file-mob {
+    width: 30.25%;
+  }
+
+  /* User content */
+  div.user-file-mob {
+    width: 30%;
+  }
+
+  section[role="main"] div.checkout-panel {
+    width: 165px;
+    right: 0.2%;
+  }
+
+  section[role="main"] div.checkout-panel {
+    min-width: 205px;
+    max-width: 220px;
+    top: 10%;
+    right: 0;
+  }
+
+  div.modal-hover-ima-3bock {
+    left: 102% !important;
+  }
+  
+  div.modal-hover-ima {
+    left: auto;
+  }
+  
+  div.modal-hover-ima-righ {
+    right: auto;
+  }
+  
+  div.modal-hover-ima-right-3bock {
+    right: 102% !important;
+  }
+  
+  div.modal-hover-ima-center-3bock {
+    left: -40%;
+    top: 105%;
+  }
+
+  div.grip-img-box {
+    width: 90%;
+  }
+
+  div.grip-icon-box {
+    width: 46%;
+    margin-top: 3.5%;
+  }
+
+  span.grid-body {
+    line-height: 14px;
+  }
+
+  div.user-blocks {
+    width: 590px;
+  }
+
+  div.opacity-bar {
+    height: 200px;
+  }
+
+  /* STAR ADMIN */
+
+  div.user-management {
+    width: 77%;
+  }
+
+  div.dw-col-3 {
+    width: 250px;
+  }
+
+  div.dw-col-4 {
+    width: 240px;
+  }
+	
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+
+  section[role="main"] .user-nav {
+    height: auto;
+    width: 210px;
+  }
+
+  div.user-blocks div.header-blk {
+    margin-top: 3.8%;
+  }
+
+  section[role="main"] .present-txt {
+      font-size: 37px;
+      line-height: 34px;
+    }
+
+  div.access-categ span.register-txt {
+    font-size: 15px;
+  }
+
+  section[role="main"] div.submit-stage .btn-default {
+    margin-top: 2%;
+  }
+
+
+  /* User content */
+
+  div.top-user-welcome {
+    margin-right: 30px;
+  }
+
+  span.downl-tw-queue {
+    font-size: 11px;
+  }
+
+  span.user-call {
+    font-size: 15px;
+  }
+
+  div.scroll-thumbs div.queue-blk div.queue-box-im {
+    padding: 2px;
+  }
+
+  div.item-deal {
+    padding: 3px;
+  }
+
+  div.item-deal span.item-txt {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+
+  .margtcl {
+    margin-top: 10px;
+  }
+
+  div.queue-options ul.option-file li {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  div.user-blocks {
+    width: 590px;
+  }
+
+  div.user-file-mob span.user-mob-title {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  div.panel-nav-group a.nav-step, 
+  .onclick-menu span, .accordion .link {
+    padding-left: 12%;
+    font-size: 12px;
+  }
+
+  ul.onclick-menu-content li a.nav-step-group {
+    font-size: 32%;
+    padding-left: 15%;
+  }
+
+  div.user-file-mob {
+    width: 31%;
+    margin-right: 10px;
+  }
+
+  div.queue-box {
+    top: 30%;
+  }
+
+  section[role="main"] div.checkout-panel {
+    width: 21.4%;
+  }
+
+  div.user-blocks div.header-blk h3.blk-title {
+      font-size: 18px;
+      padding-left: 12px;
+  }
+
+  section[role="main"] div.checkout-panel:hover {
+    right: 0
+  }
+
+  div.modal-hover-ima-3bock {
+    left: 102% !important;
+  }
+  
+  div.modal-hover-ima {
+    left: auto;
+  }
+  
+  div.modal-hover-ima-righ {
+    right: auto;
+  }
+  
+  div.modal-hover-ima-right-3bock {
+    right: 102% !important;
+  }
+  
+  div.modal-hover-ima-center-3bock {
+    left: -40%;
+    top: 105%;
+  }
+
+  div.blks-section {
+    padding: 18px;
+  }
+
+  div.grip-img-box {
+    width: 90%;
+  }
+
+  div.grip-icon-box {
+    width: 46%;
+    margin-top: 3.5%;
+  }
+
+  span.grid-body {
+    line-height: 14px;
+  }
+
+  div.opacity-bar {
+    height: 200px;
+  }
+
+   ul.drop-opt-user {
+    top: 162%;
+  }
+
+  /* Start Admin */
+
+  div.user-management {
+    width: 77%;
+  }
+
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+  header[role="banner"] nav[role="navigation"] div.logo_box {
+    width: 8%;
+    max-width: 77x;
+  }
+
+  header[role="banner"] nav[role="navigation"] div.uefa-logobox {
+    width: 12%;
+    max-width: 109px;
+  }	
+
+  body section[role="main"] div.login_container {
+    width: 87%;
+    max-width: 891px;
+  }
+
+  body section[role="main"] div.login_container p.present-txt {
+    font-size: 40px;
+    line-height: 100%;
+  }
+
+  body section[role="main"] div.login_container form.user-login {
+    width: 100%;
+    max-width: 404px;
+  }
+
+  div#toedit {
+    width: 96%;
+  }
+
+  section[role="main"] div.blks-section div.cont-user-file {
+    width: 30.25%;
+    padding-top: 12.1%;
+    padding-bottom: 14%;
+  }
+
+  section[role="main"] div.blks-section div.cont-user-file div.user-file-ins div.top-file-user {
+    padding: 11px;
+  }
+
+  div.blks-section div.cont-user-file div.user-file-ins div.top-file-user span.file-title {
+    font-size: 12px;
+  }
+
+  div.dw-col-3 {
+    width: 250px;
+  }
+
+  div.dw-col-4 {
+    width: 240px;
+  }
+	
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 970px) {
+	
+  header[role="banner"] nav[role="navigation"] div.logo_box {
+    width: 10%;
+    max-width: 72px;
+  }
+
+  header[role="banner"] nav[role="navigation"] div.uefa-logobox {
+    width: 15%;
+    max-width: 108px;
+  }
+
+  body section[role="main"] div.login_container {
+    width: 70%;
+    max-width: 694px;
+    margin-top: 17%;
+    display: inherit;
+    margin: 20% auto;
+  }
+
+  section[role="main"] div.login_container hgroup {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 8%;
+  }
+
+  body section[role="main"] div.login_container p.present-txt {
+    font-size: 44px;
+  }
+
+  body section[role="main"] div.login_container form.user-login {
+    width: 100%;
+    max-width: 100%
+  }
+
+  /* Start Register page */
+
+  body section[role="main"] .present-txt {
+    font-size: 37px;
+    padding-left: 0;
+  }
+
+  div.access-categ span.register-txt {
+    padding-left: 20%;
+    font-size: 17px;
+    padding-bottom: 25px;
+  }
+
+  section[role="main"] div.register_container {
+    width: auto;
+  }
+
+  div.categ-choose {
+    width: 70%;
+    max-width: 528px;
+    margin: auto;
+  }
+
+  body section[role="main"] form.user-register {
+    margin-top: 30px;
+  }
+
+  body section[role="main"] div.submit-stage .btn-default {
+    width: 70%;
+    margin-top: 2%;
+  }
+
+  div.access-categ div.categ-choose ul.categ-options {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  div.ins-user-register {
+    width: 70%;
+    max-width: 528px;
+    float: none;
+    margin: auto;
+  }
+
+  div.desktop-app {
+    display: none;
+  }
+
+  div.mobile-app {
+    display: block;
+  }
+
+  div.user-file-mob {
+    width: 30%;
+    margin-right: 10px;
+    margin-left: 11px;
+  }
+
+  div.ifra-box {
+    width: 95%;
+    background: transparent;
+    height: 84%;
+  }
+
+  /* End Register page */
+	
+	
+}
+
+/* End Tablets */
+
+
+/* Smartphones Landscape */
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+	html {
+       zoom: 0.8;
+    }
+
+    body {
+        background: url(../img/back/user-back.jpg) no-repeat center top fixed;
+        background-size: 100% 100%;
+    }
+
+    body div.overlay-controll {
+        height: 160%;
+    }
+
+    html body section[role="main"] div.login_container {
+      margin-top: 4%;
+      margin-bottom: 0;
+      float: right;
+      margin-right: 3%;
+      width: 70%;
+      max-width: 70%;    
+    }
+
+    div.buttonset div.logo_box {
+      width: 10%;
+    }
+
+    body section[role="main"] div.login_container hgroup {
+      padding-bottom: 2%;
+      max-width: 100%;
+      text-align: left;
+    }
+
+    div.register-box span, 
+    div.register-box a.login-txtdown {
+      float: left;
+    }
+
+    header[role="banner"] nav[role="navigation"] div.logo_box {
+      position: fixed;
+    }
+
+    div.register-box {
+      text-align: right;
+      margin-bottom: 0;
+      position: relative;
+      z-index: 10;
+    }
+
+    body section[role="main"] hgroup {
+      max-width: 380px;
+    }
+
+    div.panel-nav-group .cbp-margtpmenu-mob {
+      margin-top: 42.5%;
+    }
+
+    html div.mobile-app div.top-blk-downl {
+      margin-top: 39.5%;
+    }
+
+    body section[role="main"] .user-nav, 
+    body section[role="main"] div.checkout-panel {
+      top: 103px;
+    }
+
+    .cbp-spmenu-push-toright {
+      left: 260px;
+    }
+
+    .cbp-spmenu-push-toleft {
+      left: -260px;
+    }
+
+    section[role="main"] div.cbp-spmenu-vertical {
+      width: 350px;
+    }
+
+   div div.cbp-spmenu-right {
+      right: -350px;
+    }
+
+    div div.cbp-spmenu-left {
+      left: -350px;
+    }
+
+    section[role="main"] div.user-blocks {
+      margin-top: 60px;
+    }
+
+    div.scroll-thumbs div.queue-blk div.queue-box-im {
+      width: 90%;
+      float: none;
+      margin: auto;
+    }
+
+    div.item-deal {
+      width: 100%;
+      float: none;
+      padding-left: 15%;
+    }
+
+    div.item-deal span.item-txt {
+      font-size: 13px;
+    }
+
+    div.blk-queue {
+      margin-bottom: 2px;
+    }
+
+    section[role="main"] hgroup {
+      width: 76%;
+      max-width: 76%;
+      margin: auto;
+      text-align: right;
+    }
+
+    body section[role="main"] div.login_container .present-txt {
+      padding-left: 0;
+    }
+
+    section[role="main"] div.login_container form.user-login button[type="submit"], 
+    body section[role="main"] div.login_container form.user-login {
+      margin-top: 0;
+      max-width: 100%;
+    }
+
+    div.container div.ifra-box {
+        height: 66%;
+        width: 95%;
+        background: url(../img/back-user-cont.png);
+    }
+
+    div.user-cont-blocks {
+        width: 75%;
+        max-width: 460px;
+        position: relative;
+        margin: auto;
+      }
+
+    div.user-file-mob {
+        width: 99.9%;
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+
+    ::-webkit-scrollbar {
+        width: 4px;
+        height: 8px;
+      }
+
+      ::-webkit-scrollbar-button:start:decrement,
+      ::-webkit-scrollbar-button:end:increment  {
+        display: none;
+      }
+            
+      ::-webkit-scrollbar-track-piece  {
+        background: transparent;
+        border-radius: 6px;
+      }
+            
+      ::-webkit-scrollbar-thumb:vertical {
+        border-radius: 6px;
+        background: #ccc;
+      }
+
+      div.scroll-thumbs {
+        position: absolute;
+        bottom: 0;
+      }
+
+      div.user-nav {
+        height: 100%;
+      }
+
+      div.user-nav div.panel-nav-group {
+        overflow: auto;
+        height: 72% !important;
+      }
+      div.downl-all-blks {
+        position: relative;
+        margin-top: 0;
+        padding: 2%;
+      }
+
+      button.btn-downl-all {
+          padding-left: 5%;
+          padding-right: 5%;
+          border-radius: 5px;
+          -webkit-border-radius: 5px;
+          cursor: pointer;
+      }
+
+        div.scroll-thumbs {
+        position: absolute;
+        bottom: 0;
+        height: 78%;
+      }
+
+      section[role="main"] a.login-txtdown {
+        margin-bottom: 20px;
+      }
+
+
+      /* Start Register */
+
+      body section[role="main"] div.register_container {
+          width: 100%;
+          margin-top: 1%;
+          position: absolute;
+          height: 69%;
+      }
+
+      div.register_container div.ins-register {
+          overflow: auto;
+          position: relative;
+          height: 100%;
+      }
+
+      body section[role="main"] div.access-categ div.categ-choose ul.categ-options, 
+      section[role="main"] div.ins-user-register, 
+      body section[role="main"] div.submit-stage .btn-default  {
+          width: 77%;
+          max-width: 503px;
+      }
+
+      body section[role="main"] div.access-categ div.categ-choose ul.categ-options, 
+      section[role="main"] div.ins-user-register {
+          float: none;
+          margin: auto;
+      }
+
+      section[role="main"] div.access-categ span.register-txt {
+          padding-left: 15%;
+      }
+
+      body section[role="main"] div.register_container .present-txt {
+        padding-left: 0;
+      }
+
+      /* End Register */
+
+      div.modal {
+        overflow: auto;
+      }
+
+      div.modal div.reset-modal {
+          margin-top: 9%;
+      }
+
+      footer[role="footconfig"] {
+        position: fixed;
+      }
+	
+}
+
+
+/* Smartphones Portrait and Landscape */
+
+@media screen and (min-width: 212px) and (max-width: 766px) {
+	
+	html {
+       zoom: 0.9;
+       overflow-x: hidden;
+    }
+
+    body.cbp-spmenu-push {
+      overflow-x: hidden;
+      position: relative; 
+      -webkit-overflow-scrolling: touch;
+    }
+
+    div.mCSB_scrollTools {
+      width: 0;
+    }
+
+    div.cbp-spmenu {
+      position: fixed;
+    }
+
+    div.cbp-spmenu-vertical {
+        width: 290px;
+    }
+
+    div.cbp-spmenu-left {
+        left: -290px;      
+      }
+
+    div.cbp-spmenu-right {
+      right: -290px;
+    }
+
+    div.blk-queue:last-child {
+      width: 100%;
+    }
+
+    div.mob-tab {
+      display: block;
+    }
+
+    p.intro-report {
+      width: 100%;
+    }
+
+    div div.downl-all-blks {
+      width: 51.7%;
+    }
+
+    div a.manage-itmes {
+      width: 47%;
+    }
+
+    div.video-container, 
+    header[role="banner"] nav[role="navigation"] div.logo_box img.i-logo, 
+    .log-desktop, 
+    div.top-user-nav, 
+    div.top-user-welcome {
+      display: none;
+    }
+
+    header[role="banner"] nav[role="navigation"] div.logo_box img.m-logo, 
+    .log-mob, 
+    div.buttonset {
+      display: block;
+    }
+
+    div.buttonset {
+      position: fixed;
+      width: 100%;
+      left: 0;
+      top: 0;
+      z-index: 999999999;
+    }
+
+    section[role="main"] .user-nav {
+      height: 100%;
+      width: 100%;
+      max-width: 100%;
+      top: 80px;
+      background: none;
+    }
+
+    section[role="main"] div.checkout-panel {
+      top: 81px;
+      width: 100%;
+    }
+
+    div.user-blocks {
+      width: 92%;
+      max-width: 410px;
+      position: relative;
+      margin: auto;
+    }
+
+    div.user-file-mob div.user-file-box div.blk-options { 
+      opacity: 1;
+      background: transparent;
+      max-width: 100%;
+    }
+
+    ul.drop-opt-user {
+      top: 100%;
+    }
+
+    div.right-bar {
+      display: none;
+    }
+
+    div.blks-section {
+      padding: 0;
+      width: 100%;
+      height: 76%;
+      top: 20px;
+      position: relative;
+    }
+
+    div.queue-box {
+      top: 100%;
+    }
+
+    div.queue-box button.dropdown-toggle {
+      float: right;
+      background-size: 45px;
+      margin-right: 0;
+      margin-top: 5px;
+    }
+
+    button.dropdown-toggle-queue {
+      background: url(../img/icons/addque-bl.png) no-repeat;
+      background-size: 45px;
+    }
+
+    #toedit {
+      width: 100%;
+      height: 100%;
+    }
+
+    #toedit div.panel-user {
+      padding: 8px;
+    }
+
+    div.modal-dialog {
+      width: auto;
+    }
+
+    div.modal-mob-blk {
+      margin-top: 15px;
+      height: 100%;
+    }
+
+    div.modal-header {
+      margin: 0 auto;
+      position: relative;
+      width: 94%;
+      border-radius: 0;
+      margin-bottom: 5px;
+      background: #343334;
+      padding-top: 7px;
+    }
+
+    h4.modal-title {
+      color: #D8D5B7;
+      font-size: 18px;
+    }
+
+    div.modal-body {
+      width: 94%;
+      margin: auto;
+      padding: 0;
+      padding-top: 0;
+      padding-bottom: 5%;
+      background: url(../img/plat-back.png);
+      height: 94%;
+    }
+
+    div.modal-body form {
+      width: 93%;
+      margin: auto;
+      padding-top: 10px;
+    }
+
+    p.modal-form-txt {
+      font-size: 13px;
+      padding-top: 5px;
+      margin: 0;
+      line-height: 17px;
+    }
+
+    p.text-reset {
+      margin: 0 auto;
+      width: 94%;
+      font-size: 14px;
+      margin-bottom: 10px;
+      padding-top: 12px;
+    }
+
+    header[role="banner"] nav[role="navigation"] div.logo_box, div.buttonset div.logo_box {
+      width: 15%;
+      max-width: 70px;
+      position: relative;
+      margin: auto;
+      margin-top: 10px;
+    }
+
+    div.buttonset div.logo_box img {
+      width: 100%;
+    }
+
+    nav[role="navigation"] div.uefa-logobox {
+        width: 25%;
+        max-width: 109px;
+        position: absolute;
+        right: 0;
+        top: 35%;
+      }
+
+      div.panel-nav-group a.nav-step, 
+      div.onclick-menu span {
+        padding-left: 17%;
+        padding-right: 10px;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        font-size: 13px;
+      }
+
+      ul.onclick-menu-content li a.nav-step-group {
+        padding-left: 22%;
+      }
+
+      i.nav-ico {
+        top: 30%;
+        left: 2%;
+      }
+
+      div.header-blk {
+        top: 13px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 13px;
+      }
+
+      div.header-blk h3.blk-title {
+        font-size: 13px;
+        padding-left: 7px;
+      }
+
+      div.header-blk div.nav-logout i.nav-log-opt {
+          margin-right: 0;
+          margin-top: 5px;
+        }
+
+      section[role="main"] {
+          height: 75%;
+        }
+
+        div[ng-view] {
+          height: 100%;
+        }
+
+      body section[role="main"] div.login_container {
+        width: 90%;
+        max-width: 400px;
+        margin: 22% auto;
+        display: inherit;
+      }
+
+      div.login_container hgroup {
+        width: 100%;
+        padding-bottom: 10%;
+      }
+
+      body section[role="main"] div.login_container .present-txt {
+        font-size: 24px;
+        line-height: 100%;
+      }
+
+      body section[role="main"] div.login_container form.user-login {
+        width: 100%;
+        max-width: 455px;
+      }
+
+      div.desktop-app,  div.blk-options:hover + div.modal-hover-ima, 
+      div.blk-options:hover + div.modal-hover-ima-right, 
+      div.header-blk div.nav-logout, div.opacity-bar {
+        display: none !important;
+      }
+
+      div.mobile-app {
+        display: block;
+      }
+
+      div.container {
+        height: 85%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+
+      div.cont-user-file {
+        width: 100%;
+        padding-top: 40.5%;
+        padding-bottom: 40%;
+        margin-right: 0;
+      }
+
+      div.user-cont-blocks {
+          width: 96%;
+          max-width: 430px;
+          position: relative;
+          margin: auto;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          padding-top: 0;
+      }
+
+      div.user-file-mob {
+        width: 99.9%;
+        margin-right: 0;
+        margin-bottom: 25px;
+        margin-top: 0;
+      }
+
+      ::-webkit-scrollbar {
+        width: 1px;
+        height: 8px;
+      }
+
+      ::-webkit-scrollbar-button:start:decrement,
+      ::-webkit-scrollbar-button:end:increment  {
+        display: none;
+      }
+            
+      ::-webkit-scrollbar-track-piece  {
+        background: transparent;
+        border-radius: 6px;
+      }
+            
+      ::-webkit-scrollbar-thumb:vertical {
+        border-radius: 6px;
+        background: #ccc;
+      }
+
+      div.scroll-thumbs {
+        position: relative;
+        top: 0;
+        width: 99%;
+        height: 69%;
+      }
+
+      div.user-nav {
+        height: 100%;
+      }
+
+      div.panel-nav-group {
+        overflow: auto;
+        height: 98% !important;
+      }
+
+      div.downl-all-blks {
+          position: relative;
+          margin-bottom: 0;
+      }
+
+      span.downl-tw-queue {
+          font-size: 12px;
+      }
+
+      button.btn-downl-all {
+          border-radius: 5px;
+          -webkit-border-radius: 5px;
+          cursor: pointer;
+          padding-left: 6%;
+          padding-right: 6%;
+          font-size: 13px;
+      }
+
+      a.share-items {
+          border-radius: 5px;
+          float: right;
+          margin-right: 3%;
+      }
+
+      a.share-items img.s-mail {
+          top: 2px;
+          width: 35px;
+      }
+
+      div.item-deal img.i-delete {
+          margin-top: 50%;
+      }
+
+      div.ifra-box {
+          background: transparent;
+          height: 78%;
+      }
+
+      div.mobile-app div.top-blk-downl {
+        padding: 6px;
+        width: 98%;
+        margin-top: 31%;
+        margin-bottom: 0;
+        padding-left: 0;
+      }
+
+      /* Start Register page */
+
+      div.register-modal {
+          margin-top: 0;
+        }
+
+      section[role="main"] div.register_container {
+          width: 100%;
+          margin-top: 11%;
+          padding: 9px;
+          position: absolute;
+          height: 75%;
+      }
+
+      div.ins-register {
+        overflow: auto;
+        position: relative;
+        height: 100%;
+      }
+
+      section[role="main"] div.register_container .present-txt, 
+      div.access-categ span.register-txt {
+        padding-left: 5%;
+      }
+
+      section[role="main"] div.register_container .present-txt {
+          font-size: 27px;
+      }
+
+      div.access-categ span.register-txt {
+          font-size: 15px;
+      }
+
+      section[role="main"] div.access-categ div.categ-choose ul.categ-options, 
+      div.ins-user-register  {
+          width: 99%;
+          max-width: 99%;
+          float: none;
+          margin: auto;
+      }
+
+      section[role="main"] div.submit-stage .btn-default {
+          width: 99%;
+          /* max-width: 445px; */
+          margin-bottom: 5%;
+      }
+
+      div.form-group {
+          display: inline-block;
+          width: 100%;
+      }
+
+      section[role="main"] input[type="email"], 
+      section[role="main"] input[type="password"], 
+      section[role="main"] input[type="text"], 
+      section[role="main"] button[type="button"] {
+          height: 40px;
+          border-radius: 5px;
+      }
+
+      section[role="main"] input[type="email"], 
+      section[role="main"] input[type="password"], 
+      section[role="main"] input[type="text"], 
+      section[role="main"] button[type="button"].dropdown-toggle  {
+        border: 1px solid #ccc;
+      }
+
+      div.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+          height: 45px;
+      }
+
+      p.margtp15, 
+      p.have-log {
+          margin-bottom: 0;
+          padding-top: 3px;
+
+      }
+
+      div.check-categ {
+          width: 27px;
+          height: 27px;
+      }
+
+      div.check-categ label[for="check-agence"], 
+      div.check-categ label[for="check-clubs"], 
+      div.check-categ label[for="check-sponsors"], 
+      div.check-categ label[for="check-broadcasters"], 
+      div.check-categ label[for="check-generic"], 
+      div.check-categ label[for="check-uefateam"] {
+        width: 19px;
+        height: 19px;
+        top: 3px;
+        left: 3px;
+      }
+
+      /* End Register page */
+
+      /* Start Reset Password */
+
+      div.reset-modal {
+          margin-top: 50%;
+      }
+
+      /* End Reset Password */
+
+      footer[role="footconfig"] {
+          background: url(../img/uefalogo.png) no-repeat;
+          background-size: 135px;
+          background-position: 50% 40%;
+          height: 7%;
+      }
+}
+
+
+/* Print */
+ 
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+

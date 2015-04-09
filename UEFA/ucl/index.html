@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="uclApp">
+    <!--<![endif]-->
+  <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <link rel="shortcut icon" href="favicon.ico" />
+            <title>UCL Brand Support</title>
+            <meta name="description" content="">
+            <meta name="keywords" content="">
+            <meta name="author" content="DesignWerk">
+            <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <link rel="stylesheet" href="css/main.css">
+            <link href="css/bootstrap.css" rel="stylesheet" />
+            <link href="css/main-bootstrap.css" rel="stylesheet" />
+            <link rel="stylesheet" href="css/mobile.css">
+            <link rel="stylesheet" href="css/responsive.css">
+            <link rel="stylesheet" href="css/bootstrap-select.css">
+            <!--[if lt IE 9]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+            <![endif]-->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+            <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  			<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+            <script src="js/script.js"></script>
+            <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+            <script src="http://code.jquery.com/jquery.js"></script>
+            <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+            <script src="js/bootstrap-select.js"></script>
+            <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+            <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+ 
+  </head>
+  <body ng-controller="uclcontroller">
+      
+      <!-- <div ng-view></div> -->
+      
+      <div class="video-container">
+      <video autoplay loop id="uelback">
+            <source src="media/uelmoviebj.webm" type="video/webm">
+            <source src="media/uelmoviebj.ogv" type="video/ogg">
+            <source src="media/uelmoviebj.mp4" type="video/mp4">
+        </video>
+      </div>
+          <header role="banner">
+              <nav role="navigation">
+                  <div class="logo_box">
+                      <img class="i-logo" src="img/logo.png" />
+                  </div>
+              </nav>
+          </header>
+          <section role="main">
+              <div class="login_container">
+                  <hgroup>
+                      <h1 class="present-txt">Welcome to the</h1>
+                      <h2 class="present-txt">uefa europa league</h2>
+                      <h2 class="present-txt">brand support site</h2>
+                  </hgroup>                  <form action="" method="post" class="user-login">
+                      <div class="form-group">
+                          <input class="log-form" class="form-control" type="email" name="username" placeholder="Username" />
+                      </div>
+                      <div class="form-group">
+                          <input class="log-form" class="form-control" type="password" name="password" placeholder="Password" />
+                      </div>
+                      <button class="log-form" type="button" class="btn btn-default" data-toggle="modal" data-target="#update">Login</button>
+                      <div class="forgot-box"></div>
+                      <div class="register-box">
+                          <span>New here?</span>
+                          <a href="" class="login-txtdown" data-toggle="modal" data-target="#register"> Register</a>
+                          <a href="" class="login-txtdown absright" data-toggle="modal" data-target="#forgot">Forgot Password</a>
+                      </div>
+                  </form>
+                  
+                  <div class="modal fade" id="forgot" tabindex="-1" role="dialog" aria-hidden="true">
+                      <div class="modal-dialog reset-modal">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="resetLabel">PASSWORD RESET</h4>
+                              </div>
+                              <div class="modal-body">
+                                  <p class="modal-form-txt margbtt25">Enter the email address of the account that you want to reset the password.</p>
+                                  <form action="" method="post">
+                                      <div class="form-group">
+                                          <input class="form-control" type="email" name="emailaddress" placeholder="Email Address" />
+                                      </div>
+                                      <button type="button" class="btn btn-default margbtt10" data-dismiss="modal" aria-label="Close">Reset</button>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-hidden="true">
+                      <div class="modal-dialog register-modal">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="registerLabel">REGISTRATION</h4>
+                              </div>
+                              <div class="modal-body">
+                                  
+                                  <form action="" method="post">
+                                  <div class="form-group">
+                                      <input class="form-control" type="text" name="firstname" placeholder="First Name" />
+                                  </div>
+                                  <div class="form-group">
+                                      <input class="form-control" type="text" name="lastname" placeholder="Last Name" />
+                                  </div>
+                                  <div class="form-group">
+                                      <input class="form-control" type="email" name="emailaddress" placeholder="Email Address" />
+                                  </div>
+                                  <div class="form-group">
+                                      <input class="form-control" type="email" name="confirmemail" placeholder="Confirm Email" />
+                                  </div>
+                                  <div class="form-group">
+                                      <input class="form-control" type="text" name="jobdesc" placeholder="Job Description" />
+                                  </div>
+                                  <select id="agencies" class="selectpicker" data-hide-disabled="true" data-live-search="true">
+                                      <optgroup label="">
+                                          <option>Group Access</option>
+                                      </optgroup>
+                                      <optgroup label="Which category would you like to access?">
+                                          <option>Agencies</option>
+                                          <option>Clubs</option>
+                                          <option>Sponsors</option>
+                                          <option>Broadcasters</option>
+                                          <option>Generic</option>
+                                          <option>UEFA / TEAM</option>
+                                      </optgroup>
+                                  </select>
+                                  <p class="modal-form-txt">All fields are compolsory for registration</p>
+                                  <p class="modal-form-txt margtp15">By Signing up i agree to UEFA's <a href="" class="login-txtdown font-13">Terms and Conditions</a> &amp; <a href="" class="login-txtdown font-13">Privacy Policy</a></p>
+                                  <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">Register</button>
+                                  <p class="modal-form-txt have-log">Have an Account already? <a href="" class="login-txtdown font-13" data-dismiss="modal" aria-label="Close">Login</a></p>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="modal fade" id="update" tabindex="-1" role="dialog" aria-hidden="true">
+                      <div class="modal-dialog register-modal">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="registerLabel">UPDATE DETAILS</h4>
+                              </div>
+                              <div class="modal-body">
+                                  
+                                  <form action="" method="post">
+                                      <div class="form-group">
+                                          <input class="form-control" type="text" name="firstname" placeholder="User’s First Name" />
+                                      </div>
+                                      <div class="form-group">
+                                          <input class="form-control" type="text" name="lastname" placeholder="User’s Last Name" />
+                                      </div>
+                                      <div class="form-group">
+                                          <input class="form-control" type="email" name="emailaddress" placeholder="User’s Email Address" />
+                                      </div>
+                                      <div class="form-group">
+                                          <input class="form-control" type="text" name="jobdescrp" placeholder="User’s Job Description" />
+                                      </div>
+                                      <div class="form-group">
+                                          <input class="form-control" type="text" name="groupaccess" placeholder="User’s Group Access" />
+                                      </div>
+                                      <div class="form-group">
+                                          <input class="form-control" type="password" name="password" placeholder="Password" />
+                                      </div>
+                                      <div class="form-group">
+                                          <input class="form-control" type="password" name="confirmpassword" placeholder="Confirm Password" />
+                                      </div>
+                                      <p class="modal-form-txt">By submitting, you agree the above information is correct.</p>
+                                      <a href="app/introduction.html"><button type="button" class="btn btn-default margbtt10">Update</button></a>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              <script>
+                  $(document).ready(function () {
+                var mySelect = $('#agencies');
+                });
+                </script>
+          </section>
+          
+          <footer role="footconfig"></footer>
+
+  </body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<title>Directive - Scrollable</title>
+		<link rel="stylesheet" href="jquery.mCustomScrollbar.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="jquery.mCustomScrollbar.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
+		<script src="app.js"></script>
+	</head>
+<body>
+
+<div ng-controller="MainCtrl">
+  <!-- [FR] La directive "scrollable" rend l'élément scrollable -->
+  <!-- [EN] The "scrollable" directive makes this element scrollable -->
+	<div class="wrapper" scrollable>
+		{{someText}}
+	</div>
+</div>
+
+</body>
+</html>

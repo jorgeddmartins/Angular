@@ -1,0 +1,201 @@
+	
+	<div class="home_content">
+		
+		<div class="logo_box">
+			<img ng-src="{{ logo }}" />
+		</div>
+		
+		<div class="home_ins">
+			<img banner ng-src="{{ banner }}" />
+		</div>
+		
+		<div class="banner_down">
+			<p>{{ downmessage | uppercase }} <br /> {{ doproduct1wnmes | uppercase }}</p>
+		</div>
+		
+		<div class="prods_prom">
+			<!-- Products Blocks -->
+			
+			<div class="prod_blk first-mob-prod">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_1">
+							<img ng-src="{{ product1 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<img ng-src="{{ seeit }}" ng-click="gobelt = !gobelt" />
+							<img class="closebtn" ng-src="{{ closebtn }}" ng-show="gobelt" ng-click="gobelt = !gobelt"/>
+						</div>
+					</div>
+				</div>
+				<div class="prod_hv" ng-show="gobelt">
+					<p>Pellentesque habitant morbi tristique senectus et 
+						netus et malesuada famesturpis egestas. Nam ia
+						culis conse.Pellentesque habitant morbi tristique 
+						senectus et netus et malesuada famesturpis eges
+						tas. Nam ia culis conse.</p>
+						
+					<p>Pellentesque habitant morbi tristique senectus et 
+						netus et malesuada famesturpis egestas. Nam ia
+						culis conse.Pellentesque habitant morbi tristique 
+						senectus et netus et malesuada famesturpis eges
+						tas. Nam ia culis conse.</p>
+						<span class="sizesname">SIZES AVAILABLE</span>
+						<ul>
+							<li>70x30</li>
+							<li>90x50</li>
+							<li>100x70</li>
+						</ul>
+				</div>
+			</div>
+			
+			<div class="prod_blk">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_2">
+							<img ng-src="{{ product2 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt2 | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<img ng-src="{{ seeitmid }}" ng-click="gobeltcl = !gobeltcl" />
+							<img class="closebtn" ng-src="{{ closebtn }}" ng-show="gobeltcl" ng-click="gobeltcl = !gobeltcl"/>
+						</div>
+					</div>
+				</div>
+				<div class="prod_hv" ng-show="gobeltcl">
+					<p>Pellentesque habitant morbi tristique senectus et 
+						netus et malesuada famesturpis egestas. Nam ia
+						culis conse.Pellentesque habitant morbi tristique 
+						senectus et netus et malesuada famesturpis eges
+						tas. Nam ia culis conse.</p>
+						
+					<p>Pellentesque habitant morbi tristique senectus et 
+						netus et malesuada famesturpis egestas. Nam ia
+						culis conse.Pellentesque habitant morbi tristique 
+						senectus et netus et malesuada famesturpis eges
+						tas. Nam ia culis conse.</p>
+						<span class="sizesname">SIZES AVAILABLE</span>
+						<ul>
+							<li>70x30</li>
+							<li>90x50</li>
+							<li>100x70</li>
+						</ul>
+				</div>
+			</div>
+			
+			<div class="prod_blk third-mob-prod">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_1">
+							<img ng-src="{{ product3 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt3 | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<img ng-src="{{ seeit }}" ng-click="gocolar = !gocolar" />
+							<img class="closebtn" ng-src="{{ closebtn }}" ng-show="gocolar" ng-click="gocolar = !gocolar"/>
+						</div>
+					</div>
+				</div>
+				<div class="prod_hv" ng-show="gocolar">
+					<p>Pellentesque habitant morbi tristique senectus et 
+						netus et malesuada famesturpis egestas. Nam ia
+						culis conse.Pellentesque habitant morbi tristique 
+						senectus et netus et malesuada famesturpis eges
+						tas. Nam ia culis conse.</p>
+						
+					<p>Pellentesque habitant morbi tristique senectus et 
+						netus et malesuada famesturpis egestas. Nam ia
+						culis conse.Pellentesque habitant morbi tristique 
+						senectus et netus et malesuada famesturpis eges
+						tas. Nam ia culis conse.</p>
+						<span class="sizesname">SIZES AVAILABLE</span>
+						<ul>
+							<li>70x30</li>
+							<li>90x50</li>
+							<li>100x70</li>
+						</ul>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		<div class="prods_prom">
+			<!-- Products Blocks -->
+			
+			<div class="prod_blk first-mob-prod">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_1">
+							<img ng-src="{{ product1 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeit }}" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="prod_blk">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_2">
+							<img ng-src="{{ product2 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt2 | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeitmid }}" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="prod_blk third-mob-prod">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_1">
+							<img ng-src="{{ product3 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt3 | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeit }}" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		 
+	</div>
+
+
+
+
+
+

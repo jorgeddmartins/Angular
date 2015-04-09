@@ -1,0 +1,361 @@
+	
+	<div class="home_content">
+		
+		<div class="logo_box">
+			<img ng-src="{{ logo }}" />
+		</div>
+		
+		<div class="home_ins">
+			<div class="banner_up">
+				<div class="plus_left_first skurt_first_top">
+					<label for="left_first"></label>
+					<input type="checkbox" id="left_first" />
+					<div class="firstleft">
+						<span class="blk_titl">English sewing</span>
+						<a href=""><img src="img/products/cost_ing.jpg"/></a>
+						<i banner-plus></i>
+					</div>			
+				</div>
+				
+				<div class="plus_left_first skurt_first_bottom">
+					<label for="left_first"></label>
+					<input type="checkbox" id="left_first" />
+					<div class="firstleft">
+						<span class="blk_titl">English sewing</span>
+						<a href=""><img src="img/products/cost_ing.jpg"/></a>
+						<i banner-plus></i>
+					</div>			
+				</div>
+				
+				<div class="plus_left skurt_leftbottom">
+					<label for="plus_left"></label>
+					<input type="checkbox" id="plus_left" />
+					<div class="plusleft">
+						<span class="blk_titl">Sheaths for Jeans</span>
+						<a href=""><img src="img/products/bainha.jpg"/></a>
+						<i banner-plus></i>
+					</div>
+				</div>
+				
+				<div class="plus_left skurt_left">
+					<label for="plus_left"></label>
+					<input type="checkbox" id="plus_left" />
+					<div class="plusleft">
+						<span class="blk_titl">Sheaths for Jeans</span>
+						<a href=""><img src="img/products/bainha.jpg"/></a>
+						<i banner-plus></i>
+					</div>
+				</div>
+				
+				<div class="plus_right skurt_righttop">
+					<label for="plus_right"></label>
+					<input type="checkbox" id="plus_right" />
+					<div class="plusright">
+						<span class="blk_titl">Bottom Hem Skurts</span>
+						<a href=""><img src="img/products/bolsos.jpg"/></a>
+						<i banner-plus></i>
+					</div>
+				</div>
+				
+				<div class="plus_right skurt_right">
+					<label for="plus_right"></label>
+					<input type="checkbox" id="plus_right" />
+					<div class="plusright">
+						<span class="blk_titl">Bottom Hem Skurts</span>
+						<a href=""><img src="img/products/bolsos.jpg"/></a>
+						<i banner-plus></i>
+					</div>
+				</div>
+				
+			</div>
+			<img banner-prods ng-src="{{ bannerskurts }}" />
+			<img banner-prods-mob ng-src="{{ bannerskurtsmob }}" />
+		</div>
+		
+		<div class="banner_down">
+			<p>{{ skurtsmessage | uppercase }}</p>
+			<div class="search_prod">
+				<label for="searchprod"></label>
+				<input type="checkbox" id="searchprod" />
+				<div class="toggle_prod">
+					<a class="mn_click" href="">Jeans Cloths</a>
+					<a class="mn_click" href="">Skurts</a>
+					<a class="mn_click" href="">Classic's</a>
+					<a class="mn_click" href="">Home textiles</a>
+					<div class="m-prods">
+						<img src="img/icons/plus02.png" ng-click="secmenu=true" />
+						<div ng-show="secmenu">
+							<a class="mn_click" href="">T-Shirts</a>
+							<a class="mn_click" href="">Lingerie</a>
+							<a class="mn_click" href="">Children</a>
+							<a class="mn_click close_mn" href="" ng-click="secmenu=false">Close Menu x</a>
+					  </div>
+						<img src="img/icons/info.png" ng-click="infotab=true" />
+						<div ng-show="infotab">
+							<p>Information about the products</p>
+							<a class="mn_click close_mn" href="" ng-click="infotab=false">Close Menu x</a>
+					  	</div>
+						<a href="#products"><img src="img/icons/all.png" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="prods_prom">
+			<!-- Products Blocks -->
+			
+			<div class="prod_blk first-mob-prod">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_1">
+							<img ng-src="{{ product1 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeit }}" /></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="prod_blk">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_2">
+							<img ng-src="{{ product2 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt2 | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeitmid }}" /></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="prod_blk third-mob-prod">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_1">
+							<img ng-src="{{ product3 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt3 | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeit }}" /></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		
+		<div class="prods_prom">
+			<!-- Products Blocks -->
+			
+			<div class="prod_blk first-mob-prod">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_1">
+							<img ng-src="{{ product1 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeit }}" /></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="prod_blk">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_2">
+							<img ng-src="{{ product2 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt2 | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeitmid }}" /></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="prod_blk third-mob-prod">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_1">
+							<img ng-src="{{ product3 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt3 | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeit }}" /></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="prods_prom">
+			<!-- Products Blocks -->
+			
+			<div class="prod_blk first-mob-prod">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_1">
+							<img ng-src="{{ product1 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeit }}" /></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="prod_blk">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_2">
+							<img ng-src="{{ product2 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt2 | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeitmid }}" /></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="prod_blk third-mob-prod">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_1">
+							<img ng-src="{{ product3 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt3 | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeit }}" /></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="prods_prom">
+			<!-- Products Blocks -->
+			
+			<div class="prod_blk first-mob-prod">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_1">
+							<img ng-src="{{ product1 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeit }}" /></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="prod_blk">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_2">
+							<img ng-src="{{ product2 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt2 | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeitmid }}" /></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="prod_blk third-mob-prod">
+				<div class="box_ins">
+					<div class="im_box">
+						<div class="img-b prod_1">
+							<img ng-src="{{ product3 }}" />
+						</div>
+					</div>
+				</div>
+				<div class="blk_bott">
+					<span>{{ prodtxt3 | uppercase}}</span>
+					<div class="see_box">
+						<div class="insi-see-b">
+							<a href=""><img ng-src="{{ seeit }}" /></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		 
+	</div>
+
+
+
+
+
+
+
+

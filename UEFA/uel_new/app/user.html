@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="userApp">
+    <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="shortcut icon" href="favicon.ico" />
+<title>UCL Barnd Support</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="DesignWerk">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/user.css">
+<link href="../css/bootstrap.css" rel="stylesheet" />
+<link href="../css/main-bootstrap.css" rel="stylesheet" />
+<link rel="stylesheet" href="../css/mobile.css">
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+<script src="../js/modernizr.custom.js"></script>
+<!-- <link rel="stylesheet" href="http://necolas.github.com/normalize.css/2.0.1/normalize.css"> -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="js/modernizr-2.0.6.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="js/select.js"></script>
+<script src="js/effect.js"></script>
+<script src="js/userapp.js"></script>
+
+</head>
+<body class="back-user cbp-spmenu-push" ng-controller="userController">
+<div class="desktop-app2">
+    
+    <div class="buttonset">
+        <button id="showLeftPush"></button>
+        <div class="logo_box">
+            <a href="#"><img class="m-logo" id="uellogom" src="../img/logo-m.png" /></a>
+        </div>
+        <button id="showRightPush"></button>
+    </div>
+    
+  <header role="banner">
+              <nav role="navigation">
+                  <div class="logo_box log-user">
+                      <a href="#"><img class="i-logo" id="uellogo" src="../img/logo.png" /></a>
+                  </div>
+                  <div class="user-time">
+                      <div class="top-user-nav">
+                          <a href="#history" class="t-nav-icon clock-ico"></a>
+                          <a href="" class="t-nav-icon user-login-icon"></a>
+                          <a href="../index.html" class="t-nav-icon history-ico"></a>
+                      </div>
+                      <div class="top-user-welcome">
+                          <span class="user-call">Welcome back User</span>
+                      </div>
+                  </div>
+              </nav>
+          </header>
+        <section role="main">
+              <div class="user-content wid-100">
+                  <div class="col-md-12 user-ins-content wid-100">
+                      
+                      <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+                      <div class="col-md-2 user-nav" id="nav-usern">
+                          <div class="panel-nav-group">
+                              
+                              <!-- Start Mobile Only -->
+                              <div class="mob-tab">
+                              <a class="nav-step" href="../index.html"><i class="nav-ico brand-ico"></i>Logout</a>
+                              <a class="nav-step" href=""><i class="nav-ico brand-ico"></i>Edit Profile</a>
+                              <a class="nav-step" id="downlhist" href=""><i class="nav-ico brand-ico"></i>Download History</a>
+                              </div>
+                              <!-- End Mobile Only -->
+                              
+                              <a class="nav-step" href=""><i class="nav-ico brand-ico"></i>Brand Manual</a>
+                              <ul id="accordion" class="accordion">
+                                  <li>
+                                      <div class="link"><i class="fa fa-database"></i>Core Brand Identity<i class="fa fa-chevron-down"></i></div>
+                                      <ul class="submenu">
+                                          <li><a class="nav-step-group" id="mainlogo" href="#mainlogo">Main Logo</a></li>
+                                          <li><a class="nav-step-group" href="">Secondary Logo</a></li>
+                                          <li><a class="nav-step-group" href="">Logotype</a></li>
+                                          <li><a class="nav-step-group" href="">Symbol</a></li>
+                                          <li><a class="nav-step-group" href="">Wordmark</a></li>
+                                          <li><a class="nav-step-group" href="">Official Typeface</a></li>
+                                          <li><a class="nav-step-group" href="">Brand Colours</a></li>
+                                          <li><a class="nav-step-group" href="">Trophy</a></li>
+                                          <li><a class="nav-step-group" href="">Anthem</a></li>
+                                      </ul>
+                                  </li>
+                                  <li>
+                                      <div class="link"><i class="fa fa-code"></i>2015-18 Visual Identity<i class="fa fa-chevron-down"></i></div>
+                                      <ul class="submenu">
+                                          <li><a class="nav-step-group focus-leftnav" id="keyvisual" href="#visual">Key Visual Overview</a></li>
+                                          <li><a class="nav-step-group" href="">Trophy Views</a></li>
+                                          <li><a class="nav-step-group" href="">Background  Views</a></li>
+                                          <li><a class="nav-step-group" href="">Vector Artwork</a></li>
+                                      </ul>
+                                  </li>
+                                  <li>
+                                      <div class="link"><i class="fa fa-mobile"></i>Broadcast Toolkit<i class="fa fa-chevron-down"></i></div>
+                                      <ul class="submenu">
+                                          <li><a class="nav-step-group" href="">Toolkit Manual 2015/18</a></li>
+                                          <li><a class="nav-step-group" href="">Multilateral TV Graphics</a></li>
+                                          <li><a class="nav-step-group" href="">Unilateral TV Graphics</a></li>
+                                          <li><a class="nav-step-group" href="">Map Package</a></li>
+                                          <li><a class="nav-step-group" href="">Audio Files</a></li>
+                                          <li><a class="nav-step-group" href="">Club Logos</a></li>
+                                      </ul>
+                                </ul>
+                              <a class="nav-step" href=""><i class="nav-ico club-ico"></i>Club Production Items</a>
+                              <a class="nav-step" href=""><i class="nav-ico broadcast-ico"></i>Brand Activation</a>
+                              <a class="nav-step" href=""><i class="nav-ico final-ico"></i>Final 2016 Basel OFF-AIR</a>
+                              <a class="nav-step" href=""><i class="nav-ico final-ico"></i>Final 2016 Basel ON-AIR</a>
+                          </div>
+                      </div>
+                      </div>
+                      
+                      <div class="col-md-10 user-blocks">
+                          <div class="header-blk">
+                              <h3 class="blk-title introh">Introduction</h3>
+                              <h3 class="blk-title visualh">2015-18 visual identity</h3>
+                              <h3 class="blk-title coreh">Core Brand</h3>
+                              <h3 class="blk-title historyh">HIstory</h3>
+                              <div class="nav-logout">
+                                  <a href="#userlist"><i class="nav-log-opt list-ico"></i></a>
+                                  <a href="#visual"><i class="nav-log-opt square-list"></i></a>
+                              </div>
+                          </div>
+                          <div class="col-md-12 blks-section">
+                              <div id="toedit">
+                                  <div class="panel-user">
+                                      
+                                      <div ng-view></div>
+                                     
+                                      <div class="opacity-bar"></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+                      <div class="checkout-panel" id="downl-panel-user">
+                          <div class="checkout-panel-content">
+                              <div class="top-blk-downl">
+                                  <div class="downl-all-blks">
+                                      <span class="downl-tw-queue">Download</span>
+                                      <span class="downl-tw-queue">Queue at</span>
+                                      <span class="downl-tw-queue f-bold">3.23 GB</span>
+                                  </div>
+                                  <div class="buttons-all">
+                                      <a href="" class="manage-itmes pos-right delete-item"></a>
+                                      <a href="" class="manage-itmes pos-left5 share-item" data-toggle="modal" data-target="#forgot2"></a>
+                                      <div class="modal fade" id="forgot2" tabindex="-1" role="dialog" aria-hidden="true">
+                                          <div class="modal-dialog reset-modal">
+                                              <div class="modal-content">
+                                                  <div class="modal-header">
+                                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                      <h4 class="modal-title" id="resetLabel">EMAIL DOWNLOAD QUEUE</h4>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                      <p class="modal-form-txt margbtt25 green-modal">Your download queue has been emailed to "emailAddress@hosting.com". Do you want to keep your download queue?</p>
+                                                      <form action="" method="post">
+                                                          <button type="button" class="btn btn-default margbtt10 btn-width-queue" data-dismiss="modal" aria-label="Close">Keep queue</button>
+                                                          <a href="" class="manage-itmes pos-right delete-item del-i-queue"></a>
+                                                      </form>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="scroll-thumbs">
+                                  <div class="tohide">
+                                      <div class="blk-queue">
+                                          <div class="queue-blk">
+                                              <div class="queue-hover">
+                                                  <div class="queue-download">
+                                                      <img src="../img/icons/download.png" />
+                                                      <div class="queue-download-hover">
+                                                          <img src="../img/icons/download-hover.png" />
+                                                      </div>
+                                                  </div>
+                                                  <div class="queue-delete" id="hide">
+                                                      <img src="../img/icons/delete.png" />
+                                                      <div class="queue-delete-hover">
+                                                          <img src="../img/icons/delete-hover.png" />
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="queue-box-im">
+                                                  <img class="queueim" src="../img/user/1.jpg" />
+                                              </div>
+                                              <div class="item-deal">
+                                                  <span class="item-txt clgrey">Toolkit Image 01</span>
+                                                  <span class="item-txt clgrey">Europa League</span>
+                                                  <span class="item-txt margtcl">33.5 MB</span>
+                                              </div>
+                                          </div>
+                                          <div class="queue-options">
+                                              <ul class="option-file">
+                                                  <li class="tohidesmall">TIFF - CMYK - 2.3 MB
+                                                      <div class="option-file-hover">
+                                                          <div class="queue-download">
+                                                              <img src="../img/icons/download.png" />
+                                                              <div class="queue-download-hover">
+                                                                  <img src="../img/icons/download-hover.png" />
+                                                              </div>
+                                                          </div>
+                                                          <div class="tohidesmall">
+                                                              <div class="queue-delete" id="hide2">
+                                                                  <img src="../img/icons/delete.png" />
+                                                                  <div class="queue-delete-hover">
+                                                                      <img src="../img/icons/delete-hover.png" />
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </li>
+                                                  <li>png - rgb - 1.2 MB
+                                                      <div class="option-file-hover">
+                                                          <div class="queue-download">
+                                                              <a href=""><img src="../img/icons/download.png" /></a>
+                                                              <div class="queue-download-hover">
+                                                                  <img src="../img/icons/download-hover.png" />
+                                                              </div>
+                                                          </div>
+                                                          <div class="queue-delete">
+                                                              <a href=""><img src="../img/icons/delete.png" /></a>
+                                                              <div class="queue-delete-hover">
+                                                                  <img src="../img/icons/delete-hover.png" />
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </li>
+                                                  <li>ai - rgb - 30 MB
+                                                      <div class="option-file-hover">
+                                                          <div class="queue-download">
+                                                              <a href=""><img src="../img/icons/download.png" /></a>
+                                                              <div class="queue-download-hover">
+                                                                  <img src="../img/icons/download-hover.png" />
+                                                              </div>
+                                                          </div>
+                                                          <div class="queue-delete">
+                                                              <a href=""><img src="../img/icons/delete.png" /></a>
+                                                              <div class="queue-delete-hover">
+                                                                  <img src="../img/icons/delete-hover.png" />
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="blk-queue">
+                                      <div class="queue-blk">
+                                          <div class="queue-hover">
+                                              <div class="queue-download">
+                                                  <a href=""><img src="../img/icons/download.png" /></a>
+                                                  <div class="queue-download-hover">
+                                                      <img src="../img/icons/download-hover.png" />
+                                                  </div>
+                                              </div>
+                                              <div class="queue-delete">
+                                                  <a href=""><img src="../img/icons/delete.png" /></a>
+                                                  <div class="queue-delete-hover">
+                                                      <img src="../img/icons/delete-hover.png" />
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="queue-box-im">
+                                              <img class="queueim" src="../img/user/8.jpg" />
+                                          </div>
+                                          <div class="item-deal">
+                                              <span class="item-txt clgrey">Toolkit Image 01</span>
+                                              <span class="item-txt clgrey">Europa League</span>
+                                              <span class="item-txt margtcl">12.4 MB</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="blk-queue">
+                                      <div class="queue-blk">
+                                          <div class="queue-hover">
+                                              <div class="queue-download">
+                                                  <img src="../img/icons/download.png" />
+                                                  <div class="queue-download-hover">
+                                                      <img src="../img/icons/download-hover.png" />
+                                                  </div>
+                                              </div>
+                                              <div class="queue-delete">
+                                                  <img src="../img/icons/delete.png" />
+                                                  <div class="queue-delete-hover">
+                                                      <img src="../img/icons/delete-hover.png" />
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="queue-box-im">
+                                              <img class="queueim" src="../img/user/1.jpg" />
+                                          </div>
+                                          <div class="item-deal">
+                                              <span class="item-txt clgrey">Toolkit Image 01</span>
+                                              <span class="item-txt clgrey">Europa League</span>
+                                              <span class="item-txt margtcl">12.0 MB</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                                  </div>
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+</div>
+
+
+<script src="js/classie.js"></script>
+
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+</body>
+</html>
+
+

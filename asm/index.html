@@ -1,0 +1,108 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+
+<html ng-app="asmApp">
+	
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<title>ASM</title>
+		<meta name="description" content="">
+		<meta name="author" content="@Jorge DD Martins">
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<link rel="stylesheet" href="css/main.css">
+		<link href="css/bootstrap.css" rel="stylesheet" />
+		<link href="css/main-bootstrap.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/boostrap-jdd.css">
+		<link rel="stylesheet" href="css/mobile.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+		<![endif]-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/libs/modernizr-2.0.6.min.js"></script>
+	</head>
+
+
+	<body ng-controller="asmController">
+
+		<header role="banner">
+			<div class="top_head">
+				<div class="menu_nav">
+					<a href=""><i nav data-toggle="modal" data-target="#myModal"></i></a>
+					<a href=""><i contact></i></a>
+					<a href="#products"><i products></i></a>
+					<form class="search-web" action="" method="post">
+						<input class="form-control sear-am" type="text" name="search" placeholder="Search our Products" />
+						<input class="btn-search" type="submit" value="" />
+                    </form>
+				</div>
+			</div>
+			<!-- Nav Menu -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					      </div>
+					      <div class="modal-body">
+					      		<a class="mod-nav" href="index.html"><i nav-arrow-lef></i>Home</a>
+					      		<a class="mod-nav" href="">Who are we?<i nav-arrow></i></a>
+					      		<a class="mod-nav" href=""><i nav-arrow-lef></i>Where are we?</a>
+					      		<a class="mod-nav" href="">See our specials<i nav-arrow></i></a>
+					      		<!-- <a class="mod-nav mob-only" href="#products"><i nav-arrow-lef></i>Products</a> -->
+					      		<a class="mod-nav mob-only" href="">Contacts<i nav-arrow></i></a>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal"></button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- End Nav Menu -->
+		</header>
+ 
+		<section role="main">
+
+				<div ng-view></div>
+
+		</section>
+
+		<footer role="footconfig">
+			<div class="inside-foot">
+				<span>{{ privateasm }}</span>
+				<div class="socials">
+					<a href="https://www.facebook.com/asmfilhos" target="_blank"><img ng-src="{{ facebook }}" /></a>
+					<a href="" target="_blank"><img ng-src="{{ linkedin }}"/></a>
+				</div>
+			</div> 
+	</footer>
+		
+				
+		<script src="http://platform.twitter.com/widgets.js"></script>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+		<!-- scripts concatenated and minified via ant build script-->
+		<!--<script defer src="js/plugins.js"></script>
+		<!-- end scripts-->
+		<!--<script>
+		window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+		Modernizr.load({
+		load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+		});
+		</script>-->
+		<!--[if lt IE 7 ]>
+		<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+		<![endif]-->
+	</body>
+</html>

@@ -1,0 +1,235 @@
+/* ==============================================
+  SELECTS
+============================================= */
+
+div.autocom-panel .dropcontainer {
+	/* position: relative; */
+	width: 254px;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.35);	
+	-moz-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.35);
+	box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.35);
+}
+
+.dropcontainer {
+	position: absolute;
+	font-size: 13px;
+	color: #777;
+	width: 100%;
+	z-index: 4;
+} 
+
+div.autocom-panel .dropcontainer, 
+div.autocom-panel .trigger {
+	display: inline-block;
+}
+
+div.autocom-panel .trigger, 
+div.autocom-panel .activetrigger {
+	width: 254px;
+	height: 33px;
+	margin-bottom: 0;
+	padding: 7px;
+	padding-left: 1%;
+	border: 1px solid #343334;
+	font-size: 13px;
+	font-style: normal;
+	border-radius: 3px;
+}
+
+.trigger {
+	color: #777;
+	padding: 10px;
+	font-size: 14px;
+	width: 100%;
+	background: #fff url(../img/icons/select-arrow-open.png) 98% center no-repeat;
+	display: block;
+	border: 1px solid #ddd;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.trigger:hover {
+	color: #777;
+	background: #fff url(../img/icons/select-arrow-open.png) 98% center no-repeat;
+	text-decoration: none;
+}
+
+.activetrigger:focus {
+	border-color: #66afe9;
+	outline: 0;
+	background: #fff url(../img/icons/select-arrow-open.png) 98% center no-repeat;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.activetrigger {
+	color: #777;
+	padding: 10px;
+	font-size: 14px;
+	width: 100%;
+	background: #fff url(../img/icons/select-arrow-close.png) 98% center no-repeat !important;
+	display: block;
+	border: 1px solid #ddd;
+	font-style: italic;
+	border-radius: 3px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.activetrigger:hover {
+	background: url(../img/icons/select-arrow-close.png) 98% center no-repeat;
+	color: #777;
+	text-decoration: none;
+}
+
+.activetrigger:active {
+	background: url(../img/icons/select-arrow-close.png) 98% center no-repeat;
+	color: #777;
+	text-decoration: none;
+}
+
+div.autocom-panel .dropcontainer ul {
+	padding: 0;
+}
+
+.dropcontainer ul {
+	font-size: 13px;
+	border: 1px solid #ccc;
+	border-top: none;
+	background: #fff;
+	list-style-type: none;
+	padding: 10px;
+	margin: 0;
+	width: 100%;
+	z-index: 100;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.dropcontainer ul li {
+	padding: 5px;
+	-webkit-transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+}
+
+div.autocom-panel .dropcontainer ul li {
+	padding: 0;
+	height: 30px;
+	margin-top: 1px;
+}
+
+div.autocom-panel .dropcontainer ul li a {
+	color: #333;
+	font-size: 13px;
+	width: 100%;
+	display: block;
+	height: 100%;
+	padding-left: 17px;
+	line-height: 32px;
+	background: #eee;
+}
+
+div.autocom-panel .dropcontainer ul li a:hover {
+	text-decoration: none;
+	background: #e98401;
+	color: #fff;
+}
+
+.dropcontainer ul li:hover {
+	outline: none;
+}
+
+.dropcontainer ul li:first-child {
+	display: none;
+}
+
+.dropcontainer ul li:last-child {
+	border-bottom: none;
+	}
+
+.dropdownhidden {
+	display: none;
+	}
+
+.dropdownvisible {
+	height: auto;
+	}
+
+
+h1 {font-weight: 300;font-size: 1.6em;border-bottom: 1px dashed #ccc;display: inline-block;margin: 30px 0;}
+.label {color: #777;text-transform: uppercase;margin-left: 10px;font-size: 0.8em;margin-bottom: 5px;display: block;}
+
+/* Navigation */
+
+nav ul {padding: 0 20px;}
+nav li {list-style: none;float: left; margin-right: 20px;padding: 10px;font-weight: 300;}
+nav li.current {background: #f5f5f5; border: 1px solid #ccc; border-bottom: none;}
+nav li.current a {color: #777; cursor: default;}
+
+
+
+#faux, #browse {
+    /* style these guys however you like, the key is 
+       position:absolute. No need for z-index modification
+       since the wrapper is natually above these elements.
+    */
+    position:absolute;
+}
+
+#faux {
+    height : 40px;
+    width: 80%;
+    padding:0;
+    margin:0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#browse {  
+    width : 80px;
+    height : 40px;
+    background : #ccc;
+    color : #fff;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration : none;
+    line-height : 30px;
+    text-align : center;
+    border-radius: 3px;
+    right: 0;
+    padding-top: 4px;
+}
+
+#input {
+    font-size:50px;
+    padding : 0;
+    margin : 0;
+    width: 100%;
+    height: 40px;
+}
+
+#wrapper {
+    opacity : 0;
+    overflow: hidden;
+    width: 100%;
+    height : 40px;
+    padding:0;
+    margin: 0;
+}
+

@@ -1,0 +1,43 @@
+<form action="" method="post">
+        <div class="form-group">
+            <input class="form-control" type="text" name="firstname" placeholder="{{ loginfirstname }}" />
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="text" name="lastname" placeholder="{{ loginlastname }}" />
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="email" name="emailaddress" placeholder="{{ loginemail }}" />
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="email" name="confirmemail" placeholder="Confirm Email" />
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="text" name="jobdesc" placeholder="{{ loginjobdesc }}" />
+        </div>
+        <select id="agencies" class="selectpicker" data-hide-disabled="true" data-live-search="true">
+            <optgroup label="">
+                <option>{{ groupaccess }}</option>
+            </optgroup>
+            <optgroup label="{{ optiontxt }}">
+                <option>Agencies</option>
+                <option>Clubs</option>
+                <option>Sponsors</option>
+                <option>Broadcasters</option>
+                <option>Generic</option>
+                <option>UEFA / TEAM</option>
+            </optgroup>
+        </select>
+        <p class="modal-form-txt">{{ modaltxt1 }}</p>
+        <p class="modal-form-txt margtp15">{{ modaltxt2 }} <a href="" class="login-txtdown font-13">{{ modaltxta }}</a> &amp; <a href="" class="login-txtdown font-13">{{ modaltxta2 }}</a></p>
+        <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">{{ resgistert }}</button>
+</form>
+
+
+
+
+
+
+
+
+
+
