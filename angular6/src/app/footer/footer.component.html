@@ -1,0 +1,27 @@
+<footer id="footer">
+    
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-sm-4">
+                <a class="homeFooter" routerLink="/"><img src="{{ footerLogo }}" alt="logo"></a>
+                <p>Copyright © VeroCover 2016.<br>All rights reserved.</p>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-8">
+                <ul class="pull-right">
+                    <li *ngFor="let footermenu of footermenus"><a routerLink="{{ footermenu.routerlink }}">{{ footermenu.name }}</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr style="opacity: 0.2;">
+        <div class="col-sm-12 text-center">
+            <p>Vero Cover Limited, Suite 4b, Second Floor, Icom House, 1/5 Irish Town, Gibraltar, GX11 1AA, Company Number: 112164</p>
+        </div>
+
+    </div>
+
+</footer>

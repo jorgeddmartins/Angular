@@ -1,0 +1,37 @@
+
+<section id="section" role="main">
+
+	<div class="container">
+
+		<div class="section-header">
+		    <h2 class="section-title text-center animated fadeInDown">{{ titleproducts }}</h2>
+		    <p class="text-center animated fadeInDown">{{ subtitleproducts }}</p>
+		</div>
+
+		<div class="row">
+            <div class="col-sm-8">
+                <div class="col-sm-7">
+                    <canvas id="doughnutProducts" width="396" height="414"></canvas>
+                </div>
+                <div class="col-sm-5">
+                    <ul class="market-list">
+                        <li *ngFor="let marketlist of marketlists"><i class="fa fa-square {{ marketlist.colorClass }}"></i> {{ marketlist.name }}</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4"><p>{{ textinfo }}</p><p>{{ textinfo2 }}</p></div>
+        </div>
+        <hr/>
+        <div class="productColor">
+
+        	<div class="col-sm-4" *ngFor="let productimg of productimgs">
+                <div class="product-img {{ productimg.backClass }}">
+                    <div class="col-sm-2"><i class="{{ productimg.icon }}"></i></div>
+                    <div class="col-sm-10">{{ productimg.title }}</div>
+                </div>
+            </div>
+
+        </div>
+	</div>
+
+</section>

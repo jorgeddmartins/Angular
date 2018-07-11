@@ -1,0 +1,47 @@
+
+<header id="header">
+
+    <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
+        <div class="container container-downHeader">
+            <div class="navbar-header">
+                <a class="navbar-brand" routerLink="/"><img src="{{ logoImg }}" alt="logo"></a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li *ngFor="let topMenu of topMenus" class="liNav {{ topMenu.liClass }}"><a class="{{ topMenu.mainClass }}" routerLink="{{ topMenu.url }}">{{ topMenu.name }}</a></li>
+                    <li><a class="btn btn-success pull-right" routerLink="/contacts"><i class="fa fa-check"></i> Buy Leads</a></li> 
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+
+<!-- Start Slider -->
+<section id="main-slider">
+    <div class="owl-carousel">
+
+        <div *ngFor="let sliderItem of sliderItems" class="item" style="background-image: url(assets/img/slider/bg1.jpg);">
+            <div class="slider-inner">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="carousel-content">
+                                <h2><span>{{ sliderItem.h2S }}</span> {{ sliderItem.h2T }}</h2>
+                                <p>{{ sliderItem.text }}</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 side-img"><img src="{{ sliderItem.img }}"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div> 
+
+    </div> 
+</section>
+<!-- End Slider -->

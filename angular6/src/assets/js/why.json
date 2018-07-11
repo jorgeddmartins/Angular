@@ -1,0 +1,30 @@
+{
+	"ItemsW": [
+
+		{
+			"imgIt": "assets/img/why01.svg",
+			"hSpan": "Exclusive",
+			"HItem": "Quality",
+			"textIt": "Our real time, web generated leads are exclusive to each lead buyer and the quality is constantly optimised against your performance metrics to give you the best results."
+		},
+		{
+			"imgIt": "assets/img/why02.svg",
+			"hSpan": "Web Generated",
+			"HItem": "Leads in Real Time",
+			"textIt": "Multiple methods to deliver and distribute leads to our clients. Our team of developers can intergrate with any system for lead delivery direct into your CRM in real time."
+		},
+		{
+			"imgIt": "assets/img/why03.svg",
+			"hSpan": "High",
+			"HItem": "Conversion Rate",
+			"textIt": "Access historical reports online in real-time and view data the way you want it. Quality feedback is used consistently to deliver and improve conversion rate, day by day."
+		},
+		{
+			"imgIt": "assets/img/why04.svg",
+			"hSpan": "Proprietary",
+			"HItem": "Validation Engine",
+			"textIt": "Lead fingerprinting technology processes and prevalidates leads allowing for only the best quality."
+		}
+		
+	]
+}

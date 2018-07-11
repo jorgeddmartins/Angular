@@ -1,0 +1,53 @@
+<section id="section" role="main">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title text-center animated fadeInDown">{{ homeTitle }}</h2>
+            <p class="text-center animated fadeInDown">{{ homeSubTtitle }}</p>
+        </div>
+        <hr/>
+        <div class="row">
+            <div class="col-sm-6 animated fadeInLeft">
+                <img class="img-responsive" src="{{ homeImg }}" alt="">
+            </div>
+            <div class="col-sm-6">
+                <ul>
+                    <li *ngFor="let homeOption of homeOptions"><h3>{{ homeOption.title }}</h3><p>{{ homeOption.content }}</p></li>
+                </ul>
+            </div>
+        </div>
+        <hr/>
+        <div class="row">
+            <div class="col-sm-6">
+                <h3 class="text-center" style="margin-bottom: 50px;">Our Market Strength</h3>
+                <div class="col-sm-7">
+                    <canvas id="doughnut" class="chart chart-doughnut" width="294" height="307" chart-data="data" chart-labels="labels" chart-colours="colours"></canvas>
+                </div>
+                <div class="col-sm-5">
+                    <ul class="market-list">
+                        <li *ngFor="let marketlist of marketlists"><i class="fa fa-square {{ marketlist.colorClass }}"></i> {{ marketlist.name }}</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div role="tablist" class="panel-group">
+
+                    <div class="panel panel-default" *ngFor="let accordionTab of accordionTabs">
+                        <div role="tab" class="panel-heading">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" class="accordion-toggle" >
+                                    <span><i class="{{ accordionTab.icon }}"></i>
+                                        <span>{{ accordionTab.title }}</span><i class="pull-right glyphicon glyphicon-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse {{ accordionTab.classD }}"><div class="panel-body"><span>{{ accordionTab.content }}</span></div></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
