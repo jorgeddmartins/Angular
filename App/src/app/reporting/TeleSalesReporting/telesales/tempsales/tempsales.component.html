@@ -1,0 +1,214 @@
+
+
+<!-- Notifications -->
+<div *ngFor="let notifi of notifis" class="topNotification notifiT">
+    <span class="ico-plat"><i class="fa fa-bell greenIco bellIcon"></i></span>
+    <span class="notifi-plat">{{ notifi.name }}</span>
+    <input type="text" class="notifi-plat datetimepicker-{{ notifi.num }}" id="datetimepickera-{{ notifi.num }}" value="{{ notifi.value }}" readonly="readonly" />
+    <div class="notifi_notes notes-{{ notifi.num }}">
+        <input type="text" class="notifi-plat" placeholder="Notes" value="{{ notifi.note }}" readonly="readonly" />
+        <span class="showDtaNotes showDtaNotes-{{ notifi.num }}"></span>
+    </div>
+</div>
+
+
+
+<!-- TeleSales Header Grid -->
+<div class="HeaderGrid TGrid"></div>
+
+
+<!-- TeleSales Body Grid -->
+<div class="BodyGrid TGrid" id="BodyGrid"></div>
+
+
+<!-- Edit Lead Floor -->
+<div class="edit-lead editLead">
+
+    <div class="openEditLead">
+        <i class="fa fa-spinner fa-spin" aria-hidden="true"></i>
+    </div>
+
+
+    <div class="leadId_info">
+        
+        <div class="leadinfo-row" style="width: 11%;">
+            <span class="top_title">ID:</span>
+            <span class="btt_info">
+                <span name="3079074" data-gridname="leadgridquicktransfer" style="color:#fff; text-decoration:underline" href="">3079074</span>  
+            </span>
+        </div>
+
+        <div class="leadinfo-row">
+            <span class="top_title">Date:</span>
+            <span class="btt_info">25-03-2019 10:52 </span>
+        </div>
+
+        <div class="leadinfo-row" style="width: 13.5%;">
+            <span class="top_title">Product:</span>
+            <span class="btt_info">Life</span>
+        </div>
+
+        <div class="leadinfo-row source" style=" width: 13.5%;">
+            <span class="top_title">Source:</span>
+            <span class="btt_info sourceinfo "> Affiliate</span>
+            <span class="sourceDta" style="display: none;"><pre>http://yourlifecovered.co.uk/1168-offer5/form5?ch=55c98b24a0cfb63.69854363&amp;oid=27&amp;aid=1168&amp;tid=0271168&amp;sid=a6692&amp;eid=&amp;tlink=16&amp;ocode=MTE2OC4yNy4yNy43MDUuMC4wLjAuMC4wLjAuMC4w</pre></span>
+        </div>
+
+        <div class="leadinfo-row" style="width: 13.5%;">
+            <span class="top_title">Tracking:</span>
+            <span class="btt_info">400 [427]</span>
+        </div>
+
+        <div class="leadinfo-row" style="width: 9.7%;">
+            <span class="top_title">Pixel:</span>
+            <span class="btt_info">Yes</span>
+        </div>
+
+        <div class="leadinfo-row alert_Call alert_Orange" style="width: 18.8%;">
+            <span class="top_title">Alert:</span>
+            <span class="btt_info leadAlertspan"><div class="alert_notification_orange"> <span style="color:#fff" leadid="3079097" data-toggle="modal" data-target="#duplicateLeadsModel" class="dupsAlertLeads">* Dupe Invalid </span> </div></span>
+        </div>
+
+    </div>
+
+
+    <input type="text" class="screenData" id="txtFirstName" value="Jorge" />
+    <input type="text" class="screenData" id="txtLastName" value="Martins" />
+    <input type="text" class="screenData" id="txtEmail" value="jmart2000@writeme.com" />
+
+    <span class="screenData">
+        <input type="text" class="phoneInp mobilevalidation valid" id="txtMobilePhone" value="07786953070" />
+        <a href="sip:07786953070" class="valiDClick mobileClick fad"></a>
+    </span>
+
+    <span class="screenData phoneland landlineQE">
+        <input type="text" class="phoneInp disableColor landLineInp" id="landLineInp" placeholder="07786953070" />
+        <a href="sip:07786953070" class="valiDClick landClick fad" name="07786953070" leadid="3013960"></a>
+    </span>
+
+
+    <div class="screenData callOut-border">
+        <input type="text" id="CallOut" value="Select" />
+    </div>
+
+
+    <div class="Time-Group">
+
+        <!-- TeleSales Calendar with Hours Table only -->
+        <div class="inputPicker_mini width32 inputPicker_mini_top">
+            <input type="text" class="datepicker" id="datetimepicker2" placeholder="Select Task date">
+            <i class="fad fa-calendar" aria-hidden="true"></i>
+        </div>
+
+        <span class="miniLeads-Btn flagBtn DisableElement btnAddTask fad"></span>
+
+        <!-- DisableElement -->
+
+        <span class="miniLeads-Btn clockBtn btnAddTask fad"></span>
+
+        <span class="miniLeads-Btn popUpBtn btnTelerikTasksList" title="Click here to see task list on your lead review allocations"></span>
+
+        <span class="miniLeads-Btn popUpBtn btnHotKey" title="Click here for hotkey transfer"></span>
+
+        <!-- Clock Pop Up -->
+        <div class="clockDrop">
+            <span *ngFor="let clock of clocks" class="clock-selectTime">{{ clock.value }}</span>
+        </div>
+        
+
+        <!-- TeleSales Calendar with Hours Table amd Minutes Tables -->
+        <div class="inputPicker_mini inputPicker_mini_second telSHourPicker" title="">
+            <input type="text" class="datepicker datetimepicker3" id="datetimepicker3" placeholder="Select Xfr date" />
+            <i id="calendarIcon" class="fad fa-calendar" aria-hidden="true"></i>     
+        </div>
+
+        <span class="miniLeads-Btn backGreen width22 TransferToMer este" title="Transfer lead using PQ rotation.">
+            <i class="fad fa-arrow-circle-right" aria-hidden="true"></i>
+        </span>
+
+        <span class="miniLeads-Btn addRotationBtn" title="Add to rotation if you are unsure about quality of lead. Adds to all merchant rotation.">
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+        </span>
+
+        <span id="btnFailedQualityScoreQE" class="miniLeads-Btn failedScoreBtn"><i class="fa fa-ban" aria-hidden="true"></i></span>
+        
+
+        <!-- Rejection Lead Drop Down -->
+        <div class="reject_input">
+            <input type="text" class="ddlRejection" value="Fake Name" />
+            <ul class="RejectLeadDrop"></ul>
+        </div>
+
+        <span id="btnRejectLeadQE" class="miniLeads-Btn backBlue">
+            <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+        </span>
+
+        <!-- Retain Lead Drop Down -->
+        <div class="retain_input">
+            <input type="text" class="ddlRetain" value="Select retain reason" />
+            <ul class="RetainLeadDrop"></ul>
+        </div>
+
+        <span id="btnRetainLeadQE" class="miniLeads-Btn backPurple">
+            <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+        </span>
+
+        <span id="btnDeleteLeadQE" class="miniLeads-Btn backRed DisableElement">
+            <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+        </span>
+
+    </div>
+
+
+    <div class="AllProduct">
+
+        <div class="productAnwList">
+            <span class="titleProduct">Product Answers
+                <span id="lblSaveConfirmation">Save</span>
+                <span class="boardPop fad board-Open"></span>
+            </span>
+        </div>
+
+        <div id="productListFloor" class="productList_Floor">
+
+            <div *ngFor="let drop of drops" class="form-article {{ drop.coverClass }}">
+                <span class="label">{{ drop.label }}</span>
+                <span class="k-input {{ drop.ckClass}} selectI">{{ drop.value }}</span>
+            </div>
+
+            <div class="form-article thisHouse">
+                <span class="label">House</span>
+                <input type="text" class="k-input" value="777" />
+            </div>
+
+            <!-- Start ProductList Drop Downs -->
+            <div id="Prod_dropProd">
+                <ul class="dropProd"></ul>
+            </div>
+            <!-- End ProductList Drop Downs -->
+
+        </div>
+
+    </div>
+
+
+    <div class="time_Flash">
+        <span class="timeUpdate">Updating!!!</span>
+    </div>
+
+    <div class="userDrop">
+        <div class="selectTask_F">
+            <textarea class="haveNotes" id="taskNotes" placeholder="Task notes (optional)..." style="margin-bottom: 7px;"></textarea>
+            <a href="#" class="miniLeads-Btn backGreen" style="width: 50%; height: 49px; margin: 0;" >
+                <i class="fa fa-check" aria-hidden="true" style="top: 19%;"></i>
+            </a>
+            <a href="#" class="miniLeads-Btn backRedTask closeBtnTask" style="width: 50%; height:49px; margin: 0;">
+                <i class="fa fa-close" aria-hidden="true" style="top: 15%;"></i>
+            </a>
+
+        </div>
+
+    </div>
+    
+
+</div>

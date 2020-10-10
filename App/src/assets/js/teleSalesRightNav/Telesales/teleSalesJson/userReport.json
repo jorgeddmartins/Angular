@@ -1,0 +1,34 @@
+
+{
+	"infousers": [
+		{
+			"id": 1,
+			"name": "Jorge Martins"
+		},
+		{
+			"id": 10,
+			"name": "Jorge Martins"
+		},
+		{
+			"id": 12,
+			"name": "Jabran Faisal"
+		},
+		{
+			"id": 22,
+			"name": "James Oliver"
+		},
+		{
+			"id": 32,
+			"name": "Jabran"
+		}
+	],
+
+
+	"obj": {
+    "number": 1.2345e-6,
+    "enabled": true
+  	},
+
+  	"message": "Strings have to be in double-quotes."
+
+}

@@ -1,0 +1,75 @@
+
+<div class="col-md-12 col-xs-12 boxSystem qinexRoute RotationBlk">
+
+	<!-- Main Section -->
+	<section class="RotationWrap">
+		<div class="panel panel-default">
+			<h4 class="pull-left">Copy selected day settings to:</h4>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading ProdTitle"><h4></h4></div>
+
+			<div class="panelProd">
+				
+				<div class="PanelTabs">
+
+					<span *ngFor="let tab of tabs" class="PTb {{ tab.class }}">{{ tab.name }}</span>
+
+				</div>
+
+				<!-- Start Table -->
+				<div class="PanelTable">
+					
+					<!-- Table Header -->
+					<div class="THeader">
+						<div class="tr">
+
+							<span *ngFor="let th of ths" class="th {{ th.classA }}">{{ th.name }}</span>
+
+						</div>
+					</div>
+
+					<!-- Table Body -->
+					<div class="TBody">
+						
+						<!-- Merchant Body Tab -->
+						<span class="bodyTab merCTb">Merchants<span class="dropTh"></span></span>
+						<div class="dropBodyTab"></div>
+
+						<!-- PQMerchant Body Tab -->
+						<span class="bodyTab pqmerCTb">PQ Merchants<span class="dropTh"></span></span>
+						<div class="dropBodyTab"></div>
+						
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+
+	<!-- Accordion Right -->
+	<div class="rightAditional rightRotation">
+
+		<!-- Log History -->
+		<span class="accor-link accordion-toggle borderGreen accor_0">Log History</span>
+
+		<!-- Log History Drop Down -->
+		<div id="LogHistory" class="accordion-content accor-Open-floor" style="display: block"></div>
+
+		<!-- Product -->
+		<span class="accor-link accordion-toggle accor_1">Product</span>
+
+		<!-- Product Drop down -->
+		<div id="deliveryFloor" class="accordion-content accor-Open-floor">
+
+			<!-- Product Injection -->
+			<ul class="deliveryIn"></ul>
+		</div>
+
+	</div>
+
+</div>

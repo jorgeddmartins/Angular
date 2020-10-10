@@ -1,0 +1,66 @@
+
+<!-- Start the Accordion -->
+
+<div *ngFor="let accord of accords">
+    <span class="{{ accord.eventClass }}">{{ accord.name }}<i class="icon {{ accord.icon }}"></i></span>
+    <div id="{{ accord.id }}" class="{{ accord.floorClass }}"></div>
+</div>
+
+
+<!-- Product Answers Template -->
+<div class="ContAccor1">
+
+    <div *ngFor="let productanswer of productanswers" class="form-article full-width margin-r-null">
+        <span class="label">{{ productanswer.labelname }}</span>
+        <div class="k-select-floor k-smoker-floor"><span class="k-select">{{ productanswer.valuename }}</span></div>
+    </div>
+
+</div>
+
+<!-- Log History Template -->
+<div class="ContAccor2">
+    <span class="Search_Fl" id="search_Fl">
+        <input type="text" class="form-control auto-search" placeholder="Search for Logs...">
+    </span>
+    <div *ngFor="let loghist of loghists" class="form-article full-width margin-r-null">
+        <span class="label">{{ loghist.date }}</span>
+        <p class="objType">{{ loghist.objectype }}</p>
+    </div>
+</div>
+
+<!-- Merchant Sales template -->
+<div class="ContAccor3">
+    <p>No Edit Log.</p>
+</div>
+
+<!-- Lead Comments Tempalte -->
+<div class="ContAccor4">
+    <i class="icon icon-plus-circle" id="add-comment"></i>
+    <div id="comment-scroll">
+        <div class="form-article full-width" id="comment-input" style="margin-bottom: 0;">
+            <span class="label comment-label">Your Comments</span>
+            <textarea class="form-control lead-input" id="leadcomment" placeholder="Add Comment"></textarea>
+        </div>
+        <input class="savecomment" id="savecomm" type="button" value="save">
+    </div>
+    <div class="allcomments"><p>No Lead Comments</p></div>
+</div>
+
+<!-- Lead P&L Tempalte -->
+<div class="ContAccor5">
+    <div *ngFor="let leadpl of leadpls" class="{{ leadpl.topClass }}">
+        <span class="descCost">{{ leadpl.name }}</span>
+        <span class="descCost light-right {{ leadpl.tclass }}">£{{ leadpl.result }}</span>
+    </div>
+</div>
+
+<!-- Call Recording Tempalte -->
+<div class="ContAccor6">
+    <div *ngFor="let call of calls" class="callTr">
+        <span class="callTd">{{ call.date }}</span>
+        <span class="callTd">{{ call.callid }}</span>
+        <a class="callTd" href="" target="_blank"><i class="k-icon fa fa-play"></i></a>             
+    </div>
+</div>
+
+<!-- Ends the Accordion -->

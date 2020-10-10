@@ -1,0 +1,84 @@
+{
+	"users": [
+
+		{
+			"name": "Jan Wilson"
+		},
+		{
+            "name": "Gemma Sweeney"
+        },
+        {
+            "name": "John Boland"
+        },
+        {
+            "name": "Susanna Lucas"
+        },
+        {
+        	"name": "James Holland"
+        }
+	],
+
+	"userProd": [
+
+		{
+			"color": "trsCl",
+			"name": "Transferred"
+		},
+		{
+			"color": "delCl",
+			"name": "Delected"
+		},
+		{
+			"color": "rejCl",
+			"name": "Rejected"
+		},
+		{
+			"color": "retCl",
+			"name": "Retained"
+		},
+		{
+			"color": "trPQCl",
+			"name": "Trans PQ"
+		},
+		{
+			"color": "trxCl",
+			"name": "TRX NOTPQHQ"
+		}
+	],
+
+	"userDates": [
+
+		{
+			"id": 0,
+			"date": "03 / 07 / 2019"
+		},
+		{
+			"id": 1,
+			"date": "02 / 07 / 2019"
+		},
+		{
+			"id": 2,
+			"date": "01 / 07 / 2019"
+		},
+		{
+			"id": 3,
+			"date": "28 / 06 / 2019"
+		},
+		{
+			"id": 4,
+			"date": "27 / 06 / 2019"
+		},
+		{
+			"id": 5,
+			"date": "26 / 06 / 2019"
+		},
+		{
+			"id": 6,
+			"date": "25 / 06 / 2019"
+		},
+		{
+			"id": 7,
+			"date": "24 / 06 / 2019"
+		}
+	]
+}

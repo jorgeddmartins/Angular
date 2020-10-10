@@ -1,0 +1,1010 @@
+{
+	"teleHeader": [
+
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "Allocation User Id",
+			"alert": "Alert",
+			"leadid": "LeadId",
+			"created": "Created On",
+			"source": "Source",
+			"product": "Product",
+			"tracksummary": "Tracking Summary",
+			"pix": "Pix",
+			"firstname": "Firstname",
+			"lastname": "Lastname",
+			"landline": "Landline",
+			"mobile": "Mobile",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		}
+	],
+
+	"teleBody": [
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		},
+		{
+			"null1": "&nbsp; &nbsp;",
+			"null2": "&nbsp; &nbsp;",
+			"null3": "&nbsp; &nbsp;",
+			"userid": "",
+			"alert": "",
+			"leadid": 2774035,
+			"created": "16/07/2018 23:55",
+			"source": "Affiliate",
+			"product": "Life",
+			"tracksummary": "400 [27]",
+			"pix": "No",
+			"firstname": "Philip",
+			"lastname": "Chan",
+			"landline": "07908854868",
+			"mobile": "07908854868",
+			"null4": "&nbsp; &nbsp;",
+			"null5": "&nbsp; &nbsp;",
+			"null6": "&nbsp; &nbsp;"
+		}
+	],
+
+	"thisCoverDrop": [
+
+		{
+			"value": "Select",
+			"Tclass": "dropItem Cover"
+		},
+		{
+			"value": "You",
+			"Tclass": "dropItem Cover"
+		},
+		{
+			"value": "YouAndPartner",
+			"Tclass": "dropItem Cover"
+		},
+
+		{
+			"value": "Select",
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 1,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 2,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 3,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 4,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 5,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 6,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 7,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 8,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 9,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 10,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 11,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 12,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 13,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 14,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 15,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 16,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 17,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 18,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 19,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 20,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 21,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 22,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 23,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 24,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 25,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 26,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 27,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 28,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 29,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 30,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 31,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 32,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 33,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 34,
+			"Tclass": "dropItem CoverTerm"
+		},
+		{
+			"value": 35,
+			"Tclass": "dropItem CoverTerm"
+		},
+
+		{
+			"value": "Select",
+			"Tclass": "dropItem YesNo"
+		},
+		{
+			"value": "Yes",
+			"Tclass": "dropItem YesNo"
+		},
+		{
+			"value": "No",
+			"Tclass": "dropItem YesNo"
+		},
+
+		{
+			"value": "Select",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£3000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£5000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£10000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£15000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£20000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£25000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£30000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£35000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£40000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£45000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£50000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£55000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£60000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£65000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£70000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£75000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£80000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£85000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£90000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£95000",
+			"Tclass": "dropItem MuchCover"
+		},
+		{
+			"value": "£100000",
+			"Tclass": "dropItem MuchCover"
+		},
+
+		{
+			"value": "Select",
+			"Tclass": "callout"
+		},
+		{
+			"value": "Busy",
+			"Tclass": "callout"
+		},
+		{
+			"value": "Call Back",
+			"Tclass": "callout"
+		},
+		{
+			"value": "Immediate: Clients VM",
+			"Tclass": "callout"
+		},
+		{
+			"value": "Immediate: Generic VM",
+			"Tclass": "callout"
+		},
+		{
+			"value": "Invalid Number",
+			"Tclass": "callout"
+		},
+		{
+			"value": "Keeps Ringing",
+			"Tclass": "callout"
+		},
+		{
+			"value": "Not Interested",
+			"Tclass": "callout"
+		},
+		{
+			"value": "Rings: Clients VM",
+			"Tclass": "callout"
+		},
+		{
+			"value": "Rings: Generic VM",
+			"Tclass": "callout"
+		},
+		{
+			"value": "Wrong Number",
+			"Tclass": "callout"
+		}
+	],
+
+
+	"rejectLead": [
+
+		{
+			"value": "Duplicate Lead"
+		},
+		{
+			"value": "Fake Application"
+		},
+		{
+			"value": "Fake Name"
+		},
+		{
+			"value": "Incentivised"
+		},
+		{
+			"value": "Incorrect Age"
+		},
+		{
+			"value": "Invalid Criteria"
+		},
+		{
+			"value": "Invalid Phone Number"
+		},
+		{
+			"value": "Never Applied"
+		},
+		{
+			"value": "Obvious Hoax"
+		},
+		{
+			"value": "Over Quota"
+		},
+		{
+			"value": "Test Lead"
+		},
+		{
+			"value": "Wrong Product: Car Insurance"
+		},
+		{
+			"value": "Wrong Product: Health Insurance"
+		},
+		{
+			"value": "Wrong Product: Income Protection"
+		},
+		{
+			"value": "Wrong Product: Life Insurance"
+		},
+		{
+			"value": "Wrong Product: Other"
+		},
+		{
+			"value": "Wrong Product: Pet Insurance"
+		},
+		{
+			"value": "Wrong Product: Travel Insurance"
+		}
+	],
+
+	"retainLead": [
+
+		{
+			"value": "Select retain reason"
+		},
+		{
+			"value": "Already Sorted"
+		},
+		{
+			"value": "Can Not Place"
+		},
+		{
+			"value": "Changed Mind"
+		},
+		{
+			"value": "Couldn't Contact"
+		},
+		{
+			"value": "Doesn't Want Calls"
+		},
+		{
+			"value": "Duplicate Lead"
+		},
+		{
+			"value": "Failed Qs Test"
+		},
+		{
+			"value": "Future Pended (Unretain Later)"
+		},
+		{
+			"value": "Invalid Criteria"
+		},
+		{
+			"value": "Invalid Phone Number"
+		},
+		{
+			"value": "Never Applied"
+		},
+		{
+			"value": "No Withheld Numbers"
+		},
+		{
+			"value": "Not Interested"
+		},
+		{
+			"value": "Obvious Hoax"
+		},
+		{
+			"value": "Person Doesn't Exist"
+		},
+		{
+			"value": "Spam Complaint"
+		}
+	]
+}

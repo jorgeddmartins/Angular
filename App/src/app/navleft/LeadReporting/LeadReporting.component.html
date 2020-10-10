@@ -1,0 +1,74 @@
+<div class="separate-nav"><span class="separ-title">Reporting</span></div>
+
+<li class="dropLi LReporting">
+
+    <div class="new-drop-qx">
+    	<ul class="new-sub-items">
+			<li *ngFor="let LreportingsubItem of LreportingsubItems">
+				<a class="new-sub-url SublinkUrl" routerLink="{{ LreportingsubItem.routerLink }}">{{ LreportingsubItem.name }}
+					<span class="new-right-ico-floor"><i class="{{ LreportingsubItem.icon }}"></i></span>
+				</a>
+			</li>
+    	</ul>
+    </div>
+</li>
+
+<li class="dropLi  QReporting">
+    <div class="new-drop-qx">
+    	<ul class="new-sub-items">
+			<li *ngFor="let QreportingsubItem of QreportingsubItems">
+				<a class="new-sub-url SublinkUrl" routerLink="{{ QreportingsubItem.routerLink }}">{{ QreportingsubItem.name }}
+					<span class="new-right-ico-floor"><i class="{{ QreportingsubItem.icon }}"></i></span>
+				</a>
+			</li>
+    	</ul>
+    </div>
+</li>
+
+<li class="dropLi FReporting">
+    <div class="new-drop-qx">
+    	<ul class="new-sub-items">
+			<li *ngFor="let FreportingsubItem of FreportingsubItems">
+				<a class="new-sub-url SublinkUrl" routerLink="{{ FreportingsubItem.routerLink }}">{{ FreportingsubItem.name }}
+					<span class="new-right-ico-floor"><i class="{{ FreportingsubItem.icon }}"></i></span>
+				</a> 
+			</li>
+    	</ul>
+    </div>
+</li>
+
+<li class="dropLi AReporting">
+    <div class="new-drop-qx">
+    	<ul class="new-sub-items">
+			<li *ngFor="let AreportingsubItem of AreportingsubItems">
+				<a class="new-sub-url SublinkUrl" routerLink="{{ AreportingsubItem.routerLink }}">{{ AreportingsubItem.name }}
+					<span class="new-right-ico-floor"><i class="{{ AreportingsubItem.icon }}"></i></span>
+				</a> 
+			</li>
+    	</ul>
+    </div>
+</li>
+
+<li class="dropLi TSReporting">
+    <div class="new-drop-qx">
+    	<ul class="new-sub-items">
+			<li *ngFor="let TSreportingsubItem of TSreportingsubItems">
+				<a class="new-sub-url {{ TSreportingsubItem.addClass }}" routerLink="{{ TSreportingsubItem.routerLink }}">{{ TSreportingsubItem.name }}
+					<span class="new-right-ico-floor"><i class="{{ TSreportingsubItem.icon }}"></i></span>
+				</a> 
+			</li>
+    	</ul>
+    </div>
+</li>
+
+<li class="dropLi PTReporting">
+    <div class="new-drop-qx">
+    	<ul class="new-sub-items">
+			<li *ngFor="let PTreportingsubItem of PTreportingsubItems">
+				<a class="new-sub-url SublinkUrl" routerLink="{{ PTreportingsubItem.routerLink }}">{{ PTreportingsubItem.name }}
+					<span class="new-right-ico-floor"><i class="{{ PTreportingsubItem.icon }}"></i></span>
+				</a> 
+			</li>
+    	</ul>
+    </div>
+</li>

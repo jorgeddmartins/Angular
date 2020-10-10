@@ -1,0 +1,173 @@
+<div class="separate-nav"><span class="separ-title">Settings</span></div>
+
+<li class="dropLi Msettings">
+    <div class="new-drop-qx">
+    	<ul class="new-sub-items">
+			<li *ngFor="let MsettingssubItem of MsettingssubItems" class="SubMerSettings">
+				<a class="new-sub-url  SublinkUrl" routerLink="{{ MsettingssubItem.routerLink }}">{{ MsettingssubItem.name }}
+					<span class="new-right-ico-floor"><i class="{{ MsettingssubItem.icon }}"></i></span>
+				</a>
+			</li>
+			<li class="dropLiSub MerchantFeedbackFl">
+				<div class="new-drop-sub SubsubMenu">
+                    <ul class="new-sub-items">
+                        <li *ngFor="let MerchFeedbSub of MerchFeedbSubs">
+                            <a routerLink="{{ MerchFeedbSub.routerLink }}" class="new-sub-url">{{ MerchFeedbSub.name }}
+                                <span class="new-right-ico-floor"><i class="{{ MerchFeedbSub.icon }}"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+			</li>
+			<li>
+				<a class="new-sub-url" routerLink="/leads" href="/leads">Logs 
+					<span class="new-right-ico-floor"><i class="fa fa-list-ul"></i></span>
+				</a>
+			</li>
+    	</ul>
+    </div>
+</li>
+
+<li class="dropLi SRsettings">
+    <div class="new-drop-qx">
+    	<ul class="new-sub-items">
+		
+			<li class="dropLiSub AffiliatesSettingsFl">
+				<div class="new-drop-sub SubsubMenu">
+                    <ul class="new-sub-items">
+                        <li *ngFor="let AffiliatesSub of AffiliatesSubs">
+                            <a routerLink="{{ AffiliatesSub.routerLink }}" class="new-sub-url">{{ AffiliatesSub.name }}
+                                <span class="new-right-ico-floor"><i class="{{ AffiliatesSub.icon }}"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+			</li>
+
+			<li class="dropLiSub SearchSettingsFl">
+				<div class="new-drop-sub SubsubMenu">
+                    <ul class="new-sub-items">
+                        <li *ngFor="let SearchSub of SearchSubs">
+                            <a routerLink="{{ SearchSub.routerLink }}" class="new-sub-url">{{ SearchSub.name }}
+                                <span class="new-right-ico-floor"><i class="{{ SearchSub.icon }}"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+			</li>
+
+			<li class="dropLiSub NativeSettingsFl">
+				<div class="new-drop-sub SubsubMenu">
+                    <ul class="new-sub-items">
+                        <li *ngFor="let NativeSub of NativeSubs">
+                            <a routerLink="{{ NativeSub.routerLink }}" class="new-sub-url">{{ NativeSub.name }}
+                                <span class="new-right-ico-floor"><i class="{{ NativeSub.icon }}"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+			</li>
+
+			<li class="dropLiSub SocialSettingsFl">
+				<div class="new-drop-sub SubsubMenu">
+                    <ul class="new-sub-items">
+                        <li *ngFor="let SocialSub of SocialSubs">
+                            <a routerLink="{{ SocialSub.routerLink }}" class="new-sub-url">{{ SocialSub.name }}
+                                <span class="new-right-ico-floor"><i class="{{ SocialSub.icon }}"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+			</li>
+
+			<li class="dropLiSub EmailSettingsFl">
+				<div class="new-drop-sub SubsubMenu">
+                    <ul class="new-sub-items">
+                        <li *ngFor="let EmailSub of EmailSubs">
+                            <a routerLink="{{ EmailSub.routerLink }}" class="new-sub-url">{{ EmailSub.name }}
+                                <span class="new-right-ico-floor"><i class="{{ EmailSub.icon }}"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+			</li>
+
+    	</ul>
+    </div>
+</li>
+
+<li class="dropLi Fsettings">
+    <div class="new-drop-qx">
+    	<ul class="new-sub-items">
+
+			<li *ngFor="let FsettingssubItem of FsettingssubItems" class="SubMerSettings">
+				<a class="new-sub-url  SublinkUrl" routerLink="{{ FsettingssubItem.routerLink }}">{{ FsettingssubItem.name }}
+					<span class="new-right-ico-floor"><i class="{{ FsettingssubItem.icon }}"></i></span>
+				</a>
+			</li>
+
+    	</ul>
+    </div>
+</li>
+
+<li class="dropLi SYsettings">
+    <div class="new-drop-qx">
+    	<ul class="new-sub-items">
+
+			<li *ngFor="let SYsettingssubItem of SYsettingssubItems" class="SubMerSettings">
+				<a class="new-sub-url  SublinkUrl" routerLink="{{ SYsettingssubItem.routerLink }}">{{ SYsettingssubItem.name }}
+					<span class="new-right-ico-floor"><i class="{{ SYsettingssubItem.icon }}"></i></span>
+				</a>
+			</li>
+
+			<li class="dropLiSub BlackListSettingsFl">
+				<div class="new-drop-sub SubsubMenu">
+                    <ul class="new-sub-items">
+                        <li *ngFor="let BlackListSub of BlackListSubs">
+                            <a routerLink="{{ BlackListSub.routerLink }}" class="new-sub-url">{{ BlackListSub.name }}
+                                <span class="new-right-ico-floor"><i class="{{ BlackListSub.icon }}"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+			</li>
+
+			<li class="dropLiSub UsersSettingsFl">
+				<div class="new-drop-sub SubsubMenu">
+                    <ul class="new-sub-items">
+                        <li *ngFor="let UsersSub of UsersSubs">
+                            <a routerLink="{{ UsersSub.routerLink }}" class="new-sub-url">{{ UsersSub.name }}
+                                <span class="new-right-ico-floor"><i class="{{ UsersSub.icon }}"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+			</li>
+
+			<li>
+				<a class="new-sub-url" routerLink="/leads" href="/leads">Logs 
+					<span class="new-right-ico-floor"><i class="fd fi-clipboard-pencil"></i></span>
+				</a>
+			</li>
+
+			<li class="dropLiSub MenuSettingsFl">
+				<div class="new-drop-sub SubsubMenu">
+                    <ul class="new-sub-items">
+                        <li *ngFor="let MenuSub of MenuSubs">
+                            <a routerLink="{{ MenuSub.routerLink }}" class="new-sub-url">{{ MenuSub.name }}
+                                <span class="new-right-ico-floor"><i class="{{ MenuSub.icon }}"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+			</li>
+
+            <li>
+                <a class="new-sub-url" routerLink="/generalsettings" href="/leads">General Settings 
+                    <span class="new-right-ico-floor"><i class="fa fa-cog"></i></span>
+                </a>
+            </li>
+
+    	</ul>
+    </div>
+</li>

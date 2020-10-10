@@ -1,0 +1,49 @@
+
+<div class="col-md-12 col-xs-12 boxSystem qinexRoute leadsSpace">
+    <div class="leadView" style="padding-left: 0">
+
+        <!-- Top Lead Screen Bar -->
+        <div class="row" id="nav-top-down">
+            <nav class="col-md-12 col-xs-12 top-nav-down">
+
+                <div class="col-md-12 col-xs-12">
+                    <h2><span class="lead-id-01">ID: 2763853</span></h2>
+
+                    <div *ngFor="let topinfo of topinfos" class="{{ topinfo.mClass }}">
+                        <span>{{ topinfo.title }}:</span>
+                        <span>{{ topinfo.desc }}</span>
+                        <span class="{{ topinfo.alertClass }}">{{ topinfo.alertVal }}</span>
+                    </div>
+
+                    <div class="navigation-floor">
+                    	<a *ngFor="let closeBtn of closeBtns" class="navfl-btn {{ closeBtn.topClass }}" href="{{ closeBtn.url }}">
+                            <i class="{{ closeBtn.iconClass }}"></i>
+                            <span class="btn-tooltip {{ closeBtn.tipClass }}">{{ closeBtn.tipName }}</span>
+                        </a>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+
+        <!-- Lead Screen Data -->
+        <div class="leadScreenView"></div>
+
+        <!-- Lead Screen Right Nav -->
+        <div class="rightAditional"></div>
+    </div>
+
+
+
+</div>
+
+
+<!-- Start Developement Mode -->
+
+<!-- Lead Screen -->
+<htmlstr-page class="DocClean"></htmlstr-page>
+
+<!-- Right Side( Accordion ) -->
+<rightpanel-page class="DocClean"></rightpanel-page>
+
+<!-- End Developement Mode -->

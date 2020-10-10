@@ -1,0 +1,294 @@
+{
+	"firstpanel": [
+
+		{
+			"title": "GP To Date",
+			"value": "£24,986.86"
+		},
+		{
+			"title": "Pro Rata GP",
+			"value": "£17,345.43"
+		},
+		{
+			"title": "GP To Date",
+			"value": "£24,986.86"
+		},
+		{
+			"title": "Pro Rata GP",
+			"value": "£17,345.43"
+		},
+		{
+			"title": "GP To Date",
+			"value": "£24,986.86"
+		}
+	],
+
+	"secondpanel": [
+
+		{
+			"title": "Weekday Average GP",
+			"value": "£12,390.41"
+		},
+		{
+			"title": "Weekend Average GP",
+			"value": "£-12,603.43"
+		},
+		{
+			"title": "Weekday Average GP",
+			"value": "£12,390.41"
+		},
+		{
+			"title": "Weekend Average GP",
+			"value": "£-12,603.43"
+		},
+		{
+			"title": "Weekday Average GP",
+			"value": "£12,390.41"
+		}
+		
+	],
+
+	"thirdpanel": [
+
+		{
+			"title": "Affiliate GP to date",
+			"value": "£25,411.93"
+		},
+		{
+			"title": "Digital GP to date",
+			"value": "£-47.63"
+		},
+		{
+			"title": "Affiliate GP to date",
+			"value": "£25,411.93"
+		},
+		{
+			"title": "Digital GP to date",
+			"value": "£-47.63"
+		},
+		{
+			"title": "Affiliate GP to date",
+			"value": "£25,411.93"
+		}
+	],
+
+	"fourthpanel": [
+
+		{
+			"title": "Current Month Forecast",
+			"value": "£184,152.00"
+		},
+		{
+			"title": "% change last month",
+			"value": "-3 %"
+		},
+		{
+			"title": "Current Month Forecast",
+			"value": "£184,152.00"
+		},
+		{
+			"title": "% change last month",
+			"value": "-3 %"
+		},
+		{
+			"title": "Current Month Forecast",
+			"value": "£184,152.00"
+		}
+	],
+
+	"sourceFlBar": [
+		{
+			"barClass": "sChartBar_1",
+			"barPos": "firstBar",
+			"tipClass": "firstTip",
+			"tipValue": "WED 4/24/2019 £24586.016",
+			"heightVal": 64,
+			"valColor": "blueBack"
+		},
+		{
+			"barClass": "sChartBar_2",
+			"barPos": "secondBar",
+			"tipClass": "secondTip",
+			"tipValue": "TUE 4/23/2019 £20804.501",
+			"heightVal": 34,
+			"valColor": "blueBack"
+		},
+		{
+			"barClass": "sChartBar_3",
+			"barPos": "thirdBar",
+			"tipClass": "thirdTip",
+			"tipValue": "MON 4/22/2019 £-28495.994",
+			"heightVal": 74,
+			"valColor": "negVal"
+		},
+		{
+			"barClass": "sChartBar_4",
+			"barPos": "fourthBar",
+			"tipClass": "fourthTip",
+			"tipValue": "SUN 4/21/2019 £-3376.155",
+			"heightVal": 100,
+			"valColor": "negVal"
+		},
+		{
+			"barClass": "sChartBar_5",
+			"barPos": "fifthBar",
+			"tipClass": "fifthTip",
+			"tipValue": "SAT 4/20/2019 £-959.408",
+			"heightVal": 75,
+			"valColor": "negVal"
+		},
+		{
+			"barClass": "sChartBar_6",
+			"barPos": "sixthBar",
+			"tipClass": "sixthTip",
+			"tipValue": "FRI 4/19/2019 £1042.120",
+			"heightVal": 50,
+			"valColor": "blueBack"
+		},
+		{
+			"barClass": "sChartBar_7",
+			"barPos": "seventhBar",
+			"tipClass": "seventhTip",
+			"tipValue": "THU 4/18/2019 £20620.614",
+			"heightVal": 77,
+			"valColor": "blueBack"
+		},
+		{
+			"barClass": "sChartBar_8",
+			"barPos": "eighthBar",
+			"tipClass": "eighthTip",
+			"tipValue": "WED 4/17/2019 £21034.722",
+			"heightVal": 34,
+			"valColor": "blueBack"
+		},
+		{
+			"barClass": "sChartBar_9",
+			"barPos": "ninethBar",
+			"tipClass": "ninethTip",
+			"tipValue": "TUE 4/16/2019 £18587.271",
+			"heightVal": 63,
+			"valColor": "blueBack"
+		},
+		{
+			"barClass": "sChartBar_10",
+			"barPos": "tenthBar",
+			"tipClass": "tenthTip",
+			"tipValue": "MON 4/15/2019 £17568.379",
+			"heightVal": 20,
+			"valColor": "blueBack"
+		},
+		{
+			"barClass": "sChartBar_11",
+			"barPos": "eleventhBar",
+			"tipClass": "eleventhTip",
+			"tipValue": "SUN 4/14/2019 £-26294.917",
+			"heightVal": 34,
+			"valColor": "negVal"
+		},
+		{
+			"barClass": "sChartBar_12",
+			"barPos": "twelvethBar",
+			"tipClass": "twelvethTip",
+			"tipValue": "SAT 4/13/2019 £2598.699",
+			"heightVal": 92,
+			"valColor": "blueBack"
+		},
+		{
+			"barClass": "sChartBar_13",
+			"barPos": "thirteenthBar",
+			"tipClass": "thirteenthTip",
+			"tipValue": "FRI 4/12/2019 £14240.249",
+			"heightVal": 15,
+			"valColor": "blueBack"
+		},
+		{
+			"barClass": "sChartBar_14",
+			"barPos": "fourteenthBar",
+			"tipClass": "fourteenthTip",
+			"tipValue": "THU 4/11/2019 £-13541.472",
+			"heightVal": 7,
+			"valColor": "negVal"
+		}
+	],
+
+	"sourceFlBarSeven": [
+		{
+			"barClass": "ChartBarSeven_1",
+			"barPos": "firstAffiliBar",
+			"tipClass": "firstaffiliTip",
+			"tipValue": "Affiliates 4/24/2019 1616",
+			"fBarheightVal": 80,
+			"sBarClass": "firstDrigitBar",
+			"sBarTipClass": "firstdigitTip",
+			"stipValue": "Digital 4/24/2019 201",
+			"sBarheightVal": 40
+		},
+		{
+			"barClass": "ChartBarSeven_2",
+			"barPos": "secondAffiliBar",
+			"tipClass": "secondaffiliTip",
+			"tipValue": "Affiliates 4/23/2019 1577",
+			"fBarheightVal": 100,
+			"sBarClass": "secondDrigitBar",
+			"sBarTipClass": "seconddigitTip",
+			"stipValue": "Digital 4/23/2019 168",
+			"sBarheightVal": 30
+		},
+		{
+			"barClass": "ChartBarSeven_3",
+			"barPos": "thirdAffiliBar",
+			"tipClass": "thirdaffiliTip",
+			"tipValue": "Affiliates 4/22/2019 1",
+			"fBarheightVal": 57,
+			"sBarClass": "thirdDrigitBar",
+			"sBarTipClass": "thirddigitTip",
+			"stipValue": "Digital 4/22/2019 32",
+			"sBarheightVal": 20
+		},
+		{
+			"barClass": "ChartBarSeven_4",
+			"barPos": "fourthAffiliBar",
+			"tipClass": "fourthaffiliTip",
+			"tipValue": "Affiliates 4/21/2019 0",
+			"fBarheightVal": 70,
+			"sBarClass": "fourthDrigitBar",
+			"sBarTipClass": "fourthdigitTip",
+			"stipValue": "Digital 4/21/2019 1",
+			"sBarheightVal": 45
+		},
+		{
+			"barClass": "ChartBarSeven_5",
+			"barPos": "fifthAffiliBar",
+			"tipClass": "fifthaffiliTip",
+			"tipValue": "Affiliates 4/20/2019 77",
+			"fBarheightVal": 89,
+			"sBarClass": "fifthDrigitBar",
+			"sBarTipClass": "fifthdigitTip",
+			"stipValue": "Digital 4/20/2019 2",
+			"sBarheightVal": 67
+		},
+		{
+			"barClass": "ChartBarSeven_6",
+			"barPos": "sixthAffiliBar",
+			"tipClass": "sixthaffiliTip",
+			"tipValue": "Affiliates 4/19/2019 115",
+			"fBarheightVal": 50,
+			"sBarClass": "sixthDrigitBar",
+			"sBarTipClass": "sixthdigitTip",
+			"stipValue": "Digital 4/19/2019 3",
+			"sBarheightVal": 25
+		},
+		{
+			"barClass": "ChartBarSeven_7",
+			"barPos": "seventhAffiliBar",
+			"tipClass": "seventhaffiliTip",
+			"tipValue": "Affiliates 4/18/2019 1078",
+			"fBarheightVal": 72,
+			"sBarClass": "seventhDrigitBar",
+			"sBarTipClass": "seventhdigitTip",
+			"stipValue": "Digital 4/18/2019 100",
+			"sBarheightVal": 43
+		}
+	]
+
+}

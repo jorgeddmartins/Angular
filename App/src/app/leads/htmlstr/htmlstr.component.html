@@ -1,0 +1,156 @@
+<!-- Doc To Clone -->
+
+<div *ngFor="let global of globals" class="col-xs-{{ global.classWidth }} global-flat"></div>
+
+
+<!-- Board 0 -->
+
+<form action="" method="post" id="Board0" class="Square0">
+
+    <div class="form-article-mlg drpArr Square0 Etr">
+        <span class="label rejectionLabel">Rejection reason</span>
+        <input type="text" class="InpForm" id="RejectionRe" value="Fake Name" readonly="" />
+
+        <ul class="RejectionDrop">
+
+            <li *ngFor="let rejection of rejections" class="k-Item reeDrop">{{ rejection.name }}</li>
+
+        </ul>
+    </div>
+
+    <div class="form-article-xms-spz Square0 Etr">
+        <!-- <span class="reject-tooltip tool-rj">Reject</span> -->
+        <span class="fbtn-reject tool_Btn"><i class="fbtn-buttons icon icon-arrow-left"></i></span>
+        <!-- <span class="unreject-tooltip tool-urj">Unreject</span> -->
+        <span class="fbtn-unreject tool_Btn" id="btn-unreject" style="display: none;"></span>
+    </div>
+
+    <div class="form-article-xms-spz Square0 Etr">
+        <!-- <span class="retain-tooltip tool-rt">Retain</span> -->
+        <span class="fbtn-retain tool_Btn"><i class="fbtn-buttons icon icon-arrow-down"></i></span>
+        <!-- <span class="unretain-tooltip tool-urt">Unretain</span> -->
+        <span class="fbtn-unretain tool_Btn" style="display: none;"></span>
+    </div>
+
+    <div class="form-article-xms-spz Square0 Etr">
+        <!-- <span class="delete-tooltip tool-dl">Delete</span> -->
+        <span class="fbtn-close delete-lead-btn tool_Btn"><i class="fbtn-buttons icon icon-cross2"></i></span>
+    </div>
+
+    <div class="form-article full-width drpArr Square0 Etr">
+        <span class="label">Transfer to Merchant</span>
+        <input type="text" class="InpForm" id="TransferMer" value="Add to Rotation" />
+
+        <ul class="transferDrop">
+            <li class="k-Item traDrop">Add to Rotation</li>
+            <li class="k-Item traDrop">ArcInsure</li>
+            <li class="k-Item traDrop">PromisLife</li>
+            <li class="k-Item traDrop">PromisLifePQ</li>
+        </ul>
+    </div>
+
+    <div class="form-article-mlg-spz AvailableCalendar Square0 Etr telSHourPicker">
+        <span class="label">Available from</span>
+        <input type="text" class="form-control lead-input datepicker inp-date-time AvailableFrom" name="AvailableFrom" value="" />
+        <!-- <input type="text" id="AvailableFromidden" class="hidden" /> -->
+    </div>
+
+    <!-- id="AvailableFrom" -->
+
+    <div class="form-article-smssx transferBlock Square0 Etr">
+        <!-- <span class="transfer-tooltip tool-tra">Transfer</span> -->
+        <span class="fbtn-active to-transfer tool_Btn" style="cursor: pointer"></span>
+        <span class="TCount" style="position: absolute;">0</span>
+        <!-- <span class="stp-transfer-tooltip tool-tra-stp">Stop Transfer</span> -->
+        <a class="fbtn-stopTransfer fbtn-active-stp stp-transfer" href="" style="display: none;"></a>
+    </div>
+
+</form>
+
+<!-- Board 1 -->
+<form action="" method="post" id="Board1" class="Square1">
+
+    <div *ngFor="let oneboard of oneboards" class="{{ oneboard.topclass }} Square1 Etr">
+        <span class="label">{{ oneboard.label }}</span>
+        <input class="form-control lead-input" id="{{ oneboard.id }}" name="{{ oneboard.name }}" type="{{ oneboard.type }}" value="{{ oneboard.value }}" />
+    </div>
+
+</form>
+
+<!-- Board 2 -->
+<form action="" method="post" id="Board2" class="Square2">
+    <div *ngFor="let twoboard of twoboards" class="{{ twoboard.topclass }} Square2 Etr">
+        <span class="label">{{ twoboard.label }}</span>
+        <input class="form-control lead-input inp-date-time {{ twoboard.inClass }}" id="{{ twoboard.id }}" name="{{ twoboard.name }}" type="{{ twoboard.type }}" value="{{ twoboard.value }}" />
+    </div>
+
+    <div class="form-article-xms-60 Square2 Etr">     
+        <span class="btnValidateNumber blalst"></span>
+    </div>
+
+    <div class="AddressLine1 form-article-smlg Square2 Etr">
+        <span class="label">Address Line1</span>
+        <input class="form-control lead-input" id="AddressLine1" name="AddressLine1" type="text" value="3 Charlton avenue " />
+    </div>
+
+    <div class="PostCode form-article-xss xss-plus postCField Square2 Etr">
+        <span class="label">Post Code</span>
+        <input class="form-control lead-input " id="PostCode" name="PostCode" type="text" value="Ct162lz" />
+    </div>
+
+    <div class="form-article-xs Square2 Etr">
+        <span class="label">Partner title</span>
+        <input class="form-control lead-input " id="PartnerTitle" name="PartnerTitle" type="text" value="" />
+    </div>
+
+    <div class="form-article-maxsm Square2 Etr">
+        <span class="label">Partner firstname</span>
+        <input class="form-control lead-input " id="PartnerFirstName" name="PartnerFirstName" type="text" value=""/>
+    </div>
+
+    <div class="form-article-maxsm Square2 Etr">
+        <span class="label">Partner Lastname</span>
+        <input class="form-control lead-input " id="PartnerLastName" name="PartnerLastName" type="text" value="" />
+    </div>
+
+    <div class="form-article-semiblk pdob birthForm Square2 Etr">
+        <span class="label">Partner Date of Birth</span>
+        <input type="text" id="PartnerDateOfBirth" class="form-control lead-input datepicker inp-date-time PartnerDateOfBirth" name="PartnerDateOfBirth"  value="" />
+        <!-- <input type="text" id="PdOb" class="hidden" /> -->
+    </div>
+</form>
+
+<!-- Board  3 -->
+<form action="" method="post" id="Board3" class="Square3">
+    <div class="form-article-smlg Square3 Etr">
+        <span class="label">Source URL</span>
+
+        <span class="linkurl urlSCopy"></span>
+
+        <a href="#" class="urlSCopyOpen" target="_blank"></a>
+        
+        <span class="form-control lead-input OpSource" id="url_source">https://www.policyhunter.co.uk/692-quiz-fp?ch=75c73c96969c311.62232077</span>
+        <div class="url_mouseover_floor">
+            <pre class="url_mouseover">https://www.policyhunter.co.uk/692-quiz-fp?ch=75c73c96969c311.62232077</pre>
+        </div>
+    </div>
+
+    <div class="form-article-maxsfb Square3 Etr">
+        <span class="label">Merchant Feedback</span>
+        <span class="form-control lead-input" id="merchantFeedback"></span>
+    </div>
+
+    <div class="form-article-maxpf Square3 Etr">
+        <span class="label">Fired Pixel</span>
+        <span class="form-control lead-input">Yes</span>
+    </div>
+
+    <div class="form-article-smlg Square3 Etr">
+        <span class="label">Call Outcome</span>
+    </div>
+
+    <div class="form-article-xss xss-plus Square3 Etr">
+        <span class="label">Call Counts</span>
+        <span class="form-control lead-input"></span>
+    </div>
+</form>

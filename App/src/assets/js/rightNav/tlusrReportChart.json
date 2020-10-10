@@ -1,0 +1,125 @@
+{
+	"userReport": [
+
+		{
+			"name": "Jan Wilson",
+			"data": [
+
+				{
+					"dataAllTransferred": 30
+				},
+				{
+					"dataRejected": 100
+				},
+				{
+					"dataDeleted": 120
+				},
+				{
+					"dataRetained": 57
+				},
+				{
+					"dataPQTransferred": 97
+				},
+				{
+					"dataTransferredNot": 50
+				}
+			]
+		},
+		{
+			"name": "Gemma Sweeney",
+			"data": [
+
+				{
+					"dataAllTransferred": 30
+				},
+				{
+					"dataRejected": 100
+				},
+				{
+					"dataDeleted": 120
+				},
+				{
+					"dataRetained": 57
+				},
+				{
+					"dataPQTransferred": 97
+				},
+				{
+					"dataTransferredNot": 50
+				}
+			]
+		},
+		{
+			"name": "Geraldine Henry",
+			"data": [
+
+				{
+					"dataAllTransferred": 30
+				},
+				{
+					"dataRejected": 100
+				},
+				{
+					"dataDeleted": 120
+				},
+				{
+					"dataRetained": 57
+				},
+				{
+					"dataPQTransferred": 97
+				},
+				{
+					"dataTransferredNot": 50
+				}
+			]
+		},
+		{
+			"name": "John Boland",
+			"data": [
+
+				{
+					"dataAllTransferred": 30
+				},
+				{
+					"dataRejected": 100
+				},
+				{
+					"dataDeleted": 120
+				},
+				{
+					"dataRetained": 57
+				},
+				{
+					"dataPQTransferred": 97
+				},
+				{
+					"dataTransferredNot": 50
+				}
+			]
+		},
+		{
+			"name": "Susanna Lucas",
+			"data": [
+
+				{
+					"dataAllTransferred": 30
+				},
+				{
+					"dataRejected": 100
+				},
+				{
+					"dataDeleted": 120
+				},
+				{
+					"dataRetained": 57
+				},
+				{
+					"dataPQTransferred": 97
+				},
+				{
+					"dataTransferredNot": 50
+				}
+			]
+		}
+	]
+}

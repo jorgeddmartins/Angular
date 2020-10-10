@@ -1,0 +1,88 @@
+
+<div class="col-md-12 col-xs-12 boxSystem qinexRoute MenuSettingsBlk">
+
+	<div class="settings_menu">
+
+		<div class="col-md-12 col-xs-12 panel-heading">
+	        <h4 class="mainNav-Title">Nav Settings</h4>
+	    </div>
+
+	    <div class="col-md-12 col-xs-12 btn-Grid">
+	        <span class="grid-button grid-add btnDisable" id="mainMenuBtn" style="float: left; margin-right: 3px; margin-left: 0;">Main Menu<span class="fa fa-navicon"></span></span>
+	        <span class="grid-button grid-add" id="menuSetitngsBtn" style="float: left; margin-left: 0;">Menu Settings<span class="fa fa-cloud-download"></span></span>
+	        <span class="grid-button btn-addN addMenu">Add New Record<span class="fa fa-plus"></span></span>
+	    </div>
+
+
+
+	    <div class="row-grid-system mainMenuGrid">
+	
+			<div class="t-grid-head">
+			    <span *ngFor="let gridhead of gridheads" class="tgb-13 grid-head-{{ gridhead.classNum }}" id="grid-head-{{ gridhead.classNum }}">{{ gridhead.name }}</span>
+			</div>
+
+			<div class="t-grid-body">
+
+			    <div class="tr" *ngFor="let gridbodie of gridbodies">
+			        <span class="tgb-13 {{ gridbodie.colorClass1 }} grid-body-{{ gridbodie.classNum1 }}"><input type="text" name="field" value="{{ gridbodie.value1 }}" /></span>
+			        <span class="tgb-13 {{ gridbodie.colorClass2 }} grid-body-{{ gridbodie.classNum2 }}"><input type="text" name="field" value="{{ gridbodie.value2 }}" /></span>
+			        <span class="tgb-13 {{ gridbodie.colorClass3 }} grid-body-{{ gridbodie.classNum3 }}"><input type="text" name="field" value="{{ gridbodie.value3 }}" /></span>
+			        <span class="tgb-13 {{ gridbodie.colorClass4 }} grid-body-{{ gridbodie.classNum4 }} thisBorder"><i aria-hidden="true" class="{{ gridbodie.iconClass }}"></i></span>
+			        <span class="tgb-13 {{ gridbodie.colorClass5 }} grid-body-{{ gridbodie.classNum5 }}">{{ gridbodie.name1 }}</span>
+			        <span class="tgb-13 {{ gridbodie.colorClass6 }} grid-body-{{ gridbodie.classNum6 }}">{{ gridbodie.name2 }}</span>
+			    </div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<iconmodal-page></iconmodal-page>
+
+	<!-- Start Icon Modal -->
+	<!-- <div class="imagesettings">
+	    <div class="close-floor">
+	        <span class="fa fa-remove closesettings">
+	            <span class="coseTooltip">Close</span>
+	        </span>
+	        <h5>{{ iconmenuTitle }}</h5>
+	        <span class="lnr lnr-diamond"></span>
+	    </div>
+	    <div class="content-floor">
+	        
+	        <span class="cont-label">Icon library</span>
+	        <div class="position-floor">
+	            <div class="library-floor"><span>Font Awesome 5.0.13</span></div>
+	            <em>Select Icon Library</em>
+	            <ul class="labraryDrop">
+	                <div class="mainIcoMenu"></div>
+	                <div class="sub-icomenu"></div>
+	            </ul>
+	        </div>
+	        <span class="cont-label">Icon</span>
+	        <div class="iconActive-floor">
+	            <span class="ico-stage"></span>
+	        </div>
+
+	        <div class="iconSearch-floor">
+	            <input type="text" class="auto-search" placeholder="Search for an Icon..." autofocus="autofocus" />
+	            <i aria-hidden="true" class="fa fa-search"></i>
+	        </div>
+
+	        <div class="position-floor">
+	            <div class="icons-floor">
+	                <div class="iconsFloor-in content" id="iconsFloor-innav"></div>
+	            </div>
+	            <em>Select Icon from Library</em>
+	        </div>
+
+	        <div class="save-blk">
+	            <button class="saveChanges saveNotallowed">Save Changes</button>
+	        </div>
+	    </div>
+	</div> -->
+	<!-- End Icon Modal -->
+
+
+</div>

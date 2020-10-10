@@ -1,0 +1,173 @@
+
+<div class="col-md-12 col-xs-12 boxSystem qinexRoute GeneralSettBlk" style="padding-top: 63px; padding-left: 75px;">
+
+	<div id="searchbar" style="padding: 8px; padding-top: 0; padding-bottom: 0; margin-bottom: 7px;">
+		<div class="panel panel-heading">
+			<i class="fad fa-tools" style="margin-top: 4px;" aria-hidden="true"></i>
+			<h4>General Settings</h4>
+		</div>
+	</div>
+
+	<!-- <h3 style="margin-top: 0; padding: 12px; padding-top: 0; padding-bottom: 0;">General Settings</h3> -->
+
+	<div class="panel panel-body" style="padding: 0; background: transparent; box-shadow: none;">
+
+		<!-- Colors Updates -->
+		<template class="ColorExchange" id="GSettings">
+			<div class="prodColumm">
+
+				<div *ngFor="let sglobal of sglobals" class="fGlobalSett k-Search-Header-{{ sglobal.id }} k-Search-Header-">
+					<input type="text" class="GsettT" value="{{ sglobal.name }}" placeholder="Create Title" />
+				</div>
+
+			</div>
+
+			<div class="AddProperty_Fl"><span class="AddProBlk">Add Block</span></div>
+		</template>
+
+		<!-- Images Updates -->
+		<template class="ImgsExchange" id="GSettings">
+
+			<!-- Images Upload -->
+			<div class="fGlobalSett" style="width: 60%; height: auto; padding: 5px;">
+			
+				<div id="fileUpload">
+		           <div class="box">
+		                <span class="GsettT" style="float: none; display: inline-block; margin-bottom: 7px;">Login Background Images Upload</span>
+		            </div>
+
+		            <div class="demo-section k-content">
+		                <input name="files" id="files" type="file" aria-label="files" />
+		            </div>
+		          
+		        </div>
+
+		    </div>
+		</template>
+
+		<div class="btn_Row">
+			<button class="sClo">Save and Publish</button>
+			<button class="sReset">Discard changes</button>
+
+			<div class="OverLayBtn">
+				<span class="oLayer"></span>
+				<button>Search</button>
+			</div>
+		</div>
+
+
+
+
+		<!-- <input id="hex" type="text" value="#ffaaffaa" />
+		<input id="go" type="button" value="Go" />
+
+		<p>Result: <b></b></p> -->
+
+		<input class="thisRgb" type="text" />
+
+	</div>
+</div>
+
+<!-- Start Settings Modal -->
+<div class="CreateBlk_Modal">
+	<div class="CBlk_Floor">
+
+		<div class="CBlk_Title">
+			<h5></h5><span class="CBlk_SubTitle"></span>
+		</div>
+
+		<i class="icon icon-cross2 iconClose"></i>
+
+		<div class="upDBoard_Floor _LeftupBoardFl">
+
+			<!-- Create Button Template -->
+			<span class="closeC AddTip fa">
+
+				<!-- Create ToolTip -->
+				<span class="closeC_Tip">Create</span>
+			</span>
+
+			<!-- Save Button Template -->
+		    <span class="closeC SaveTip fa">
+
+		    	<!-- Save ToolTip -->
+		    	<span class="closeC_Tip">Save</span>
+		    </span>
+
+		    <!-- Archived Button Template -->
+		    <span class="GoArchive">Archived</span>
+		   
+		</div> 
+
+		<div class="ChooseOpt">
+			
+			<span class="ChooseOpt_Blk">
+				<span class="Txt_In">Search bar TooTips</span>
+			</span>
+			<span class="ChooseOpt_Blk"></span>
+			<span class="ChooseOpt_Blk"></span>
+
+			<span class="ChooseOpt_Blk"></span>
+			<span class="ChooseOpt_Blk"></span>
+			<span class="ChooseOpt_Blk"></span>
+
+			<span class="ChooseOpt_Blk"></span>
+			<span class="ChooseOpt_Blk"></span>
+			<span class="ChooseOpt_Blk"></span>
+
+			<span class="ChooseOpt_Blk"></span>
+			<span class="ChooseOpt_Blk"></span>
+			<span class="ChooseOpt_Blk"></span>
+
+			<span class="ChooseOpt_Blk"></span>
+			<span class="ChooseOpt_Blk"></span>
+			<span class="ChooseOpt_Blk"></span>
+
+		</div>
+
+		<div id="sortable1" class="CBlk_FloorLeft column">
+
+			<div class="blkOpt MainNav_">
+	            <span class="in_Opt Left">
+	                <input type="text" class="IcPtl ToAdd" placeholder="Create a Title" />
+	                <input type="text" class="IcPdes ToAddSub" placeholder="Create a Sub Title" />
+	            </span>
+	        </div>
+
+		</div>
+		
+		<div id="sortable2" class="CBlk_FloorRight column"></div>
+
+		<div id="sortable3" class="GoArchive_Drop">
+
+			<span class="ArchTitle">Archived elements</span>
+		    	
+	    	<!-- <div class="blkOpt">
+	    		<span class="in_Opt Left">
+	    			<input type="text" class="IcPtl" value=" ToolTips TColor:" placeholder="Create Title">
+	    			<input type="text" class="IcPdes" value="ToolTips Text Color" placeholder="Create a Sub Title">
+	    		</span>
+	    	</div>
+
+	    	<div class="blkOpt">
+	    		<span class="in_Opt Left">
+	    			<input type="text" class="IcPtl" value=" ToolTips TColor:" placeholder="Create Title">
+	    			<input type="text" class="IcPdes" value="ToolTips Text Color" placeholder="Create a Sub Title">
+	    		</span>
+	    	</div> -->
+
+	    	<!-- <div class="upDBoard_Floor _BottomupBoardFl">
+		    	<span class="upDBoard-Btn ClearAll_Btn">Clear All</span>
+		    </div>  -->
+
+	    </div> 
+
+	    <div class="upDBoard_Floor _BottomupBoardFl">
+	    	<span class="upDBoard-Btn ClearAll_Btn">Clear All</span>
+	    	<span class="upDBoard-Btn Apply_Btn">Apply</span>
+
+	    </div> 
+
+	</div>
+</div>
+<!-- End Settings Modal -->

@@ -1,0 +1,30 @@
+{
+	"callsReport": [
+
+		{  
+         	"dataname":"Total Calls",
+         	"dataval":"2651",
+         	"topclass": "totalCalls tCallsIn"
+	    },
+	    {  
+	        "dataname":"Unique Calls",
+	        "dataval":"993",
+	        "topclass": "uniqueCall uniCallsIn"
+	    },
+	    {  
+	        "dataname":"First Call",
+	        "dataval":"08:58",
+	        "topclass": "firstCall"
+	    },
+	    {  
+	        "dataname":"Last Call",
+	        "dataval":"18:00",
+	        "topclass": "lastCall"
+	    },
+	    {  
+	        "dataname":"CPMin",
+	        "dataval":"4.89",
+			"topclass": "cpmin"
+	    }
+	]
+}

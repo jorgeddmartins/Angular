@@ -1,0 +1,64 @@
+{
+
+	"mainnavCl": [
+
+		{
+			"id": 1,
+			"title": "Nav Icons",
+			"desc": "Nav Icons Color"
+		},
+		{
+			"id": 2,
+			"title": "Section Titles",
+			"desc": "Nav Section Titles Color"
+		},
+		{
+			"id": 3,
+			"title": "Nav Heading",
+			"desc": "Nav Heading Color"
+		},
+		{
+			"id": 4,
+			"title": "Nav Sub-Heading",
+			"desc": "Nav Sub Heading Color"
+		}
+	],
+
+	"globalCl": [
+
+		{
+			"id": 1,
+			"title": "General Icons",
+			"desc": "Global Icons, DatePicker Icons"
+		},
+		{
+			"id": 2,
+			"title": "Grid Tabs",
+			"desc": "Kendo Grid Tabs Text"
+		},
+		{
+			"id": 3,
+			"title": "Nav Left",
+			"desc": "Nav Left Icon Color"
+		}
+	],
+
+	"tipCl": [
+
+		{
+			"id": 1,
+			"title": "ToolTips BackColor",
+			"desc": "ToolTips BackGround"
+		},
+		{
+			"id": 2,
+			"title": "ToolTips TColor",
+			"desc": "ToolTips Text Color"
+		},
+		{
+			"id": 3,
+			"title": "ToolTips BColor",
+			"desc": "ToolTips Border/Arrow Color"
+		}
+	]
+}

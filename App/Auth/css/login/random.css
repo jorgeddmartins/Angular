@@ -1,0 +1,130 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2 / 1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx),
+only screen and (min-width: 200px) {
+    .overlay_back {
+        position: absolute;
+    }
+    .overlay_back .overlay-t {
+        position: fixed;
+        z-index: 1;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px) and (max-width: 768px),
+only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 480px) and (max-width: 768px),
+only screen and (-o-min-device-pixel-ratio: 2 / 1) and (min-width: 480px) and (max-width: 768px),
+only screen and (min-device-pixel-ratio: 2) and (min-width: 480px) and (max-width: 768px),
+only screen and (min-resolution: 192dpi) and (min-width: 480px) and (max-width: 768px),
+only screen and (min-resolution: 2dppx) and (min-width: 480px) and (max-width: 768px),
+only screen and (min-width: 200px) and (min-width: 480px) and (max-width: 768px) {
+    .overlay_back .overlay-t {
+        position: absolute;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2 / 1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx),
+only screen and (min-width: 200px) {
+    .overlay_back .slide_round {
+        width: 100%;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 220px) and (max-width: 1023px),
+only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 220px) and (max-width: 1023px),
+only screen and (-o-min-device-pixel-ratio: 2 / 1) and (min-width: 220px) and (max-width: 1023px),
+only screen and (min-device-pixel-ratio: 2) and (min-width: 220px) and (max-width: 1023px),
+only screen and (min-resolution: 192dpi) and (min-width: 220px) and (max-width: 1023px),
+only screen and (min-resolution: 2dppx) and (min-width: 220px) and (max-width: 1023px),
+only screen and (min-width: 200px) and (min-width: 220px) and (max-width: 1023px) {
+    .overlay_back .slide_round {
+        width: 1200px;
+        position: relative;
+        left: -500px;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2 / 1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx),
+only screen and (min-width: 200px) {
+    .overlay_back img {
+        width: 100%;
+        -webkit-animation: backimg 40s 1 forwards;
+        -moz-animation: backimg 40s 1 forwards;
+        animation: backimg 40s 1 forwards;
+        animation-delay: 0.5s;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 220px) and (max-width: 1023px),
+only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 220px) and (max-width: 1023px),
+only screen and (-o-min-device-pixel-ratio: 2 / 1) and (min-width: 220px) and (max-width: 1023px),
+only screen and (min-device-pixel-ratio: 2) and (min-width: 220px) and (max-width: 1023px),
+only screen and (min-resolution: 192dpi) and (min-width: 220px) and (max-width: 1023px),
+only screen and (min-resolution: 2dppx) and (min-width: 220px) and (max-width: 1023px),
+only screen and (min-width: 200px) and (min-width: 220px) and (max-width: 1023px) {
+    .overlay_back img {
+        width: 1100px;
+        position: absolute;
+        left: -545px;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px) and (max-width: 768px),
+only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 480px) and (max-width: 768px),
+only screen and (-o-min-device-pixel-ratio: 2 / 1) and (min-width: 480px) and (max-width: 768px),
+only screen and (min-device-pixel-ratio: 2) and (min-width: 480px) and (max-width: 768px),
+only screen and (min-resolution: 192dpi) and (min-width: 480px) and (max-width: 768px),
+only screen and (min-resolution: 2dppx) and (min-width: 480px) and (max-width: 768px),
+only screen and (min-width: 200px) and (min-width: 480px) and (max-width: 768px) {
+    .overlay_back img {
+        left: -200px;
+        position: fixed;
+    }
+}
+
+@-moz-keyframes backimg {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.4);
+    }
+}
+
+@-webkit-keyframes backimg {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.4);
+    }
+}
+
+@keyframes backimg {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.4);
+    }
+}
+
+
+/*# sourceMappingURL=random.css.map */

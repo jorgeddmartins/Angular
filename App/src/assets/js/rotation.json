@@ -1,0 +1,137 @@
+{
+	"rotProd": [
+
+		{
+			"select": "backDeleveFocus",
+			"icon": "fa fa-life-buoy",
+			"name": "Life Insurance"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-heartbeat",
+			"name": "Health Insurance"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-home",
+			"name": "Mortgages"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-database",
+			"name": "Equity Release"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-hospital-o",
+			"name": "Business PMI"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-gbp",
+			"name": "Debt Management"
+		},
+		{
+			"select": "",
+			"icon": "fd fi-skull",
+			"name": "Funeral Plan"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-shield",
+			"name": "Income Protection"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-podcast",
+			"name": "Keyman Insurance"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-plus-circle",
+			"name": "Funeral Expat"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-podcast",
+			"name": "Personal Alarms"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-plus-circle",
+			"name": "Funeral Insurance"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-plus-circle",
+			"name": "Car Loans"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-plus-circle",
+			"name": "Flight Delays"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-plus-circle",
+			"name": "Life Insurance For Over 50"
+		},
+		{
+			"select": "",
+			"icon": "fa fa-plus-circle",
+			"name": "Merchant Cash Advance"
+		}
+	],
+
+	"rotLog": [
+
+		{
+			"date": "16/04/2019 09:08:29",
+			"value": "Bla changed TUE rotation for Life Insurance: SmarterCover. Changed daily limit from 199 to 1"
+		},
+		{
+			"date": "16/04/2019 09:08:29",
+			"value": "Bla changed TUE rotation for Life Insurance: SmarterCover. Changed daily limit from 199 to 1"
+		},
+		{
+			"date": "16/04/2019 09:08:29",
+			"value": "Bla changed TUE rotation for Life Insurance: SmarterCover. Changed daily limit from 199 to 1"
+		},
+		{
+			"date": "16/04/2019 09:08:29",
+			"value": "Bla changed TUE rotation for Life Insurance: SmarterCover. Changed daily limit from 199 to 1"
+		},
+		{
+			"date": "16/04/2019 09:08:29",
+			"value": "Bla changed TUE rotation for Life Insurance: SmarterCover. Changed daily limit from 199 to 1"
+		},
+		{
+			"date": "16/04/2019 09:08:29",
+			"value": "Bla changed TUE rotation for Life Insurance: SmarterCover. Changed daily limit from 199 to 1"
+		},
+		{
+			"date": "16/04/2019 09:08:29",
+			"value": "Bla changed TUE rotation for Life Insurance: SmarterCover. Changed daily limit from 199 to 1"
+		},
+		{
+			"date": "16/04/2019 09:08:29",
+			"value": "Bla changed TUE rotation for Life Insurance: SmarterCover. Changed daily limit from 199 to 1"
+		},
+		{
+			"date": "16/04/2019 09:08:29",
+			"value": "Bla changed TUE rotation for Life Insurance: SmarterCover. Changed daily limit from 199 to 1"
+		},
+		{
+			"date": "16/04/2019 09:08:29",
+			"value": "Bla changed TUE rotation for Life Insurance: SmarterCover. Changed daily limit from 199 to 1"
+		},
+		{
+			"date": "16/04/2019 09:08:29",
+			"value": "Bla changed TUE rotation for Life Insurance: SmarterCover. Changed daily limit from 199 to 1"
+		},
+		{
+			"date": "16/04/2019 09:08:29",
+			"value": "Bla changed TUE rotation for Life Insurance: SmarterCover. Changed daily limit from 199 to 1"
+		}
+	]
+}

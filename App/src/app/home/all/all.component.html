@@ -1,0 +1,46 @@
+
+<div class="tableLead_Grid Grid_All">
+
+    <div class="top_Bar">
+        <span *ngFor="let topBar of topBars" class="{{ topBar.mClass }}">{{ topBar.msg }}</span>
+    </div>
+
+    <div class="GridLeads">
+        <div class="GridLeads_THeader">
+            <div class="tr_heather top_Tr">
+                <span *ngFor="let topTr of topTrs" class="Grid_th {{ topTr.mClass }}"><input type="text" value="{{ topTr.val }}" readonly /></span>
+            </div>
+
+            <div class="tr_heather bottom_tr">
+                <span *ngFor="let bottomTr of bottomTrs" class="Grid_th {{ bottomTr.mClass }}"><input type="text" /></span>
+            </div>
+        </div>
+        <div class="GirBody_Fl" id="GirBody_Fl">
+            <div class="GridLeads_TBody">
+
+                <div *ngFor="let bodyTd of bodyTds" class="tr_body">
+                    <span class="Grid_td {{ bodyTd.mainClass1 }}"><input type="text" value="{{ bodyTd.name1 }}" /></span>
+                    <span class="Grid_td {{ bodyTd.mainClass2 }}">{{ bodyTd.name2 }}</span>
+                    <span class="Grid_td {{ bodyTd.mainClass3 }}">{{ bodyTd.name3 }}</span>
+                    <span class="Grid_td {{ bodyTd.mainClass4 }}"><a routerLink="{{ bodyTd.url4 }}">{{ bodyTd.name4 }}</a></span>
+                    <span class="Grid_td {{ bodyTd.mainClass5 }}">{{ bodyTd.name5 }}</span>
+                    <span class="Grid_td {{ bodyTd.mainClass6 }}"><a routerLink="#">{{ bodyTd.name6 }}</a> [<a routerLink="#">{{ bodyTd.name6a }}</a>] <span>{{ bodyTd.name6b }}</span></span>
+                    <span class="Grid_td {{ bodyTd.mainClass7 }}">{{ bodyTd.name7 }}</span>
+                    <span class="Grid_td {{ bodyTd.mainClass8 }}">{{ bodyTd.name8 }}</span>
+                    <span class="Grid_td {{ bodyTd.mainClass9 }}">{{ bodyTd.name9 }}</span>
+                    <span class="Grid_td {{ bodyTd.mainClass10 }}">{{ bodyTd.name10 }}</span>
+                    <span class="Grid_td {{ bodyTd.mainClass11 }}"><a href="tel:{{ bodyTd.name11 }}">{{ bodyTd.name11 }}</a></span>
+                    <span class="Grid_td {{ bodyTd.mainClass12 }}">{{ bodyTd.name12 }}</span>
+                    <span class="Grid_td {{ bodyTd.mainClass13 }}">{{ bodyTd.name13 }}</span>
+                    <span class="Grid_td {{ bodyTd.mainClass14 }}">{{ bodyTd.name14 }}</span>
+                    <span class="Grid_td {{ bodyTd.mainClass15 }}">{{ bodyTd.name15 }}</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="GridFooter"></div>
+
+    </div>
+
+</div>

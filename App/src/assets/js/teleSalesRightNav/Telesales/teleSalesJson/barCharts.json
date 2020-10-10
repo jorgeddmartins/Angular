@@ -1,0 +1,237 @@
+
+{
+	"userlist": [
+		
+		{
+			"title": "User TeleSale Reports",
+
+			"object1": {
+
+				"name": "Kilena Gomez",			
+				"id": 1,
+				"data":  [
+					{
+						"toolname": "All Transfered",
+						"dataval": 150
+					},
+					{
+						"toolname": "HotKey",
+						"dataval": 50
+					},
+					{
+						"toolname": "PQ Transfered",
+						"dataval": 230
+					},
+					{
+						"toolname": "Transfered NOT",
+						"dataval": 80
+					},
+					{
+						"toolname": "Rejected",
+						"dataval": 100
+					},
+					{
+						"toolname": "Delected",
+						"dataval": 40
+					},
+					{
+						"toolname": "Retained",
+						"dataval": 125
+					}
+
+				]
+			},
+
+			"object2": {
+				
+				"name": "Nicole Ridgley",			
+				"id": 2,
+				"data":  [
+					{
+						"toolname": "All Transfered",
+						"dataval": 150
+					},
+					{
+						"toolname": "HotKey",
+						"dataval": 50
+					},
+					{
+						"toolname": "PQ Transfered",
+						"dataval": 200
+					},
+					{
+						"toolname": "Transfered NOT",
+						"dataval": 80
+					},
+					{
+						"toolname": "Rejected",
+						"dataval": 100
+					},
+					{
+						"toolname": "Delected",
+						"dataval": 40
+					},
+					{
+						"toolname": "Retained",
+						"dataval": 225
+					}
+
+				]
+			},
+
+			"object3": {
+				
+				"name": "Jorge Martins",			
+				"id": 3,
+				"data":  [
+					{
+						"toolname": "All Transfered",
+						"dataval": 150
+					},
+					{
+						"toolname": "HotKey",
+						"dataval": 50
+					},
+					{
+						"toolname": "PQ Transfered",
+						"dataval": 200
+					},
+					{
+						"toolname": "Transfered NOT",
+						"dataval": 80
+					},
+					{
+						"toolname": "Rejected",
+						"dataval": 100
+					},
+					{
+						"toolname": "Delected",
+						"dataval": 40
+					},
+					{
+						"toolname": "Retained",
+						"dataval": 225
+					}
+
+				]
+			},
+
+			"object4": {
+				
+				"name": "Jabran Faisal",			
+				"id": 4,
+				"data":  [
+					{
+						"toolname": "All Transfered",
+						"dataval": 150
+					},
+					{
+						"toolname": "HotKey",
+						"dataval": 50
+					},
+					{
+						"toolname": "PQ Transfered",
+						"dataval": 200
+					},
+					{
+						"toolname": "Transfered NOT",
+						"dataval": 80
+					},
+					{
+						"toolname": "Rejected",
+						"dataval": 100
+					},
+					{
+						"toolname": "Delected",
+						"dataval": 40
+					},
+					{
+						"toolname": "Retained",
+						"dataval": 225
+					}
+
+				]
+			},
+
+			"object5": {
+				
+				"name": "User 5",			
+				"id": 5,
+				"data":  [
+					{
+						"toolname": "All Transfered",
+						"dataval": 150
+					},
+					{
+						"toolname": "HotKey",
+						"dataval": 50
+					},
+					{
+						"toolname": "PQ Transfered",
+						"dataval": 200
+					},
+					{
+						"toolname": "Transfered NOT",
+						"dataval": 80
+					},
+					{
+						"toolname": "Rejected",
+						"dataval": 100
+					},
+					{
+						"toolname": "Delected",
+						"dataval": 40
+					},
+					{
+						"toolname": "Retained",
+						"dataval": 225
+					}
+
+				]
+			},
+
+			"object6": {
+				
+				"name": "User 6",			
+				"id": 6,
+				"data":  [
+					{
+						"toolname": "All Transfered",
+						"dataval": 150
+					},
+					{
+						"toolname": "HotKey",
+						"dataval": 50
+					},
+					{
+						"toolname": "PQ Transfered",
+						"dataval": 200
+					},
+					{
+						"toolname": "Transfered NOT",
+						"dataval": 80
+					},
+					{
+						"toolname": "Rejected",
+						"dataval": 100
+					},
+					{
+						"toolname": "Delected",
+						"dataval": 40
+					},
+					{
+						"toolname": "Retained",
+						"dataval": 225
+					}
+
+				]
+			}
+
+
+		}
+
+	]
+
+}
+
+

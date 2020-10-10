@@ -1,0 +1,128 @@
+
+<div class="col-md-12 col-xs-12 boxSystem qinexRoute TeleSBlk">
+  	<div class="leftMini">
+        <div class="topTasks">
+            <div class="insidetopTasks">
+               
+                <!-- Start Top Tasks -->
+                <div *ngFor=" let toptask of toptasks" class="noFlipcontainer {{ toptask.backcolorClass }}">
+                    <span class="titleFlip">{{ toptask.name }}</span>
+                    <span class="noFlipIcon"><i class="fa {{ toptask.icoClass }}"></i></span>
+                    <span class="numDta {{ toptask.dataClass }}">{{ toptask.datanum }}</span>
+                </div>
+                <!-- End Top Tasks -->
+
+            </div>
+        </div> 
+
+        <div class="header-sales">
+            <div class="left-sales">
+                <div class="col-md-12 col-xs-12 tabs">
+
+                    <!-- Start Flipper Container All Leads -->
+                    <!-- <div class="flip-container" id="myLeads" style="cursor: pointer;">
+                        <div class="flipper btnEnable">
+                            <div class="grid-button grid-button-up">
+                                <i class="fad fa-database" aria-hidden="true"></i>
+                                <div class="numDta">
+                                    <span class="countDta totalleadsadmin">2516</span>
+                                </div>
+                            </div>
+                            <div class="grid-button grid-button-back">
+                                <span class="backTitle">All Leads</span>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="Top-UserCont btnEnable">
+                        <span class="flipImg">
+                            <i class="fad fa-database" aria-hidden="true"></i>
+                            <span class="flipImgToolTip" style="left: -20px;">All Leads</span>
+                        </span>
+                        <span class="UserC_Count">5087</span>
+                    </div>
+
+                    <!-- End Flipper Container All Leads -->
+
+                    <!-- Start User Tabs Container -->
+                    <div class="teleSaleUsersTab">
+
+                        <!-- Start Flipper Container -->
+                        <!-- <div *ngFor="let topflip of topflips" class="flip-container" style="cursor: pointer;">
+                            <div class="flipper">
+                                <div class="grid-button grid-button-up">
+                                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                                    <div class="numDta">
+                                        <span class="countDta">{{ topflip.countData }}</span>
+                                    </div>
+                                </div>
+                                <div class="grid-button grid-button-back">
+                                    <span class="backTitle">{{ topflip.name }}</span>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+                        <div *ngFor="let usertele of userteles" class="Top-UserCont">
+                            <span class="flipImg">
+                                <img src="{{ usertele.imgf }}" />
+                                <span class="flipImgToolTip">{{ usertele.name }}</span>
+                            </span>
+                            <span class="UserC_Count">{{ usertele.count }}</span>
+                        </div>
+
+
+                        <!-- <div class="Top-UserCont" onclick="loadGrid('@user.Id')"></div> -->
+
+                        <!-- Ends Flipper Container -->
+
+                    </div>
+                    <!-- End User Tabs Container -->
+
+                    <div class="switch-Floor">
+                        <div *ngFor="let switchtitle of switchtitles" class="switchBlock switch_{{ switchtitle.sw }}">
+                            <!-- <span class="SwTitle">{{ switchtitle.name }}</span>  -->
+                        </div>
+                    </div>
+
+                    <div class="caseTRflag topbackGreen btnFlagDesable"><i class="fa fa-random"></i></div>
+                    <div class="caseTRflag topbackGreen btnFlagDesable"><i class="fa fa-arrow-right"></i></div>
+
+                    <div class="caseTRflag topbackGreen btnFlagDesable" style="width: 60px">
+                        <i class="fa fa-calendar" style="left: -5px"></i>
+                        <i class="fa fa-clock-o" style="left: 4px"></i>
+                    </div>
+
+                    <div class="caseTRflag topbackRed btnFlagDesable"><i class="fa fa-remove"></i></div>
+                    <div class="caseTRflag topbackBlue btnFlagDesable"><i class="fa fa-arrow-left"></i></div>
+                    <div class="caseTRflag topbackPurple btnFlagDesable"><i class="fa fa-arrow-down"></i></div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Starts TeleSales Grid -->
+        <div class="TSalesGrid">
+            <kendogridtelesales></kendogridtelesales>
+        </div>
+        <!-- Ends TeleSales Grid -->
+
+    </div>
+
+    <!-- Right Mini Block -->
+  	<div class="rightMini">
+
+        <!-- Right Header Injection -->
+        <div class="header-sales"></div>
+
+        <!-- Right Body Injection -->
+  		<div class="body-sales"></div>
+
+  	</div>
+
+</div>
+
+<!-- Templates to Clone -->
+<tempsales-page class="DetachElm"></tempsales-page>

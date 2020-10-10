@@ -1,0 +1,39 @@
+
+{
+	"infocharts": [
+		{
+			"data": "572",
+			"name": "Total Calls"
+			//"icon": "fa fa-tty greenPhone",
+			//"id": 1
+		},
+		{
+			"data": "09:00",
+			"name": "First Call"
+			//"icon": "fa fa-tty purplePhone",
+			//"id": 2
+		},
+		{
+			"data": "12:30",
+			"name": "Last Call"
+			//"icon": "fa fa-tty redPhone"
+			//"id": 3
+		},
+		{
+			"data": "4:25",
+			"name": "CP min"
+			//"icon": "fa fa-tty orangePhone",
+			//"id": 4
+		},
+		{
+			"data": "400",
+			"name": "Unique Call"
+			//"icon": "fa fa-tty bluePhone",
+			//"id": 5
+		}
+	]
+
+
+
+
+}

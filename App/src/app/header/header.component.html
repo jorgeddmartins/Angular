@@ -1,0 +1,68 @@
+
+<!-- Right Nav -->
+<right-nav id="Rightnav"></right-nav>
+
+<!-- Top Nav -->
+<div class="row" id="nav-top">
+    <nav class="col-md-12 top-nav">
+
+    	<span class="TeleSMenu"></span>
+
+        <div class="box_lg"><img src="{{ qinexLogo }}" /></div> 
+        <div class="avatar_room"> 
+            <span class="avatar" style="cursor: pointer"><img src="{{ avatarImg }}" /></span>
+
+            <div class="avatar-modal">
+                <span class="avatar-arrow"></span>
+                <ul class="avatar-helpers">
+                    <li><a class="settings-role" routerLink="/settings">Settings</a></li>
+                    <li><a class="logout-state" routerLink="/">Log Out</a></li>
+                </ul>
+            </div>
+            <span class="name_avatar">Hi <strong>{{ userFirstName }}</strong>, ( {{ userStatus }} )</span>
+        </div>
+    </nav>
+</div>
+
+
+
+<!-- Nav Left -->
+<main id="nav-left">
+    <div class="row">
+        <a href="#" class="mob-nav-box"></a>
+        <nav class="col-xs-12 left-nav">
+            <div class="leftNav-Floor">
+                <div id="leftNav-Accordion" class="leftNavAccordion content newleft-nav-back">
+
+				    <a class="dashurl" routerLink="/">
+				        <div class="dashurl-qx"><img src="{{ dashLogo }}"></div>
+				        <div class="x-dash"><img src="{{ qinexgreen }}"></div>
+				    </a>
+				    
+				    <ul id="leftNav-SubAccordion">
+			        	<li>
+			        		<a routerLink="/" class="new-left-nav-item newleft-nav-back leads">
+			        			<span class="new-top-item">Leads</span>
+			        			<span class="new-top-item-second">Review and Manage all Leads</span>
+			        			<span class="new-right-ico-floor"><i class="fa fa-server"></i></span>
+			        		</a>
+			        	</li>
+
+				      	<leadreporting-nav></leadreporting-nav>
+				      	<settingsnav-nav></settingsnav-nav>
+
+				      	<div class="separate-nav"><span class="separ-title">Logout</span></div>
+			        	<li class="logOut">
+			        		<a routerLink="/" class="new-left-nav-item newleft-nav-back goLogin">
+			        			<span class="new-top-item">Log Me Out</span>
+			        			<span class="new-top-item-second">And Show me a nice picture...</span>
+			        			<span class="new-right-ico-floor"><i class="fa fa-power-off"></i></span>
+			        		</a>
+			        	</li>
+				    </ul> 
+
+				</div>
+            </div>
+        </nav>
+    </div>
+</main>

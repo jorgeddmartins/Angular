@@ -1,0 +1,67 @@
+
+<div class="col-md-12 col-xs-12 boxSystem qinexRoute SettingsBlk settingsView" style="padding-left: 75px; padding-top: 63px;">
+
+	<div id="searchbar">
+		<div class="panel panel-heading">
+			<i class="fad fa-cog" style="margin-top: 4px;" aria-hidden="true"></i>
+			<h4>Profile Settings:</h4>
+		</div>
+	</div>
+
+	<div class="panel panel-body">
+
+		<span class="nameUser">Jorge Martins</span>
+
+		<input name="files" id="files" type="file" aria-label="files" />
+
+		<img src="assets/img/avatar/male.jpg" class="EditUserImg" height="58" width="58">
+
+		<div class="camera SnapShot">
+
+			<div class="VideoBox">
+				<span class="fad"></span>
+			    <video id="TakeYourSelfie">Video stream not available.</video>
+			</div>
+		    <canvas id="results"></canvas>
+		    <img class="hidden dataUrlImg" />
+
+		    <button id="startbutton" class="takePicture startVBlock">Take a Photo</button> 
+		    <button class="StartVideo">Start WebCam</button>
+
+		</div>
+
+		<span class="OpenToChange">Change Your Password</span>
+
+		<div id="SettingsForm">
+
+			<div class="FormProfile">
+
+				<div *ngFor="let sform of sforms" class="formInput">
+					<label class="fIlabel">{{ sform.name }}</label>
+					<input type="{{ sform.type }}" class="fIinput {{ sform.iClass }}" value="{{ sform.value }}" />
+				</div>
+
+			</div>
+
+			<div class="formInput">
+				
+				<button class="SubmitSett">Update Profile</button>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!--<div class="SnapShot">
+			<div id="TakeYourSelfie"></div>
+			<input class="takePicture" type=button value="Take a Picture" onClick="take_snapshot()">
+			<div id="results"><span class="fad"></span></div>
+		</div> -->
+
+		
+  <!-- <div class="output">
+    <img id="photo" alt="The screen capture will appear in this box."> 
+  </div> -->
+
+</div>
+
