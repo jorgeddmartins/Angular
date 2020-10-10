@@ -1,0 +1,42 @@
+
+<!-- LEAD REPORTING MENU -->
+<div class="new-drop-qx subMenu" id="open-id_15">
+    <ul class="new-sub-items">
+    	<li *ngFor="let report of reports" class="li-{{ report.title }}" id="id-{{ report.id }}">
+            <a routerLink="{{ report.url }}" class="showspn new-sub-url subnav-{{ report.id }} SublinkUrl">
+                {{ report.title }}
+                <span class="new-right-ico-floor" style="background: rgba(239, 239, 239, 0.45);">
+                    <i class="{{ report.icon }}" aria-hidden="true"></i>
+                </span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<!-- QUALITY REPORTING MENU -->
+<div class="new-drop-qx subMenu" id="open-id_20">
+    <ul class="new-sub-items">
+        <li *ngFor="let qreport of qreports" class="li-{{ qreport.title }}" id="id-{{ qreport.id }}">
+            <a routerLink="{{ qreport.url }}" class="showspn new-sub-url subnav-{{ qreport.id }} SublinkUrl">
+                {{ qreport.title }}
+                <span class="new-right-ico-floor" style="background: rgba(239, 239, 239, 0.45);">
+                    <i class="{{ qreport.icon }}" aria-hidden="true"></i>
+                </span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<!-- FINANCIAL REPOORTING MENU -->
+<div class="new-drop-qx subMenu" id="open-id_24">
+    <ul class="new-sub-items">
+        <li *ngFor="let freport of freports" class="li-{{ freport.title }}" id="id-{{ freport.id }}">
+            <a routerLink="{{ freport.url }}" class="showspn new-sub-url subnav-{{ freport.id }} SublinkUrl">
+                {{ freport.title }}
+                <span class="new-right-ico-floor" style="background: rgba(239, 239, 239, 0.45);">
+                    <i class="{{ freport.icon }}" aria-hidden="true"></i>
+                </span>
+            </a>
+        </li>
+    </ul>
+</div>
