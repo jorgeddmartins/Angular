@@ -1,0 +1,47 @@
+
+<div class="topTasks topLeadDetail">
+    <div class="topNav lDetail"><span class="leadDet">Lead Details</span></div>
+    <div class="leadDetail_Floor leadDetail_Height">
+        <section class="costumerDetails">
+
+            <div class="loadComponent">
+                <!-- <i class="fa fa-spinner fa-spin" aria-hidden="true"></i> -->
+            </div>
+
+            <div class="costumerBoard costumerBoard_MaxWith">
+
+                <div *ngFor="let detailsinput of detailsinputs" class="boxInp {{ detailsinput.mainClass }}">
+                    <label class="boxLabel">{{ detailsinput.name }}</label>
+                    <input type="text" id="{{ detailsinput.id }}" name="{{ detailsinput.inputname }}" />
+                </div>
+
+                <div *ngFor="let phonenumber of phonenumbers" class="boxInp {{ phonenumber.mainClass }}">
+                    <label class="boxLabel">{{ phonenumber.name }}</label>
+                    <input type="text" id="{{ phonenumber.id }}" name="{{ phonenumber.inputname }}" />
+                    <div class="phoneAdt_Fl">
+                        <span class="phoneAdt sc"></span>
+                        <span class="phoneAdt phoneDw"></span>
+                        <span class="phoneAdt phoneUp"></span>
+                        <span class="phoneAdt PhoneLk"></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <div class="TaskFishExt">
+            <div class="ExtraFish" style="margin-bottom: 5px;">
+                <div class="topNav"><span class="addBttTasks">Extra 1</span></div>
+                <div class="bottomNav_Floor"></div>
+            </div>
+            <div class="ExtraFish">
+                <div class="topNav"><span class="addBttTasks">Extra 2</span></div>
+                <div class="bottomNav_Floor"></div>
+            </div>
+        </div>
+
+
+    </div>
+</div>

@@ -1,0 +1,265 @@
+
+<div class="quoteTemp">
+    <section class="costumerDetails">
+
+        <div class="details_Left">
+            <div class="costumerBoard costumerLeft">
+                <span class="formBoard_Title">Customer 1<span class="updaTeDetail costDet1">Upadate Details 1</span></span>
+
+                <form action="#" method="post">
+                    <div class="form_Fl formWhite">
+
+                        <div class="boxInp" *ngFor="let costumer of costumers">
+                            <label class="boxLabel">{{ costumer.name }}</label>
+                            <input type="text" name="{{ costumer.inputname }}" />
+                        </div>
+
+                        <div class="boxInp">
+                            <label class="boxLabel">DOB</label>
+                            <div class="inputBox datePicker_Fl datepicker1_Fl">
+                                <input type="text" name="dob" class="datepicker" id="datepicker" />
+                            </div>
+                        </div>
+
+                        <div class="boxInp">
+                            <label class="boxLabel">Gender</label>
+                            <div class="switch-radio">
+                                <input type="radio" class="switch-input" name="gender" id="male" checked>
+                                <label for="male" class="switch-label switch-label-off switch-Male">Male</label>
+                                <input type="radio" class="switch-input" name="gender" id="female">
+                                <label for="female" class="switch-label switch-label-on switch-Female">Female</label>
+                                <span class="switch-selection"></span>
+                                <input type="hidden" name="gender" id="Gender1">
+                            </div>
+                        </div>
+
+                        <div class="boxInp boxInp10">
+                            <label class="boxLabel">Smoker?</label>
+                            <div class="switch-radio">
+                                <input type="radio" class="switch-input" name="smoker" id="smokeYes" checked>
+                                <label for="smokeYes" class="switch-label switch-label-off switch-Yes">Yes</label>
+                                <input type="radio" class="switch-input" name="smoker" id="smokeNo">
+                                <label for="smokeNo" class="switch-label switch-label-on switch-No">No</label>
+                                <span class="switch-selection-smoker"></span>
+                                <input type="hidden" name="smoker" id="Smoker1">
+                            </div>
+                        </div>
+
+                        <div class="boxInp boxInp10">
+                            <label class="boxLabel blueLabel">ANB</label>
+                            <input type="text" name="anb" />
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+            <div class="costumerBoard costumerLeft">
+                <span class="formBoard_Title">Customer 2<span class="updaTeDetail costDet2">Upadate Details 2</span></span>
+
+                <form action="#" method="post">
+                    <div class="form_Fl formWhite">
+
+                        <div class="boxInp" *ngFor="let costumer of costumers">
+                            <label class="boxLabel">{{ costumer.name }}</label>
+                            <input type="text" name="{{ costumer.inputname }}" />
+                        </div>
+
+                        <div class="boxInp">
+                            <label class="boxLabel">DOB</label>
+                            <div class="inputBox datePicker_Fl datepicker1_Fl"><input type="text" name="dob" class="datepicker" id="datepicker" /></div>
+                        </div>
+
+                        <div class="boxInp">
+                            <label class="boxLabel">Gender</label>
+                            <div class="switch-radio">
+                                <input type="radio" class="switch-input" name="gender" value="male" id="malep" checked>
+                                <label for="malep" class="switch-label switch-label-off">Male</label>
+                                <input type="radio" class="switch-input" name="gender" value="female" id="femalep">
+                                <label for="femalep" class="switch-label switch-label-on">Female</label>
+                                <span class="switch-selection"></span>
+                            </div>
+                        </div>
+
+                        <div class="boxInp boxInp10">
+                            <label class="boxLabel">Smoker?</label>
+                            <div class="switch-radio">
+                                <input type="radio" class="switch-input" name="smoker" id="smokeYes2" checked>
+                                <label for="smokeYes2" class="switch-label switch-label-off switch-Yes">Yes</label>
+                                <input type="radio" class="switch-input" name="smoker" id="smokeNo2">
+                                <label for="smokeNo2" class="switch-label switch-label-on switch-No">No</label>
+                                <span class="switch-selection-smoker"></span>
+                                <input type="hidden" name="smoker" id="Smoker1">
+                            </div>
+                        </div>
+
+                        <div class="boxInp boxInp10">
+                            <label class="boxLabel blueLabel">ANB</label>
+                            <input type="text" name="anb" />
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="costumerBoard costumerRight">
+            <span class="formBoard_Title"></span>
+            <form action="" method="post">
+                <div class="form_Fl formWhite">
+
+                   <!--  <div *ngFor="let genequote of genequotes" class="boxInp {{ genequote.widthClass }}">
+                        <label class="boxLabel {{ genequote.labelColor }}">{{ genequote.name }}</label>
+                        <input type="text" name="{{ genequote.inputname}}" />
+                    </div> -->
+
+                    <div class="boxInp boxInp23-35"><label class="boxLabel blueLabel">To Age</label><input type="text" name="toage"></div>
+                    <div class="boxInp boxInp23-35"><label class="boxLabel ">Term</label><input type="text" name="term"></div>
+
+                    <div class="boxInp boxInp23-35">
+                        <label class="boxLabel ">Life</label>
+                        <div class="switch-radio YNBig">
+                            <input type="radio" class="switch-input" name="life" id="yesLife" checked>
+                            <label for="yesLife" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="life" id="noLife">
+                            <label for="noLife" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-YNBig"></span>
+                        </div>
+                    </div>
+
+                    <div class="boxInp boxInp23-35">
+                        <label class="boxLabel ">CIC</label>
+                        <div class="switch-radio YNBig">
+                            <input type="radio" class="switch-input" name="cic" id="yesCic" checked>
+                            <label for="yesCic" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="cic" id="noCic">
+                            <label for="noCic" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-YNBig"></span>
+                        </div>
+                    </div>
+
+                    <div class="boxInp boxInp23-35">
+                        <label class="boxLabel ">Level Term</label>
+                        <div class="switch-radio YNBig">
+                            <input type="radio" class="switch-input" name="levelterm" id="yesTerm" checked>
+                            <label for="yesTerm" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="levelterm" id="noTerm">
+                            <label for="noTerm" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-YNBig"></span>
+                        </div>
+                    </div>
+
+                    <div class="boxInp boxInp23-35">
+                        <label class="boxLabel ">Guaranteed</label>
+                        <div class="switch-radio YNBig">
+                            <input type="radio" class="switch-input" name="Guaranteed" id="yesGuaranteed" checked>
+                            <label for="yesGuaranteed" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="Guaranteed" id="noGuaranteed">
+                            <label for="noGuaranteed" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-YNBig"></span>
+                        </div>
+                    </div>
+
+                    <div class="boxInp boxInp23-35 wolField">
+                        <label class="boxLabel ">WOL</label>
+                        <label class="container-check">
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <div class="boxInp boxInp23-35 inputDropQuotes">
+                        <label class="boxLabel ">Death</label>
+                        <span class="coverDrop coverDeath"><input type="text" name="death" class="death" value="Death" readonly="readonly" /></span>
+                        <ul class="CDropDow dropDeath">
+                            <li><span class="optSelect deathOpt selected">Death</span></li>
+                            <li><span class="optSelect deathOpt">Option 2</span></li>
+                            <li><span class="optSelect deathOpt">Option 3</span></li>
+                            <li><span class="optSelect deathOpt">Option 4</span></li>
+                            <li><span class="optSelect deathOpt">Option 5</span></li>
+                            <li><span class="optSelect deathOpt">Option 6</span></li>
+                            <li><span class="optSelect deathOpt">Option 7</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="boxInp boxInp23-35 inputDropQuotes">
+                        <label class="boxLabel ">Lives</label>
+                        <span class="coverDrop coverLives"><input type="text" name="lives" class="lives" value="Lives" readonly="readonly" /></span>
+                        <ul class="CDropDow dropLives">
+                            <li><span class="optSelect livesOpt selected">Lives</span></li>
+                            <li><span class="optSelect livesOpt">Option 2</span></li>
+                            <li><span class="optSelect livesOpt">Option 3</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="boxInp boxInp23-35"><label class="boxLabel ">Frenquency</label><input type="text" name="frenquency"></div>
+                    <div class="boxInp boxInp23-35"><label class="boxLabel ">Quote By</label><input type="text" name="quoteby"></div>
+                    <div class="boxInp boxInp23-35"><label class="boxLabel ">% Comn Ret.</label><input type="text" name="comnret"></div>
+                    <div class="boxInp boxInp23-35"><label class="boxLabel">Sum Assured</label><input type="text" name="sumassured"></div>
+                    <div class="boxInp boxInp23-35 CICSum boxInpDispNone"><label class="boxLabel">CIC Sum Assured</label><input type="text" name="sumassured"></div>
+
+                    <div class="boxInp boxInp73 GeneBtn_Box">
+                        <a class="GeneQtBtn">Generate Quote</a>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    <section class="costumerDetails" style="display: none;">
+        <span class="alertErrorBtn">Error Alerts / Messages</span>
+    </section>
+
+    <section class="costumerDetails">
+        <div class="columnState_Fl" style="overflow: hidden;">
+
+            <div class="QuoteResultsHead" id="QuoteResultsHead" style="width: auto; float: left;"></div>
+
+            <div class="HistoricHead_Plt" style="width: 10000px;">
+                <div class="HistoricQuoteResultsHead" style="width: 85.7%; float: left;">
+                    <div *ngFor="let clstateUp of clstateUps" class="stateColumn {{ clstateUp.heightClass }}">
+                        <span class="state-In" style="background: #1fadcf">
+                            <div class="state-InContent">
+                                <div><span>{{ clstateUp.datehour }}</span><a id="lnkWOMRES" class="wom-res-link">WOM</a></div>
+                                <div><span>Cover: {{ clstateUp.cover }}</span></div>
+                                <div><span>For: {{ clstateUp.for }}</span></div>
+                                <div><span>Over: {{ clstateUp.over }}</span></div>
+                                <div><span>{{ clstateUp.guaranteed }}</span></div>
+                                <div><span>Comm Ret: {{ clstateUp.comm }}</span></div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="columnState_Fl">
+
+                <div id="pnlQuoteResults" style="width: auto; float: left;"></div>
+
+                <div class="HistoricHead_Plt" style="width: 10000px;">
+                    <div id="pnlHistoricQuoteResults" style="width: 85.7%; float: left;">
+
+                        <!-- <div class="stateColumn" *ngFor="let clstate of clstates">
+                            <div class="state-In {{ clstate.colorBack }}">
+                                <div class="state-InContent">
+                                    <span class="InsideTd"><a routerLink="/policies" target="_blank"><img id="quoteImg" src="{{ clstate.img }}" /></a></span>
+                                    <div class="QtBlk">
+                                        <span class="InsideTd" style="color: saddlebrown;">{{ clstate.topprice }}</span>
+                                        <span class="InsideTd">LI <b>£500000</b>/CI <b>£</b></span>
+                                        <span class="InsideTd">Com £641.66</span>
+                                        <span class="InsideTd">Ess Wellness Optimiser +£1.50pp</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>

@@ -1,0 +1,144 @@
+{
+	"myleadsHeader": [
+
+		{
+			"name": "Policy Status"
+		},
+		{
+			"name": "Policy No"
+		},
+		{
+			"name": "Crm Id"
+		},
+		{
+			"name": "Last Name"
+		},
+		{
+			"name": "Partner Last Name"
+		},
+		{
+			"name": "Post Code"
+		},
+		{
+			"name": "Insurer Id"
+		},
+		{
+			"name": "Sale Date"
+		},
+		{
+			"name": "Start Date"
+		},
+		{
+			"name": "Application Type"
+		},
+		{
+			"name": "Cover Type"
+		},
+		{
+			"name": "Initial Premium"
+		},
+		{
+			"name": "Gross Comms"
+		},
+		{
+			"name": "Sales Person"
+		},
+		{
+			"name": "Ret Sold"
+		}
+	],
+
+	"myLeadsEdit": [
+
+		{
+			"id": 0,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "polStatus"
+		},
+		{
+			"id": 1,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "polNo"
+		},
+		{
+			"id": 2,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "crmId"
+		},
+		{
+			"id": 3,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "LastName"
+		},
+		{
+			"id": 4,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "PartnerLastName"
+		},
+		{
+			"id": 5,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "PostCode"
+		},
+		{
+			"id": 6,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "InsurerId"
+		},
+		{
+			"id": 7,
+			"wClasstop": "inpCalndar headerFirst",
+			"wClass": "GridInpWith ThisFocusDate",
+			"idEdit": "dateFirst"
+		},
+		{
+			"id": 8,
+			"wClasstop": "inpCalndar headerSecond",
+			"wClass": "GridInpWith ThisFocusDate",
+			"idEdit": "dateSecond"
+		},
+		{
+			"id": 9,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "AplicationType"
+		},
+		{
+			"id": 10,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "CoverType"
+		},
+		{
+			"id": 11,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "InitialPremium"
+		},
+		{
+			"id": 12,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "GrossComms"
+		},
+		{
+			"id": 13,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "SalesPerson"
+		},
+		{
+			"id": 14,
+			"wClasstop": "",
+			"wClass": "GridInpWith",
+			"idEdit": "RetSold"
+		}
+	]
+}

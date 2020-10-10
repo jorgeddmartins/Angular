@@ -1,0 +1,788 @@
+{
+
+    "items": [
+        
+        {
+          "title": "Policies",
+          "subtitle": "Policies menu"
+        },
+        {
+          "title": "Chase Log",
+          "subtitle": "Chase Log menu"
+        },
+        {
+          "title": "Retention",
+          "subtitle": "Retention menu"
+        },
+        {
+          "title": "Compliance",
+          "subtitle": "Compliance menu"
+        },
+        {
+          "title": "Reports & Targets",
+          "subtitle": "Reports & Targets menu"
+        },
+        {
+          "title": "Settings",
+          "subtitle": "Settings menu"
+        },
+        {
+          "title": "PreRisk/PreReferred Policies",
+          "subtitle": ""
+        },
+        {
+          "title": "Pre Cancellation Policies",
+          "subtitle": ""
+        },
+        {
+          "title": "Risk Policies",
+          "subtitle": ""
+        },
+        {
+          "title": "All Policies",
+          "subtitle": ""
+        },
+        {
+          "title": "Chase Log",
+          "subtitle": ""
+        },
+        {
+          "title": "Initial Decision",
+          "subtitle": ""
+        },
+        {
+          "title": "MedDec Log",
+          "subtitle": ""
+        },
+        {
+          "title": "Amendments",
+          "subtitle": ""
+        },
+        {
+          "title": "Referred Amendments",
+          "subtitle": ""
+        },
+        {
+          "title": "Finance",
+          "subtitle": ""
+        },
+        {
+          "title": "Confirm Commission",
+          "subtitle": ""
+        },
+        {
+          "title": "Rated Policies",
+          "subtitle": ""
+        },
+        {
+          "title": "Decline Policies",
+          "subtitle": ""
+        },
+        {
+          "title": "Cancellation",
+          "subtitle": ""
+        },
+        {
+          "title": "NTU",
+          "subtitle": ""
+        },
+        {
+          "title": "Compliance",
+          "subtitle": ""
+        },
+        {
+          "title": "Compliance Admin",
+          "subtitle": ""
+        },
+        {
+          "title": "Commission",
+          "subtitle": ""
+        },
+        {
+          "title": "Sales Person Clawback",
+          "subtitle": ""
+        },
+        {
+          "title": "Processor Targets",
+          "subtitle": ""
+        },
+        {
+          "title": "Processors Report",
+          "subtitle": ""
+        },
+        {
+          "title": "Sales Dashboard",
+          "subtitle": ""
+        },
+        {
+          "title": "Canx Dashboard",
+          "subtitle": ""
+        },
+        {
+          "title": "Sales Manager Report",
+          "subtitle": ""
+        },
+        {
+          "title": "Sales Amendment Report",
+          "subtitle": ""
+        },
+        {
+          "title": "Sales Manager STP Report",
+          "subtitle": ""
+        },
+        {
+          "title": "Roles",
+          "subtitle": ""
+        },
+        {
+          "title": "Users",
+          "subtitle": ""
+        },
+        {
+          "title": "Groups",
+          "subtitle": ""
+        },
+        {
+          "title": "Insurers",
+          "subtitle": ""
+        },
+        {
+          "title": "Sales Persons",
+          "subtitle": ""
+        },
+        {
+          "title": "Alert Types",
+          "subtitle": ""
+        },
+        {
+          "title": "Logs",
+          "subtitle": ""
+        },
+        {
+          "title": "Missing Policies",
+          "subtitle": ""
+        },
+        {
+          "title": "Menu List",
+          "subtitle": ""
+        },
+        {
+          "title": "Menu Settings",
+          "subtitle": ""
+        },
+        {
+          "title": "Feedback",
+          "subtitle": ""
+        },
+        {
+          "title": "Finance Policies",
+          "subtitle": ""
+        },
+        {
+          "title": "Split Comm Report",
+          "subtitle": ""
+        },
+        {
+          "title": "Monthly Report",
+          "subtitle": ""
+        },
+        {
+          "title": "Bugs",
+          "subtitle": "View Bugs"
+        },
+        {
+          "title": "Email Types",
+          "subtitle": "Email template types"
+        },
+        {
+          "title": "Email Templates",
+          "subtitle": "Email templates"
+        },
+        {
+          "title": "Missing Emails",
+          "subtitle": "Missing Emails Log"
+        },
+        {
+          "title": "Emails",
+          "subtitle": "Emails Log"
+        },
+        {
+          "title": "Lead Pot",
+          "subtitle": "Lead Pot"
+        },
+        {
+          "title": "My Tasks",
+          "subtitle": "My Tasks"
+        },
+        {
+          "title": "Fishing",
+          "subtitle": "Lead Fishing"
+        },
+        {
+          "title": "Task Fishing",
+          "subtitle": "Task Fishing"
+        },
+        {
+          "title": "Add Lead",
+          "subtitle": "Add New Lead"
+        },
+        {
+          "title": "My Leads",
+          "subtitle": "My Leads"
+        },
+        {
+          "title": "Tasks",
+          "subtitle": "Tasks Menu"
+        },
+        {
+          "title": "FCALeads",
+          "subtitle": "FCA Leads check"
+        },
+        {
+          "title": "Sale Person Types",
+          "subtitle": "Sales Person Types"
+        },
+        {
+          "title": "Sale Person Cap",
+          "subtitle": "Sale Person Cap"
+        },
+        {
+          "title": "My Policies",
+          "subtitle": "My Policies"
+        },
+        {
+          "title": "Lead settings",
+          "subtitle": ""
+        },
+        {
+          "title": "Pbx",
+          "subtitle": "Pbxware"
+        },
+        {
+          "title": "Call Listen",
+          "subtitle": "Pbxware"
+        },
+        {
+          "title": "WOM RES",
+          "subtitle": "WOM RES management"
+        },
+        {
+          "title": "News Manager",
+          "subtitle": "Manage the news items"
+        },
+        {
+          "title": "Direct Dial In Phones",
+          "subtitle": "Pbxware"
+        },
+        {
+          "title": "Call Performance Report",
+          "subtitle": "Pbxware"
+        },
+        {
+          "title": "Board Report",
+          "subtitle": "Board Report"
+        },
+        {
+          "title": "Leads Inserted",
+          "subtitle": "Leads Inserted"
+        },
+        {
+          "title": "Application Launches",
+          "subtitle": "Application Launches"
+        },
+        {
+          "title": "Quality Report",
+          "subtitle": "Quality Report"
+        }
+
+    ],
+
+    "thisDrop": [
+
+        {
+            "selectClass": "select",
+            "name": "Admin"
+        },
+        {
+            "selectClass": "",
+            "name": "Manager"
+        },
+        {
+            "selectClass": "",
+            "name": "User"
+        },
+        {
+            "selectClass": "",
+            "name": "Telesales"
+        },
+        {
+            "selectClass": "",
+            "name": "Accounts"
+        },
+        {
+            "selectClass": "",
+            "name": "Super Admin"
+        },
+        {
+            "selectClass": "",
+            "name": "TelesaleAdmin"
+        },
+        {
+            "selectClass": "",
+            "name": "TelesaleManager"
+        },
+        {
+            "selectClass": "",
+            "name": "Sales"
+        }
+    ],
+
+    "SettingsGridBody": [
+
+        {
+            "name": "Policies",
+            "descrp": "Policies menu",
+            "url": "",
+            "disable": "false"
+        },
+        {
+            "name": "Chase Log",
+            "descrp": "Chase Log menu",
+            "url": "",
+            "disable": "false"
+        },
+        {
+            "name": "Retention",
+            "descrp": "Retention menu",
+            "url": "",
+            "disable": "false"
+        },
+        {
+            "name": "Compilance",
+            "descrp": "Compliance menu",
+            "url": "",
+            "disable": "false"
+        },
+        {
+            "name": "Reports & Targets",
+            "descrp": "Reports & Targets menu",
+            "url": "",
+            "disable": "false"
+        },
+        {
+            "name": "Settings",
+            "descrp": "Settings menu",
+            "url": "",
+            "disable": "false"
+        },
+        {
+            "name": "PreRisk/PreReferred Policies",
+            "descrp": "",
+            "url": "/PreRiskPolicies",
+            "disable": "false"
+        },
+        {
+            "name": "Pre Save Policies",
+            "descrp": "",
+            "url": "/RiskLog/PreSave",
+            "disable": "false"
+        },
+        {
+            "name": "Pre Cancellation Policies",
+            "descrp": "",
+            "url": "/RiskLog/PreCancellation",
+            "disable": "false"
+        },
+        {
+            "name": "Risk Policies",
+            "descrp": "",
+            "url": "/RiskLog",
+            "disable": "false"
+        },
+        {
+            "name": "All Policies",
+            "descrp": "",
+            "url": "/Policies",
+            "disable": "false"
+        },
+        {
+            "name": "Chase Log",
+            "descrp": "",
+            "url": "/ChaseLog",
+            "disable": "false"
+        },
+        {
+            "name": "Initial Decision",
+            "descrp": "",
+            "url": "/ChaseLog/ChaseInitialDecision",
+            "disable": "false"
+        },
+        {
+            "name": "MedDec Log",
+            "descrp": "",
+            "url": "/ChaseLog/MedDec",
+            "disable": "false"
+        },
+        {
+            "name": "Amendments",
+            "descrp": "",
+            "url": "/Amendment",
+            "disable": "false"
+        },
+        {
+            "name": "Referred Amendments",
+            "descrp": "",
+            "url": "/ChaseLog/ReferredAmendments",
+            "disable": "false"
+        },
+        {
+            "name": "Finance",
+            "descrp": "",
+            "url": "/Finance",
+            "disable": "false"
+        },
+        {
+            "name": "Confirm Commission",
+            "descrp": "",
+            "url": "/ConfirmCommissionClawback",
+            "disable": "false"
+        },
+        {
+            "name": "Rated Policies",
+            "descrp": "",
+            "url": "/RatedLog",
+            "disable": "false"
+        },
+        {
+            "name": "Decline Policies",
+            "descrp": "",
+            "url": "/Declined",
+            "disable": "false"
+        },
+        {
+            "name": "Cancellation",
+            "descrp": "",
+            "url": "/Cancellation",
+            "disable": "false"
+        },
+        {
+            "name": "NTU",
+            "descrp": "",
+            "url": "/NTU",
+            "disable": "false"
+        },
+        {
+            "name": "Compliance",
+            "descrp": "",
+            "url": "/Compliance",
+            "disable": "false"
+        },
+        {
+            "name": "Compliance Admin",
+            "descrp": "",
+            "url": "/Compliance/ComplianceAdmin",
+            "disable": "false"
+        },
+        {
+            "name": "Commission",
+            "descrp": "",
+            "url": "/CommissionClawbackReports/CommissionReport",
+            "disable": "false"
+        },
+        {
+            "name": "Sales Person Clawback",
+            "descrp": "",
+            "url": "/MonthlyClawbackTargets/SalesPersonMonthlyClawback",
+            "disable": "false"
+        },
+        {
+            "name": "Processor Targets",
+            "descrp": "",
+            "url": "/MonthlyClawbackTargets/ProcessorTargets",
+            "disable": "false"
+        },
+        {
+            "name": "Processors Report",
+            "descrp": "",
+            "url": "/ReportsProcessing",
+            "disable": "false"
+        },
+        {
+            "name": "Sales Dashboard",
+            "descrp": "",
+            "url": "/SalesReports/Dashboard",
+            "disable": "false"
+        },
+        {
+            "name": "Canx Dashboard",
+            "descrp": "",
+            "url": "/CanxReports/CanxDashboard",
+            "disable": "false"
+        },
+        {
+            "name": "Sales Manager Report",
+            "descrp": "",
+            "url": "/SalesReports",
+            "disable": "false"
+        },
+        {
+            "name": "Sales Amendment Report",
+            "descrp": "",
+            "url": "/SalesReports/SalesAmendmentsReport",
+            "disable": "false"
+        },
+        {
+            "name": "Sales Manager STP Report",
+            "descrp": "",
+            "url": "/SalesReports/SalesManagerSTPReport",
+            "disable": "false"
+        },
+        {
+            "name": "Roles",
+            "descrp": "",
+            "url": "/RolesAdmin",
+            "disable": "false"
+        },
+        {
+            "name": "Users",
+            "descrp": "",
+            "url": "/UsersAdmin",
+            "disable": "false"
+        },
+        {
+            "name": "Groups",
+            "descrp": "",
+            "url": "/GroupsAdmin",
+            "disable": "false"
+        },
+        {
+            "name": "Insurers",
+            "descrp": "",
+            "url": "/Insurer",
+            "disable": "false"
+        },
+        {
+            "name": "Sales Persons",
+            "descrp": "",
+            "url": "/SalesPerson",
+            "disable": "false"
+        },
+        {
+            "name": "Alert Types",
+            "descrp": "",
+            "url": "/AlertTypes",
+            "disable": "false"
+        },
+        {
+            "name": "Logs",
+            "descrp": "",
+            "url": "/Logs",
+            "disable": "false"
+        },
+        {
+            "name": "Missing Policies",
+            "descrp": "",
+            "url": "/MissingPolicyImport",
+            "disable": "false"
+        },
+        {
+            "name": "Menu List",
+            "descrp": "Manage menu items",
+            "url": "/MenuAdmin/MenuList",
+            "disable": "false"
+        },
+        {
+            "name": "Menu Settings",
+            "descrp": "Manage menu order and permissions",
+            "url": "/MenuAdmin/MenuSettings",
+            "disable": "false"
+        },
+        {
+            "name": "Feedback",
+            "descrp": "Feedback admin",
+            "url": "/Feedback",
+            "disable": "false"
+        },
+        {
+            "name": "Finance Policies",
+            "descrp": "",
+            "url": "/Finance",
+            "disable": "false"
+        },
+        {
+            "name": "Split Comm Report",
+            "descrp": "",
+            "url": "/FinanceReports/SplitCommReport",
+            "disable": "false"
+        },
+        {
+            "name": "Monthly Report",
+            "descrp": "",
+            "url": "/FinanceReports/MonthlyReport",
+            "disable": "false"
+        },
+        {
+            "name": "Bugs",
+            "descrp": "View Bugs",
+            "url": "/Bugs",
+            "disable": "false"
+        },
+        {
+            "name": "Email Types",
+            "descrp": "Email template types",
+            "url": "/EmailTypes",
+            "disable": "false"
+        },
+        {
+            "name": "Email Templates",
+            "descrp": "Email templates",
+            "url": "/EmailTemplates",
+            "disable": "false"
+        },
+        {
+            "name": "Missing Emails",
+            "descrp": "Missing Emails Log",
+            "url": "/MissingEmailsLog",
+            "disable": "false"
+        },
+        {
+            "name": "Emails",
+            "descrp": "Emails Log",
+            "url": "/EmailsLog",
+            "disable": "false"
+        },
+        {
+            "name": "Lead Pot",
+            "descrp": "Lead Pot",
+            "url": "/Leads/LeadPot",
+            "disable": "false"
+        },
+        {
+            "name": "My Tasks",
+            "descrp": "My Tasks",
+            "url": "/CRMTask/MyTask",
+            "disable": "false"
+        },
+        {
+            "name": "Fishing",
+            "descrp": "Lead Fishing",
+            "url": "/Leads/Fishing",
+            "disable": "false"
+        },
+        {
+            "name": "Task Fishing",
+            "descrp": "Task Fishing",
+            "url": "/CRMTask/Tasks",
+            "disable": "false"
+        },
+        {
+            "name": "Add Lead",
+            "descrp": "Add New Lead",
+            "url": "/Leads/AddLead",
+            "disable": "false"
+        },
+        {
+            "name": "My Leads",
+            "descrp": "My Leads",
+            "url": "/Leads/MyLeads",
+            "disable": "false"
+        },
+        {
+            "name": "Tasks",
+            "descrp": "Tasks Menu",
+            "url": "",
+            "disable": "false"
+        },
+        {
+            "name": "FCALeads",
+            "descrp": "FCA Leads check",
+            "url": "/Leads/FCALeads",
+            "disable": "false"
+        },
+        {
+            "name": "Sale Person Types",
+            "descrp": "Sale Person Types",
+            "url": "/SalesPerson/SalePersonTypes",
+            "disable": "false"
+        },
+        {
+            "name": "Sale Person Cap",
+            "descrp": "Sale Person Cap",
+            "url": "/SalesPerson/SalePersonsCap",
+            "disable": "false"
+        },
+        {
+            "name": "My Policies",
+            "descrp": "My Policies",
+            "url": "/Policies/MyPolicies",
+            "disable": "false"
+        },
+        {
+            "name": "Lead settings",
+            "descrp": "",
+            "url": "",
+            "disable": "false"
+        },
+        {
+            "name": "Pbx",
+            "descrp": "Pbxware",
+            "url": "/Pbx",
+            "disable": "false"
+        },
+        {
+            "name": "Call Listen",
+            "descrp": "Pbxware",
+            "url": "/Pbx/CallListen",
+            "disable": "false"
+        },
+        {
+            "name": "WOM RES",
+            "descrp": "WOM RES management",
+            "url": "/Insurer/WOMRES",
+            "disable": "false"
+        },
+        {
+            "name": "News Manager",
+            "descrp": "Manage the news items",
+            "url": "/News",
+            "disable": "false"
+        },
+        {
+            "name": "Direct Dial In Phones",
+            "descrp": "Pbxware",
+            "url": "/Pbx/DDIs",
+            "disable": "false"
+        },
+        {
+            "name": "Call Performance Report",
+            "descrp": "Pbxware",
+            "url": "/PbxReport/CallPerformance",
+            "disable": "false"
+        },
+        {
+            "name": "Board Report",
+            "descrp": "Board Report",
+            "url": "/Reports/BoardReport",
+            "disable": "false"
+        },
+        {
+            "name": "Leads Inserted",
+            "descrp": "Leads Inserted",
+            "url": "/Reports/LeadsInserted",
+            "disable": "false"
+        },
+        {
+            "name": "Application Launches",
+            "descrp": "Application Launches",
+            "url": "/ApplicationLaunch/ApplicationLaunches",
+            "disable": "false"
+        },
+        {
+            "name": "Quality Report",
+            "descrp": "Quality Report",
+            "url": "/Reports/QualityReport",
+            "disable": "false"
+        }
+
+    ]
+}

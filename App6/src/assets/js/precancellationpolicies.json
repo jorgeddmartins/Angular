@@ -1,0 +1,90 @@
+{
+
+	"preCanceHeader": [
+
+		{
+			"name": "Risk Status"
+		},
+		{
+			"name": "CRM Id"
+		},
+		{
+			"name": "Canx At"
+		},
+		{
+			"name": "Surname"
+		},
+		{
+			"name": "Partner Surname"
+		},
+		{
+			"name": "Policy No"
+		},
+		{
+			"name": "Insurer Id"
+		},
+		{
+			"name": "Term"
+		},
+		{
+			"name": "Confirmed Payment"
+		},
+		{
+			"name": "Net Comms"
+		},
+		{
+			"name": "Salesperson Claw"
+		},
+		{
+			"name": "Financial Amount"
+		},
+		{
+			"name": "Risk Date"
+		},
+		{
+			"name": "Canx Date"
+		},
+		{
+			"name": "Confirmed Commiss..."
+		}
+	],
+
+	"preCanceBody": [
+
+		{
+			"policy": "CancelledRisk",
+			"policyN": 908772,
+			"firstn": "21/12/2018",
+			"partn": "Brayshaw",
+			"postC": "",
+			"insuR": "0225667823",
+			"saleDt": "Legal & Genaral",
+			"startDt": 5,
+			"applic": "£20.39",
+			"coverT": "£233.24",
+			"initialPol": "£233.24",
+			"grossComms": "£233.24",
+			"slPer": "11/12/2018",
+			"retSl": "21/12/2018",
+			"process": "£0.00"
+		},
+		{
+			"policy": "CancelledRisk",
+			"policyN": 858885,
+			"firstn": "21/12/2018",
+			"partn": "Nuamah",
+			"postC": "",
+			"insuR": "0225667823",
+			"saleDt": "Legal & Genaral",
+			"startDt": 25,
+			"applic": "£9.39",
+			"coverT": "£204.35",
+			"initialPol": "£204.35",
+			"grossComms": "£195.83",
+			"slPer": "21/11/2018",
+			"retSl": "21/12/2018",
+			"process": "£0.00"
+		}
+	]
+
+}

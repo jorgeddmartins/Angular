@@ -1,0 +1,23 @@
+{
+	"alertsTempDta": [
+
+		{
+			"alert": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+		},
+		{
+			"alert": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+		},
+		{
+			"alert": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+		},
+		{
+			"alert": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+		},
+		{
+			"alert": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+		},
+		{
+			"alert": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+		}
+	]
+}

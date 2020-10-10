@@ -1,0 +1,84 @@
+
+<div class="menuSettingsTemp">
+
+	<div class="settings_menu">
+		
+		<div class="col-md-12 col-xs-12 panel-heading">
+	        <h4 class="mainNav-Title">Nav Settings</h4>
+	    </div>
+
+	    <div class="col-md-12 col-xs-12 btn-Grid">
+	        <span class="grid-button grid-add" id="mainMenuBtn" style="float: left; margin-right: 3px; margin-left: 0;">Main Menu<span class="fa fa-navicon"></span></span>
+	        <span class="grid-button grid-add btnDisable" id="menuSetitngsBtn" style="float: left; margin-left: 0;">Menu Settings<span class="fa fa-cloud-download"></span></span>
+	        <span class="grid-button btn-addN addMenu dispN">Add New Record<span class="fa fa-plus"></span></span>
+	    </div>
+
+	    <div class="col-md-12 row-grid-system mainMenuGrid">
+	    	
+    		<div class="menusettings">
+
+	    		<div class="SettingsGrid">
+	    			<div class="StHeader">
+	    				<span class="ThHeader tSettWidth">Name</span>
+	    				<span class="ThHeader tSettWidth">Description</span>
+	    				<span class="ThHeader tSettWidth">Url</span>
+	    				<span class="ThHeader tSettWidth">Is Disabled</span>
+	    			</div>
+	    			<div class="StBody" id="SettingsBody">
+	    				
+	    				<div id="addRecord">
+	    					<div class="addTrIn"></div>
+	    				</div>
+
+	    			</div>
+	    		</div>
+
+	    	</div>
+
+	    	<div class="mainMenu">
+	    		<div class="dragdroprow cf nestable-lists">
+
+	    			<div class="nav-setitngs-btns">
+	                    <button class="update-nav-settings updatenav notallowed-nav"></button>
+	                    <button class="update-nav-settings setpermitions"></button>
+	                    <button class="update-navSV setsave"></button>
+
+	                    <div class="adMinSelect">
+	                        <input type="text" class="adMinInp" placeholder="Select Permitions" readonly="readonly" />
+	                    </div>
+						
+	                    <ul class="adMinSelect_Drop"></ul>
+	                </div>
+	                <div class="column-dragdrop column-45">
+	                    <div id="drag-menu-left" class="content">
+	                        <div class="search_Floor">
+	                            <input type="text" class="form-control auto-search" placeholder="Search for a Menu Item..." onkeyup="searchitem(this)" autofocus="autofocus" />
+	                        </div>
+
+	                        <div class="dd" id="nestable"></div>
+							
+	                    </div>
+	                </div>
+
+	                <div class="column-dragdrop column-51">
+	                    '<div id="drag-menu-right" class="content">
+	                        <div class="dd" id="nestable2">
+	                            <ol class="dd-list">
+	                                <li class="dd-item root-level">
+	                                    <span class="new-top-item dd-handle">Lead Settings</span>
+	                                    <span class="new-top-item-second dd-handle"></span>
+	                                    <div class="switch_prod"><label class="switch"><input type="checkbox" checked="checked" /><div class="slider round"></div></label></div>
+	                                </li>
+	                            </ol>
+	                        </div>
+	                    </div>
+	                </div>
+
+	    		</div>
+	    	</div>
+
+
+	    </div>
+
+	</div>
+</div>

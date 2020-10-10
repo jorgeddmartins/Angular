@@ -1,0 +1,393 @@
+<div class="policydetailTemp">
+    <section class="costumerDetails">
+        <div class="details_Left">
+            <div class="top_Policies" style="margin-bottom: 7px;">
+                <div class="boxInp smllInpTop">
+                    <label class="boxLabel" style="padding-left: 3px;">Sold By</label>
+                    <input type="text" name="soldby" value="SmarterCover Admin" />
+                </div>
+                <div class="boxInp smllInpTop">
+                    <label class="boxLabel" style="padding-left: 3px;">Sold On</label>
+                    <input type="text" name="soldon" value="23/07/2019" />
+                </div>
+                <div class="boxInp smllInpTop">
+                    <label class="boxLabel" style="padding-left: 3px;">Sold Status</label>
+                    <input type="text" name="soldstatus" value="Risk" />
+                </div>
+                <div class="boxInp smllInpTop">
+                    <label class="boxLabel" style="padding-left: 3px;">Last Updated</label>
+                    <input type="text" name="lastupdated" />
+                </div>
+            </div>
+            <div class="costumerBoard costumerLeft">
+                <span class="formBoard_Title">Current Policy Details</span>
+
+                <div class="PolicyDetaBoard">
+
+                    <div *ngFor="let poldetail of poldetails" class="DetaBoardTr" id="DetaTr_{{ poldetail.id }}">
+                        <div class="tbl-hdr-row toplabD">
+                            <label class="tbl-hdr-col">{{ poldetail.label1 }}</label>
+                            <label class="tbl-hdr-col">{{ poldetail.label2 }}</label>
+                            <label class="tbl-hdr-col">{{ poldetail.label3 }}</label>
+                            <label class="tbl-hdr-col">{{ poldetail.label4 }}</label>
+                        </div>
+                        <div class="tbl-hdr-row">
+                            <span class="tbl-hdr-col">{{ poldetail.body1 }}</span>
+                            <span class="tbl-hdr-col">{{ poldetail.body2 }}</span>
+                            <span class="tbl-hdr-col">{{ poldetail.body3 }}</span>
+                            <span class="tbl-hdr-col">{{ poldetail.body4 }}</span>
+                        </div>
+                    </div>
+
+                    <div class="updateCurrent_Btns">
+
+                        <a *ngFor="let detailbtn of detailbtns" routerLink="/{{ detailbtn.url }}" class="CurrentBtn">{{ detailbtn.name }}</a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="costumerBoard costumerLeft">
+                <div class="form_Fl formGrey">
+                    <div class="detWSmall_Fl">
+                        <div class="boxInp detWSmall">
+                            <label class="boxLabel">Sum Assured</label>
+                            <input type="text" name="" />
+                        </div>
+                        <div class="boxInp detWSmall">
+                            <label class="boxLabel">Term</label>
+                            <input type="text" name="" />
+                        </div>
+                        <div class="boxInp detWSmall">
+                            <label class="boxLabel">Life Covered</label>
+                            <input type="text" name="" />
+                        </div>
+                        <div class="boxInp detWSmall">
+                            <label class="boxLabel">CIC</label>
+                            <input type="text" name="" />
+                        </div>
+                        <div class="boxInp detWSmall">
+                            <label class="boxLabel">Policy Basics</label>
+                            <input type="text" name="" />
+                        </div>
+                        <div class="boxInp detWSmall">
+                            <label class="boxLabel">Premium Type</label>
+                            <input type="text" name="" />
+                        </div>
+                    </div>
+                    <div class="detWSmall_Fl btnPols">
+                        <button class="UpdateLetter">Update Letter Details</button>
+                        <span class="UplDocPol_Btn">Upload Policy Documents</span>
+                    </div>
+                    <!-- White Line After -->
+                    <hr />
+                    <div class="boxInp estraWPlus inputDrop Packsdrop">
+                        <p><strong>Pack(s) :</strong></p>
+                        <ul class="documents">
+                            <li>
+                                <div class="documenLink">
+                                    <a href="" target="_blank">Policy Application Print</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="documenLink">
+                                    <a href="" target="_blank">Policy Quote Print</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="boxInp estraWPlus mExtra">
+                        <span class="packTitle">Pack Template</span>
+                        <select class="selectPack">
+                            <option>---Select---</option>
+                            <option value="1">Referred</option>
+                            <option value="2">Risk</option>
+                            <option value="3">Over50</option>
+                        </select>
+                    </div>
+                    <div class="boxInp estraWPlus generateBtn_Fl">
+                        <button class="generatePacks">Generate Pack Docs</button>
+                    </div>
+                </div>
+            </div>
+            <div class="costumerBoard costumerLeft">
+                <span class="formBoard_Title">Other Policies on this Lead</span>
+                <div class="PoliciesLead_Fl" id="PoliciesLeadFl">
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                    <div class="notesF_Item noteWhite addThNote">
+                        <span class="NoteIt width20">Joe Doe</span>
+                        <span class="NoteIt width54 icoNote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <span class="NoteIt paddLft">20/07/2018</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="costumerBoard costumerRight" style="height: 83.6vh;">
+            <span class="formBoard_Title">Update Policy Details</span>
+            <form action="" method="post">
+                <div class="form_Fl formWhite" id="form_Fl">
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">App No.</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Policy No.</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus inputDrop">
+                        <label class="boxLabel">Provider</label>
+                        <span class="coverDrop coverProvider"><input type="text" name="title" class="provider" value="Provider" readonly="readonly" /></span>
+                        <ul class="CDropDow dropProvider">
+                            <li><span class="optSelect providerOpt selected">Provider</span></li>
+                            <li><span class="optSelect providerOpt">Provider 2</span></li>
+                            <li><span class="optSelect providerOpt">Provider 3</span></li>
+                            <li><span class="optSelect providerOpt">Provider 4</span></li>
+                            <li><span class="optSelect providerOpt">Provider 5</span></li>
+                        </ul>
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Premium</label>
+                        <input type="text" name="premium" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Commission</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Recurring</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Split</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="Split" value="yes" id="YesDup" >
+                            <label for="YesDup" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="Split" value="No" id="NoDup" checked >
+                            <label for="NoDup" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-poldetail"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp estraWPlus inputDrop">
+                        <label class="boxLabel">Split With</label>
+
+                        <select class="coverDrop" id="SplitWithUserId" name="SplitWithUserId">
+                            <option selected="selected" value="">--Select--</option>
+                            <option value="969">Abigail Mason</option>
+                            <option value="14">Aboud Jarche</option>
+                            <option value="638">Adam Bell</option>
+                            <option value="16">Adam Cotter</option>
+                            <option value="17">Adam Kelly</option>
+                            <option value="214">Alec Cornish</option>
+                            <option value="215">Aleem Akhter</option>
+                            <option value="184">Alex Reid</option>
+                        </select>
+
+                        <!-- <span class="coverDrop coverSplitWith"><input type="text" name="title" class="splitwith" value="Split with" readonly="readonly" /></span>
+                        <ul class="CDropDow dropSpliwith">
+                            <li><span class="optSelect splitwithOpt selected">Split With</span></li>
+                            <li><span class="optSelect splitwithOpt">Split With 2</span></li>
+                            <li><span class="optSelect splitwithOpt">Split With 3</span></li>
+                        </ul> -->
+
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Has Bank Details</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="Bank" value="yes" id="YesBank" checked>
+                            <label for="YesBank" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="Bank" value="No" id="NoBank">
+                            <label for="NoBank" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-poldetail"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Has Start Date</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="Start" value="yes" id="YesStart" checked>
+                            <label for="YesStart" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="Start" value="No" id="NoStart">
+                            <label for="NoStart" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-poldetail"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Start Date</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus inputDrop">
+                        <label class="boxLabel">Pref Payment Date</label>
+                        <span class="coverDrop coverstartDate"><input type="text" name="title" class="startDate" value="01" readonly="readonly" /></span>
+                        <ul class="CDropDow dropStartDate" id="dropStartDate"></ul>
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">First Payment Date</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Cashback Amount</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Voucher Amout</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Net Commission</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus inputDrop">
+                        <label class="boxLabel">Current Status</label>
+                        <span class="coverDrop coverCurrentstatus"><input type="text" name="title" class="Currentstatus" value="Current Status" readonly="readonly" /></span>
+                        <ul class="CDropDow dropCurrentstatus">
+                            <li><span class="optSelect CurrentstatusOpt">Current 01</span></li>
+                            <li><span class="optSelect CurrentstatusOpt">Current 02</span></li>
+                            <li><span class="optSelect CurrentstatusOpt">Current 03</span></li>
+                        </ul>
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Is Policy Discounted</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="Policy" value="yes" id="YesPolicy" checked>
+                            <label for="YesPolicy" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="Policy" value="No" id="NoPolicy">
+                            <label for="NoPolicy" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-poldetail"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Bank Name</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Acc. No.</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Sort Code</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Card Holder Name</label>
+                        <input type="text" name="title" />
+                    </div>
+                </div>
+                <div class="bottomForm">
+                    <div class="boxInp">
+                        <label class="boxLabel">GP Name</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp">
+                        <label class="boxLabel">GP Details</label>
+                        <textarea></textarea>
+                    </div>
+                </div>
+                <div class="boxInp extraBtn">
+                    <span class="addPoliBtn">Update Policy Details</span>
+
+                    <em class="SplitErrorMsg">Split With is deselected</em>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>

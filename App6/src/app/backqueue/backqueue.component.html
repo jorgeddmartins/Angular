@@ -1,0 +1,255 @@
+
+<div class="backQueueTemp">
+
+    <!-- Screen Title -->
+    <div class="leadTNav widthLong">
+        <div class="LRefr_Fl">
+            <span class="referenceLead">Pack Queue</span>
+        </div>
+
+        <template class="SearchBar_Top">
+
+            <div *ngFor="let searchPicker of searchPickers" class="SearchPicker">
+                <span class="label">{{ searchPicker.label }}</span>
+                <input type="text" class="InpSearchPicker {{ searchPicker.class }}" id="{{ searchPicker.id }}" name="" value="16/07/2019" />
+                <span class="IconPicker"></span>
+            </div>
+
+            <div class="Search_Flr">
+                <div class="SearchDrop">
+                    <input type="text" id="SearchDrop_Id" value="Today" readonly="readonly" />
+                </div>
+                <ul class="SearchDrop_Down">
+                    <li *ngFor="let searchDrop of searchDrops" class="Down_Item">{{ searchDrop.option }}</li>
+                </ul>
+            </div>
+
+            <div class="updateCurrent_Btns updateCurrent_BtnsTop">
+                <span *ngFor="let topButton of topButtons" class="CurrentBtn {{ topButton.class }}">{{ topButton.name }}</span>
+            </div>
+
+        </template>
+
+    </div>
+
+    <!-- Back Queue Grid Section -->
+    <div class="backqueueGrid">
+        
+        <template class="backQueueGr_In" style="border: 0;">
+
+            <kendogrid></kendogrid>
+
+            <!-- BackQueue Header Grid -->
+            <!-- <div class="GridHeader">
+                <span class="ExportGridBtn">Export to Excel</span>
+            </div> -->
+
+            <!-- BackQueue Grid Top Header Injection -->
+            <!-- <div class="GridHead">
+                <span *ngFor="let packgrid of packgrids" class="aRdTh arrdw">{{ packgrid.name }}</span>
+            </div> -->
+
+            <!-- BackQueue Grid Bottom Header Injection -->
+            <!-- <div class="GridHead GrHdBott"></div> -->
+
+            <!-- BackQueue Body Grid -->
+            <!-- <div class="GridBody" id="PackQgBd"></div> -->
+
+            <!-- BackQueue Grid Footer -->
+           <!--  <div class="GridFooter"></div> -->
+
+        </template>
+
+    </div>
+
+    <!-- Back Queue Task Section -->
+    <div class="backqueueTasks">
+        
+        <!-- bacDetails Info -->
+        <div class="backQueueDetails-Left">
+            <div class="costumerDetails">
+                <div class="details_Left">
+                    <div class="top_Policies">
+
+                        <div *ngFor="let topPolicie of topPolicies" class="boxInp smllInpTop">
+                            <label class="boxLabel">{{ topPolicie.name }}</label>
+                            <span>{{ topPolicie.result }}</span>
+                        </div>
+
+                    </div>
+                    <div class="costumerBoard">
+
+                        <span class="formBoard_Title">Current Policy Details </span>
+
+                        <!-- Policie Detail Board Data -->
+                        <div class="PolicyDetaBoard"></div>
+
+                        <!-- Bottom Grid Buttons -->
+                        <div class="updateCurrent_Btns">
+                            <a class="CurrentBtn" href="#">Lead</a>
+                            <a class="CurrentBtn" href="#">Quote Details</a>
+                            <a class="CurrentBtn" href="#">ReQuote</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="details_Left">
+                    <div class="tAmount">
+                        <label>Total Cashback Amount:</label>
+                        <input class="tbGrid" id="cashbackAmount" min="0.00" name="cashbackAmount" type="number" value="0.00" />
+                        <button class="tbGridUpBt" type="submit">Update</button>
+
+                        <div class="addRecords_fl">
+                            <span class="addRecordsBar">
+                                <span class="AddGridBtn">Add New Record</span>
+                            </span>
+                            <div class="addRecordGrid">
+                                <div class="addRecordGrid_Header">
+                                    <span class="aRdTh"></span>
+                                    <span class="aRdTh">Claim Date</span>
+                                    <span class="aRdTh">Amount</span>
+                                    <span class="aRdTh">Due Date</span>
+                                    <span class="aRdTh">Cheque No</span>
+                                    <span class="aRdTh"></span>
+                                    <span class="aRdTh">Document Id</span>
+                                    <span class="aRdTh"></span>
+                                </div>
+
+                                <div class="addRecordGrid_Body"></div>
+
+                                <div class="addRecordGrid_Footer">
+                                    <span class="aRdTh"></span>
+                                    <span class="aRdTh">Total</span>
+                                    <span class="aRdTh tolalAmount">£60.00</span>
+                                    <span class="aRdTh"></span>
+                                    <span class="aRdTh"></span>
+                                    <span class="aRdTh"></span>
+                                    <span class="aRdTh"></span>
+                                    <span class="aRdTh"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tAmount">
+                        <label>Total Voucher Amount:</label>
+
+                        <div class="addRecords_fl RBarPadd">
+                            <span class="addRecordsBar">
+                                <span class="AddGridBtn">Add New Record</span>
+                            </span>
+
+                            <div class="addRecordGrid">
+                                <div class="addRecordGrid_Header">
+                                    <span class="aRdTh"></span>
+                                    <span class="aRdTh">Claim Date</span>
+                                    <span class="aRdTh">Amount</span>
+                                    <span class="aRdTh">Retailer Id</span>
+                                    <span class="aRdTh">Due Date</span>
+                                    <span class="aRdTh"></span>
+                                    <span class="aRdTh">Document Id</span>
+                                    <span class="aRdTh"></span>
+                                </div>
+
+                                <div class="addRecordGrid_Body"></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- backDetails Edit -->
+        <div class="backQueueDetails-Right">
+
+            <!-- Main Task Section(Tabs Injection) -->
+            <tasksection-page></tasksection-page>
+            
+            <div class="detWSmall_Fl">
+                <!-- <i class="fa fa-arrows-h pliExpandRight" aria-hidden="true"></i> -->
+                <div class="boxInp">
+                    <label class="mandatory boxLabel" for="SumAssured">SumAssured</label>
+                    <input id="SumAssured" min="0.00000001" name="SumAssured" type="number" value="150000.00" class="valid" />
+                </div>
+                <div class="boxInp">
+                    <label class="mandatory boxLabel" for="SumAssured">Term</label>
+                    <input id="SumAssured" min="0" name="SumAssured" type="number" value="25" class="valid" />
+                </div>
+                <div class="boxInp">
+                    <label class="mandatory boxLabel" for="SumAssured">Covered</label>
+                    <select class="ddlLives valid" id="Client" name="Client">
+                        <option selected="selected" value="John">John</option>
+                        <option value="Life joint">Life joint</option>
+                        <option value="Sheena">Sheena</option>
+                    </select>
+                </div>
+                <div class="boxInp">
+                    <label class="mandatory boxLabel" for="SumAssured">CIC</label>
+                    <input id="SumAssured" min="0.00" name="SumAssured" type="number" value="0.00" class="valid" />
+                </div>
+                <div class="boxInp">
+                    <label class="mandatory boxLabel" for="SumAssured">Policy Basis</label>
+                    <select id="CoverType" name="CoverType" class="valid">
+                        <option selected="selected" value="0">Level</option>
+                        <option value="1">Decreasing</option>
+                        <option value="2">LevelCIC</option>
+                        <option value="3">DecreasingCIC</option>
+                        <option value="101">IncomeProtection</option>
+                    </select>
+                </div>
+                <div class="boxInp">
+                    <label class="mandatory boxLabel" for="SumAssured">Premium Type</label>
+                    <input class="readOnly valid" id="PremiumType" name="PremiumType" readonly="readonly" type="text" value="Guaranteed" />
+                </div>
+                <div class="boxInp">
+                    <label class="mandatory boxLabel" for="SumAssured">Quote By Prem</label>
+                    <input id="SumAssured" min="0.00" name="SumAssured" type="number" value="35.30" class="valid" />
+                </div>
+                <div class="boxInp">
+                    <label class="control-label boxLabel" for="WOL">WOL</label>
+                    <label class="container-check">
+                        <input class="control-label boxLabel" data-val="true" id="WOL" name="WOL" type="checkbox" value="true"><input name="WOL" type="hidden" value="false">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+                <button type="submit" class="UpdateLetter">Update Letter Details</button>
+                <hr />
+
+                <section class="Uload_fl">
+                    <div class="Uload_In k-scrollbar-vertical" style="font-size: 12px;">
+                        <p>Pack(s):</p>
+                        <ul class="documents">
+
+                            <li>
+                                <div class="documenLink"><span>Key Features Illustration Print</span></div>
+                            </li>
+                            <li>
+                                <div class="dPolicyPack"><span style="font-style:italic;"> Pack not found!</span></div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="Uload_In flRgh_In generateBtn_Fl" style="height: 100%">
+                        <div class="packT">Pack Template</div>
+                        <div class="selectPack">
+                            <select id="ddlTemplate">
+                                <option selected="selected" value="0">---Select---</option>
+                                <option value="1">Referred</option>
+                                <option value="2">Risk</option>
+                                <option value="3">Over50</option>
+                            </select>
+                        </div>
+                        <button class="generatePacks Notes_Btn ApplyBtn">Generate Pack Docs</button>
+                    </div>
+                </section>
+             </div>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,154 @@
+
+<div class="taskNote_Fl">
+    <div class="closeSmsNote"></div>
+    <div id="draggableTask" class="smsNote_Content">
+        <i class="closeNotes fa fa-close" aria-hidden="true"></i>
+        <h3>Create a New Task</h3>
+        <form action="#" method="post">
+            <div class="SmsCustomer">
+
+                <div class="Form_Temp">
+
+                    <div class="SelectTemp">
+                        <div class="Select_Box">
+                            <label class="label">Task Type</label>
+                            <span class="Input_Box TaskCustomer">
+                                <input type="text" name="" value="Callback" readonly="readonly" />
+                            </span>
+                            <ul class="SelectCustomer_Fl taskSelect">
+                                <li><span class="SelectOPt SelectOPtSelect">Callback</span></li>
+                                <li><span class="SelectOPt SelectOPtSelect">Cutomer Referral</span></li>
+                                <li><span class="SelectOPt SelectOPtSelect">Chase GP</span></li>
+                                <li><span class="SelectOPt SelectOPtSelect">Chase Insurer</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="Select_Box Select_Box_Date">
+                            <label class="label">Due Date</label>
+                            <div class="Input_Box">
+                                <input type="text" name="duedateDay" id="dateTDay" readonly="readonly" style="width: 10.5%; padding-right: 0;" />
+                                <input type="text" name="duedateMonth" id="dateTMOnth" readonly="readonly" style="width: 10.5%; padding-right: 0; padding-left: 0;" />
+                                <input type="text" name="duedateYear" id="dateTYear" readonly="readonly" style="width: 15%; padding-left: 0;" />
+                                <input type="text" name="duedateHour" id="dateTHour" readonly="readonly" style="width: 43%; padding-left: 0;" />
+                                <span class="DateTime_Fl">
+                                    <i class="fa fa-calendar-o datePickerElm" aria-hidden="true"></i>
+                                    <i class="fa fa-clock-o timePickerElm" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                       <span class="SendSms_Btn createTask">Create Task</span>
+                    </div>
+
+                    <div class="MsgTemp">
+                        <div class="Select_Box">
+                            <label class="label">Message</label>
+                            <textarea class="SmsArea"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<!-- Sms Pop Up -->
+<div class="smsNote_Fl">
+    <div class="closeSmsNote"></div>
+    <div id="draggableSms" class="smsNote_Content">
+        <i class="closeNotes fa fa-close" aria-hidden="true"></i>
+        <h3>Create a New Sms</h3>
+        <form action="#" method="post">
+            <div class="SmsCustomer">
+                <span class="SmsCustomerTitle">Customer 1</span>
+
+                <div class="Form_Temp">
+                    <div class="SelectTemp">
+                        <div class="Select_Box">
+                            <label class="label">Select a Template</label>
+                            <span class="Input_Box SelectCustomer1">
+                                <input type="text" name="" value="Please Select..." readonly="readonly" />
+                            </span>
+                            <ul class="SelectCustomer_Fl Select_Fl1">
+                                <li><span class="SelectOPt SelectOPtSelect1 pleaseSelect">Please Select...</span></li>
+                                <li><span class="SelectOPt SelectOPtSelect1 contact">Contact</span></li>
+                                <li><span class="SelectOPt SelectOPtSelect1 informal">Informal Re-collection</span></li>
+                            </ul>
+                        </div>
+                        <div class="Select_Box">
+                            <label class="label">Mobile No.</label>
+                            <span class="Input_Box">
+                                <input type="text" name="mobilephone" />
+                            </span>
+                        </div>
+                        <span class="SendSms_Btn disabled">Send SMS</span>
+                    </div>
+                    <div class="MsgTemp">
+                        <div class="Select_Box">
+                            <label class="label">Message</label>
+                            <textarea class="SmsArea client1" placeholder="SMS Content"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="SmsCustomer customerJointSelect">
+                <span class="SmsCustomerTitle">Customer 2</span>
+                <div class="Form_Temp">
+                    <div class="SelectTemp">
+                        <div class="Select_Box">
+                            <label class="label">Select a Template</label>
+                            <span class="Input_Box SelectCustomer2">
+                                <input type="text" name="" value="Please Select..." readonly="readonly" />
+                            </span>
+                            <ul class="SelectCustomer_Fl Select_Fl2">
+                                <li><span class="SelectOPt SelectOPtSelect2 pleaseSelect">Please Select...</span></li>
+                                <li><span class="SelectOPt SelectOPtSelect2 contact">Contact</span></li>
+                                <li><span class="SelectOPt SelectOPtSelect2 informal">Informal Re-collection</span></li>
+                            </ul>
+                        </div>
+                        <div class="Select_Box">
+                            <label class="label">Mobile No.</label>
+                            <span class="Input_Box">
+                                <input type="text" name="mobilephone" />
+                            </span>
+                        </div>
+                        <span class="SendSms_Btn disabled">Send SMS</span>
+                    </div>
+                    <div class="MsgTemp">
+                        <div class="Select_Box">
+                            <label class="label">Message</label>
+                            <textarea class="SmsArea client2" placeholder="SMS Content"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="SendSmsCover">
+            <p class="SmsCoverMsg">Are you sure you wish to continue?</p>
+            <div class="btns_Fl">
+                <button class="SendSms_Btn confirmBtn" id="bSendSms1" style="margin-right: 10px;">Confirm</button>
+                <button class="CancelSendSms">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Bootstrap Modal For All pages in the CRM -->
+
+<!-- <div id="duplicateModal" class="openModal">
+    <div class="modal-content dragThisModal">
+        <div class="modal-header">
+            <button type="button" class="close closeModal" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Duplicate Lead</h4>
+        </div>
+        <div class="modal-body duplicateleadbody"></div>
+    </div>
+</div> -->

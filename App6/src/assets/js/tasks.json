@@ -1,0 +1,192 @@
+{
+
+	"tasksHeader": [
+
+		{
+			"name": "Creator"
+		},
+		{
+			"name": "Task"
+		},
+		{
+			"name": "Client"
+		},
+		{
+			"name": "Added"
+		},
+		{
+			"name": "Due"
+		},
+		{
+			"name": "Completed"
+		},
+		{
+			"name": "Completed By"
+		},
+		{
+			"name": "Task Information"
+		},
+		{
+			"name": "Status"
+		},
+		{
+			"name": "..."
+		}
+	],
+
+	"tasksHeaderEdit": [
+
+		{
+			"id": 0,
+			"topClass": "headerInput10",
+			"editClass": "GridInpWith",
+			"editId": ""
+		},
+		{
+			"id": 1,
+			"topClass": "headerInput10",
+			"editClass": "GridInpWith",
+			"editId": ""
+		},
+		{
+			"id": 2,
+			"topClass": "headerInput10",
+			"editClass": "GridInpWith",
+			"editId": ""
+		},
+		{
+			"id": 3,
+			"topClass": "headerInput10 inpCalndar taskFirst",
+			"editClass": "GridInpWith ThisFocusDate",
+			"editId": "taskFirst"
+		},
+		{
+			"id": 4,
+			"topClass": "headerInput10 inpCalndar taskSecond",
+			"editClass": "GridInpWith ThisFocusDate",
+			"editId": "taskSecond"
+		},
+		{
+			"id": 5,
+			"topClass": "headerInput10 inpCalndar taskThird",
+			"editClass": "GridInpWith ThisFocusDate",
+			"editId": "taskThird"
+		},
+		{
+			"id": 6,
+			"topClass": "headerInput10",
+			"editClass": "GridInpWith",
+			"editId": ""
+		},
+		{
+			"id": 7,
+			"topClass": "headerInput10",
+			"editClass": "GridInpWith",
+			"editId": ""
+		},
+		{
+			"id": 8,
+			"topClass": "headerInput10",
+			"editClass": "GridInpWith",
+			"editId": ""
+		},
+		{
+			"id": 9,
+			"topClass": "headerInput10",
+			"editClass": "GridInpWith",
+			"editId": ""
+		}
+	],
+
+	"salesDrop": [
+
+		{
+			"name": "All"
+		},
+		{
+			"name": "Jabran Faisal"
+		},
+		{
+			"name": "Jade Gilbert"
+		},
+		{
+			"name": "Kelly Grace"
+		},
+		{
+			"name": "Sonal Patel"
+		},
+		{
+			"name": "Edwin Guy"
+		},
+		{
+			"name": "Dave Gallow"
+		},
+		{
+			"name": "Aaron Berry"
+		},
+		{
+			"name": "Abas Chaudhry"
+		},
+		{
+			"name": "Aboud Jarche"
+		},
+		{
+			"name": "Adam Bruder"
+		},
+		{
+			"name": "Adam Cotter"
+		},
+		{
+			"name": "Adam Kelly"
+		},
+		{
+			"name": "Adnan Zaheer"
+		},
+		{
+			"name": "Adrian Amarasinghe"
+		},
+		{
+			"name": "Aishu Mathesh"
+		},
+		{
+			"name": "Ajay Rajkumar"
+		},
+		{
+			"name": "Alex Quintana"
+		},
+		{
+			"name": "Alex Saunders"
+		},
+		{
+			"name": "Alexander Morales-Howard"
+		},
+		{
+			"name": "Ali Adham"
+		},
+		{
+			"name": "Ameer Bux"
+		},
+		{
+			"name": "Amir Babrah"
+		}
+	],
+
+	"tasksDropData": [
+
+		{
+			"nameTask": "All"
+		},
+		{
+			"nameTask": "Callback"
+		},
+		{
+			"nameTask": "Cutomer Referral"
+		},
+		{
+			"nameTask": "Chase GP"
+		},
+		{
+			"nameTask": "Chase Insurer"
+		}
+	]
+}

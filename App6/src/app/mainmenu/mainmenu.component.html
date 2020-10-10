@@ -1,0 +1,167 @@
+
+<!-- <a *ngFor="let navroute of navroutes" class="navRoute {{ navroute.mainClass }}">{{ navroute.name }}</a> -->
+
+<span class="NavMob"></span>
+
+<ul class="mainNav">
+
+	<li class="menuDrop">
+		<a class="navRoute dropD">Lead settings</a>
+		<div class="dropTop">
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="LeadSettings">
+					<li *ngFor="let leadsetting of leadsettings"><a routerLink="/{{ leadsetting.url }}" class="navUrl {{ leadsetting.UrlClass }}">{{ leadsetting.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+	<li class="menuDrop"><a routerLink="/" class="navRoute normal" style="padding-right: 0;">FCALeads</a></li>
+
+	<li class="menuDrop"><a routerLink="/mypolicies" class="navRoute mypolicies longWith" style="padding-right: 0;">My Policies</a></li>
+
+	<li class="menuDrop">
+		<a class="navRoute dropD">Policies</a>
+		<div class="dropTop">
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="PoliciesNav">
+					<li *ngFor="let policiesNav of policiesNavs"><a routerLink="/{{ policiesNav.url }}" class="navUrl {{ policiesNav.UrlClass }}">{{ policiesNav.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+	<li class="menuDrop"><a routerLink="/myleads" class="navRoute myleads longWith" style="padding-right: 0;">My Leads</a></li>
+
+	<li class="menuDrop">
+		<a class="navRoute dropD">Tasks</a>
+		<div class="dropTop">
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="Tasks">
+					<li *ngFor="let tasksNav of tasksNavs"><a routerLink="/{{ tasksNav.url }}" class="navUrl {{ tasksNav.UrlClass }}">{{ tasksNav.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+	<li class="menuDrop"><a routerLink="/fishing" class="navRoute fishing" style="padding-right: 0;">Fishing</a></li>
+	<li class="menuDrop"><a routerLink="/addlead" class="navRoute addleadUrl longWith" style="padding-right: 0;">Add Lead</a></li>
+
+	<li class="menuDrop">
+		<a class="navRoute dropD">Chase Log</a>
+		<div class="dropTop">
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="ChaseLog">
+					<li *ngFor="let chaselogNav of chaselogNavs"><a routerLink="/{{ chaselogNav.url }}" class="navUrl {{ chaselogNav.UrlClass }}">{{ chaselogNav.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+	<li class="menuDrop">
+		<a class="navRoute dropD">Retention</a>
+		<div class="dropTop">
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="RetentionNav">
+					<li *ngFor="let retentionNav of retentionNavs"><a routerLink="/{{ retentionNav.url }}" class="navUrl {{ retentionNav.UrlClass }}">{{ retentionNav.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+	<li class="menuDrop">
+		<a class="navRoute dropD">Compliance</a>
+		<div class="dropTop">
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="ComplianceNav">
+					<li *ngFor="let complianceNav of complianceNavs"><a routerLink="/{{ complianceNav.url }}" class="navUrl {{ complianceNav.UrlClass }}">{{ complianceNav.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+	<li class="menuDrop">
+		<a class="navRoute dropD">Pbx</a>
+		<div class="dropTop">
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="PbxNav">
+					<li *ngFor="let pbxNav of pbxNavs"><a routerLink="/{{ pbxNav.url }}" class="navUrl {{ pbxNav.UrlClass }}">{{ pbxNav.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+	<li class="menuDrop"><a routerLink="/" class="navRoute normal" style="padding-right: 0;">Finance</a></li>
+	<li class="menuDrop"><a routerLink="/" class="navRoute normal" style="padding-right: 0;">Comfirm Commission</a></li>
+
+	<li class="menuDrop">
+		<a class="navRoute dropD">Reports & Targets</a>
+		<div class="dropTop">
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="ReportsTargetsNav">
+					<li *ngFor="let reportstargetsNav of reportstargetsNavs"><a routerLink="/{{ reportstargetsNav.url }}" class="navUrl {{ reportstargetsNav.UrlClass }}">{{ reportstargetsNav.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+	<li class="menuDrop">
+		<a class="navRoute dropD">Settings</a>
+		<div class="dropTop">
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="SettingsNav">
+					<li *ngFor="let settingsNav of settingsNavs"><a routerLink="/{{ settingsNav.url }}" class="navUrl {{ settingsNav.UrlClass }}">{{ settingsNav.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+
+	<!-- Extra Items -->
+	<li class="menuDrop">
+		<a class="navRoute dropD">Extra Menu 1</a>
+		<div class="dropTop">
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="SettingsNav">
+					<li *ngFor="let settingsNav of settingsNavs"><a routerLink="/{{ settingsNav.url }}" class="navUrl {{ settingsNav.UrlClass }}">{{ settingsNav.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+	<li class="menuDrop">
+		<a class="navRoute dropD">Extra Menu 2</a>
+		<div class="dropTop"> 
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="SettingsNav">
+					<li *ngFor="let settingsNav of settingsNavs"><a routerLink="/{{ settingsNav.url }}" class="navUrl {{ settingsNav.UrlClass }}">{{ settingsNav.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+	<li class="menuDrop">
+		<a class="navRoute dropD">Extra Menu 3</a>
+		<div class="dropTop">
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="SettingsNav">
+					<li *ngFor="let settingsNav of settingsNavs"><a routerLink="/{{ settingsNav.url }}" class="navUrl {{ settingsNav.UrlClass }}">{{ settingsNav.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+	<li class="menuDrop">
+		<a class="navRoute dropD">Extra Menu 4</a>
+		<div class="dropTop"> 
+			<ul class="dropNav">
+				<div class="dropNavOpt" id="SettingsNav">
+					<li *ngFor="let settingsNav of settingsNavs"><a routerLink="/{{ settingsNav.url }}" class="navUrl {{ settingsNav.UrlClass }}">{{ settingsNav.name }}</a></li>
+				</div>
+			</ul>
+		</div>
+	</li>
+
+	<li class="menuDrop"><a routerLink="/addlead" class="navRoute addleadUrl" style="padding-right: 0;">Add Lead</a></li>
+
+</ul>

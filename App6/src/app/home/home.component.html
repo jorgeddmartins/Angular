@@ -1,0 +1,354 @@
+
+<template class="homeTemp">
+
+    <div class="leadTNav">
+        <div class="LRefr_Fl">
+            <span class="referenceLead">Lead Reference : 556715</span>
+        </div>
+
+        <span class="dupeLeadLabel">Duplicate Lead</span>
+
+        <div class="dateCrtLead">
+            <span class="CrTitle">Lead Created On :</span>
+            <span class="CrResult">01/10/2018 00:00:00</span>
+        </div>
+    </div>
+
+    <section class="costumerDetails">
+        <div class="costumerBoard costumerLeft">
+            <span class="formBoard_Title">Customer 1 Details</span>
+            <form action="#" method="post">
+                <div class="form_Fl formWhite">
+
+                    <div class="boxInp" *ngFor="let costumer of costumers">
+                        <label class="boxLabel">{{ costumer.name }}</label>
+                        <input type="text" name="{{ costumer.inputname }}" />
+                    </div>
+
+                    <div class="boxInp DOBcl">
+                        <label class="boxLabel">DOB</label>
+                        <div class="inputBox datePicker_Fl">
+                            <input type="text" name="dob" class="dobDatepicker" id="dobDatepicker" readonly="readonly" />
+                        </div>
+                    </div>
+
+                    <div class="boxInp genderTemp switchTemp">
+                        <label class="boxLabel">Gender</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="gender" id="male" checked>
+                            <label for="male" class="switch-label switch-label-off">Male</label>
+                            <input type="radio" class="switch-input" name="gender" id="female">
+                            <label for="female" class="switch-label switch-label-on">Female</label>
+                            <span class="switch-selection"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp smokerTemp switchTemp">
+                        <label class="boxLabel">Smoker?</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="smoker" id="smokeYes" checked>
+                            <label for="smokeYes" class="switch-label switch-label-off switch-Yes">Yes</label>
+                            <input type="radio" class="switch-input" name="smoker" id="smokeNo">
+                            <label for="smokeNo" class="switch-label switch-label-on switch-No">No</label>
+                            <span class="switch-selection"></span>
+                            <input type="hidden" name="smoker" id="Smoker1">
+                        </div>
+                    </div>
+                </div>
+                <div class="form_Fl formGrey">
+
+                    <div class="boxInp" *ngFor="let addresse of addresses">
+                        <label class="boxLabel">{{ addresse.name }}</label>
+                        <input type="text" class="{{ addresse.inputClass }}" name="{{ addresse.inputname }}" />
+                    </div>
+
+                    <div class="boxInp postCodeSingle">
+                        <label class="boxLabel">Post Code</label>
+                        <div class="inputBox postcode_Fl">
+                            <input class="postCodeSingleInput" type="text" name="postcode" />
+                        </div>
+
+                        <ul class="postCode_fl postCode_flSingle"></ul>
+
+                    </div>
+                </div>
+
+                <div class="form_Fl formWhite">
+                    <div class="boxInp boxInp100"><label class="boxLabel">Email</label><input type="text" name="email"></div>
+
+                    <div class="phone_Box">
+                        <div class="boxInp">
+                            <label class="boxLabel">Home Phone</label>
+                            <input type="number" id="LandlinePhone" name="homephone" value="07520897654" />
+                            <div class="phoneAdt_Fl LandlinePhone">
+                                <span class="phoneAdt lp sc"></span>
+                                <span class="phoneAdt lp phoneDw"></span>
+                                <span class="phoneAdt lp phoneUp"></span>
+                                <span class="phoneAdt lp PhoneLk"></span>
+                            </div>
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Work Phone</label>
+                            <input type="number" id="WorkPhone" name="workphone" />
+                            <div class="phoneAdt_Fl WorkPhone">
+                                <span class="phoneAdt wrp sc"></span>
+                                <span class="phoneAdt wrp phoneDw"></span>
+                                <span class="phoneAdt wrp phoneUp"></span>
+                                <span class="phoneAdt wrp PhoneLk"></span>
+                            </div>
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Mobile Phone</label>
+                            <input type="number" id="MobilePhone" name="mobilephone" value="07520897654"  />
+                            <div class="phoneAdt_Fl MobilePhone">
+                                <span class="phoneAdt mbp sc"></span>
+                                <span class="phoneAdt mbp phoneDw"></span>
+                                <span class="phoneAdt mbp phoneUp"></span>
+                                <span class="phoneAdt mbp PhoneLk"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="costumerBoard costumerRight costumerRightBorder">
+            <div class="addCustomer">
+                <button class="addCustomerBtn">Add Second Customer</button>
+            </div>
+
+            <span class="formBoard_Title">Customer 2 Details</span>
+            <form action="" method="post">
+                <div class="form_Fl formWhite">
+
+                    <div class="boxInp" *ngFor="let costumer of costumers">
+                        <label class="boxLabel">{{ costumer.name }}</label>
+                        <input type="text" name="{{ costumer.inputname }}" />
+                    </div>
+
+                    <div class="boxInp">
+                        <label class="boxLabel">DOB</label>
+                        <div class="inputBox datePicker_Fl">
+                            <input type="text" id="datepicker2" class="datepicker2" name="dob" readonly="readonly" />
+                        </div>
+                    </div>
+
+                    <div class="boxInp">
+                        <label class="boxLabel genderTemp switchTemp">Gender</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="gender" id="malep" checked>
+                            <label for="malep" class="switch-label switch-label-off">Male</label>
+                            <input type="radio" class="switch-input" name="gender" id="femalep">
+                            <label for="femalep" class="switch-label switch-label-on">Female</label>
+                            <span class="switch-selection"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp">
+                        <label class="boxLabel smokerTemp switchTemp">Smoker?</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="smoker" id="smokeYes2" checked>
+                            <label for="smokeYes2" class="switch-label switch-label-off switch-Yes">Yes</label>
+                            <input type="radio" class="switch-input" name="smoker" id="smokeNo2">
+                            <label for="smokeNo2" class="switch-label switch-label-on switch-No">No</label>
+                            <span class="switch-selection"></span>
+                            <input type="hidden" name="smoker" id="Smoker2">
+                        </div>
+                    </div>
+                </div>
+                <div class="form_Fl formGrey">
+                    <div class="boxInp" *ngFor="let addresse of addresses">
+                        <label class="boxLabel">{{ addresse.name }}</label>
+                        <input type="text" name="{{ addresse.inputname }}" />
+                    </div>
+                    <div class="boxInp">
+                        <label class="boxLabel">Post Code</label>
+                        <div class="inputBox postcode_Fl">
+                            <input type="text" name="postcode" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form_Fl formWhite">
+                    <div class="boxInp boxInp100"><label class="boxLabel">Email</label><input type="text" name="email"></div>
+                    <div class="phone_Box">
+                        <div class="boxInp">
+                            <label class="boxLabel">Home Phone</label>
+                            <input type="number" name="homephone" id="PartnerLandlinePhone" />
+                            <div class="phoneAdt_Fl PartnerLandlinePhone">
+                                <span class="phoneAdt sc"></span>
+                                <span class="phoneAdt plp phoneDw"></span>
+                                <span class="phoneAdt plp phoneUp"></span>
+                                <span class="phoneAdt plp PhoneLk"></span>
+                            </div>
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Work Phone</label>
+                            <input type="number" name="workphone" id="PartnerWorkPhone" value="07865437685" />
+                            <div class="phoneAdt_Fl PartnerWorkPhone">
+                                <span class="phoneAdt sc"></span>
+                                <span class="phoneAdt pwrp phoneDw"></span>
+                                <span class="phoneAdt pwrp phoneUp"></span>
+                                <span class="phoneAdt pwrp PhoneLk"></span>
+                            </div>
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Mobile Phone</label>
+                            <input type="number" name="mobilephone" id="PartnerMobilePhone" />
+                            <div class="phoneAdt_Fl PartnerMobilePhone">
+                                <span class="phoneAdt sc"></span>
+                                <span class="phoneAdt pmbp phoneDw"></span>
+                                <span class="phoneAdt pmbp phoneUp"></span>
+                                <span class="phoneAdt pmbp PhoneLk"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    <section class="costumerDetails">
+        <div class="costumerBoard costumerLeft">
+            <form action="#" method="post" class="thisform">
+                <div class="form_Fl formGrey">
+                    <div class="boxInp">
+                        <label class="boxLabel">Sum Assured</label>
+                        <input type="text" name="address" />
+                    </div>
+                    <div class="boxInp">
+                        <label class="boxLabel">CIC Sum</label>
+                        <input type="text" name="address" />
+                    </div>
+                    <div class="boxInp">
+                        <label class="boxLabel">Term</label>
+                        <input type="text" name="town" />
+                    </div>
+                    
+                    <div class="boxInp smllInp">
+                        <label class="boxLabel">Life</label>
+                        <div class="switch-radio YNBig">
+                            <input type="radio" class="switch-input" name="life" id="yesLife" checked>
+                            <label for="yesLife" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="life" id="noLife">
+                            <label for="noLife" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-YNBig"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp smllInp">
+                        <label class="boxLabel">CIC</label>
+                        <div class="switch-radio YNBig">
+                            <input type="radio" class="switch-input" name="cic" id="yesCic" checked>
+                            <label for="yesCic" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="cic" id="noCic">
+                            <label for="noCic" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-YNBig"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp smllInp">
+                        <label class="boxLabel">Level term</label>
+                        <div class="switch-radio YNBig">
+                            <input type="radio" class="switch-input" name="levelterm" id="yesTerm" checked>
+                            <label for="yesTerm" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="levelterm" id="noTerm">
+                            <label for="noTerm" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-YNBig"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp smllInp">
+                        <label class="boxLabel">Guaranteed</label>
+                        <div class="switch-radio YNBig">
+                            <input type="radio" class="switch-input" name="Guaranteed" id="yesGuaranteed" checked>
+                            <label for="yesGuaranteed" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="Guaranteed" id="noGuaranteed">
+                            <label for="noGuaranteed" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-YNBig"></span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="costumerBoard costumerRight" style="border: 0;">
+            <form action="#" method="post">
+                <div class="btnsLft">
+                    <a class="QutBtn" routerLink="/quotes">Get Quotes</a>
+                    <span class="bttBtnlft smsBtn btnW49">Send Sms</span>
+                    <span class="bttBtnlft updaBtn ReassignBtn btnW49 disabled">Update Lead</span>
+                </div>
+
+                <div class="downCostumer">
+                    <div class="boxInp extraW ">
+                        <label class="boxLabel">Dupliocate</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="Dupliocate" value="yes" id="YesDup" checked>
+                            <label for="YesDup" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="Dupliocate" value="No" id="NoDup">
+                            <label for="NoDup" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-joint"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp extraW ">
+                        <label class="boxLabel">Single / Joint</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="joint" value="single" id="single" checked>
+                            <label for="single" class="switch-label switch-label-off switch-joint-off">Single</label>
+                            <input type="radio" class="switch-input" name="joint" value="joint" id="joint">
+                            <label for="joint" class="switch-label switch-label-on switch-joint-on">Joint</label>
+                            <span class="switch-selection-joint switch-joint-run"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp extraW ">
+                        <label class="boxLabel">Lead Status</label>
+                        <input type="text" name="leadstatus" />
+                    </div>
+                    <div class="boxInp extraW ">
+                        <label class="boxLabel">Initial Owner</label>
+                        <input type="text" name="initialOwner" />
+                    </div>
+                </div>
+                <button class="bttBtnlft updaBtn assignBt btnW13">Reassign</button>
+            </form>
+        </div>
+    </section>
+
+    <span class="customerPolicy_Title">CUSTOMER POLICIES</span>
+    <section class="costumerDetails topHomeGrid">
+
+        <div class="theadFish"><span *ngFor="let fishhead of fishheads" class="thFish">{{ fishhead.name }}</span></div>
+
+    </section>
+    <span class="customerPolicy_Title">DUPLICATE LEADS</span>
+    <section class="costumerDetails bottomHomeGrid">
+        
+        <div class="theadFish"><span *ngFor="let fishhead of fishheads" class="thFish">{{ fishhead.name }}</span></div>
+
+    </section>
+
+    <!-- <div class="dobC_Fl"></div> -->
+
+    <div class="GridCalendPot">
+        <div class="CloseCalend"></div>
+        <div class="GridCalendar left" id="GridCalen"><span class="calendDragTitle">Date From :</span></div>
+    </div>
+
+</template>
+
+<!-- Error Pop Up -->
+<template class="ModalErrorPot">
+    <div class="ErrorPotContent"></div>
+</template>
+
+<!--<div id="leadSMSModel" class="modal modal-wide fade" role="document">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="closeLeadSMSModel();">&times;</button>
+                <h2 class="modal-title">Send SMS</h2>
+            </div>
+            <div class="modal-body addSMSbody">
+                <p>Loading...</p>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- Trigger the modal with a button -->

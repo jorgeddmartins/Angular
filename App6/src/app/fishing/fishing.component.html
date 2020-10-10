@@ -1,0 +1,45 @@
+
+<div class="fishingTemp">
+
+    <div class="leadTNav">
+        <div class="LRefr_Fl">
+            <span class="referenceLead">Fishing</span>
+        </div>
+    </div>
+
+    <section class="costumerDetails">
+        <div class="costumerBoard costumerMiddle">
+            <form action="#" method="post">
+
+                <div *ngFor="let topelem of topelems" class="boxInp {{ topelem.mainClass }}">
+                    <label class="boxLabel">{{ topelem.name }}</label>
+                    <input name="{{ topelem.inputname }}" type="text">
+                </div>
+
+                <div class="boxInp wTh4">
+                    <span class="GoFishBtn">Go Fish</span>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <section class="costumerDetails">
+        <div class="costumerBoard costumerMiddle" style="height: 77.1vh;">
+
+            <div class="theadFish">
+
+                <span *ngFor="let fishhead of fishheads" class="thFish {{ fishhead.adtClass }}">{{ fishhead.name }}</span>
+            </div>
+
+            <div class="tbodyFish" id="tbodyFish"></div>
+
+            <div class="tdFoot">
+                
+                <span *ngFor="let footpage of footpages" class="pageNum">{{ footpage.name }}</span>
+            </div>
+
+        </div>
+    </section>
+
+</div>

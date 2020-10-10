@@ -1,0 +1,34 @@
+
+<div class="salepersontypesTemp">
+
+    <div class="leadTNav">
+        <div class="LRefr_Fl">
+            <span class="referenceLead">Sales Persons Types</span>
+        </div>
+    </div>
+    
+    <div class="GridSmarter">
+
+        <div class="topBtnHeader"><span class="addNRecBtn">Add New Record</span></div>
+
+        <div class="AllPolHeader">
+            <span *ngFor="let salesGridHead of salesGridHeads" class="ThHeader salestypesGridWidth">{{ salesGridHead.name }}</span>
+        </div>
+        <div class="HeaderSearch" style="width: 100%; float: left;">
+            <input type="text" class="salestypesGridWidth gridSearchIn" />
+            <input type="text" class="salestypesGridWidth gridSearchIn" />
+        </div>
+
+        <div class="AllPolBody" id="StBodySalePersonTypes">
+            
+            <div class="addNew"></div>
+        </div>
+
+        <div class="tdFoot" style="margin-top: 100px;">
+            <span class="pageNum pagingN"><<</span>
+            <span *ngFor="let salesFooterNum of salesFooterNums" class="pageNum currentP {{ salesFooterNum.cClass }}">{{ salesFooterNum.num }}</span>
+            <span class="pageNum">>></span>
+        </div>
+
+    </div>
+</div>

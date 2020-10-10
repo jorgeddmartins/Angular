@@ -1,0 +1,227 @@
+{
+	"preRiskHeader": [
+
+		{
+			"name": "Policy Status"
+		},
+		{
+			"name": "Notifications"
+		},
+		{
+			"name": "Sale Type"
+		},
+		{
+			"name": "Crm Id"
+		},
+		{
+			"name": "Sale Date"
+		},
+		{
+			"name": "Insurer"
+		},
+		{
+			"name": "Plolicy No"
+		},
+		{
+			"name": "Surname"
+		},
+		{
+			"name": "Partner Surname"
+		},
+		{
+			"name": "Date on Risk"
+		},
+		{
+			"name": "Start Date"
+		},
+		{
+			"name": "Sum Assured"
+		},
+		{
+			"name": "Initial Premium"
+		},
+		{
+			"name": "Application Type"
+		},
+		{
+			"name": "Cover Type"
+		}
+	],
+
+	"preRiskEdit": [
+
+		{
+			"id": 0,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 1,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 2,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 3,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 4,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 5,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 6,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 7,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 8,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 9,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 10,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 11,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 12,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 13,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 14,
+			"wClass": "GridInpWith"
+		}
+	],
+
+	"preReferredHeader": [
+
+		{
+			"name": "Policy Status"
+		},
+		{
+			"name": "Notifications"
+		},
+		{
+			"name": "Sale Type"
+		},
+		{
+			"name": "Crm Id"
+		},
+		{
+			"name": "Sale Date"
+		},
+		{
+			"name": "Insurer"
+		},
+		{
+			"name": "Plolicy No"
+		},
+		{
+			"name": "Surname"
+		},
+		{
+			"name": "Partner Surname"
+		},
+		{
+			"name": "Date on Risk"
+		},
+		{
+			"name": "Start Date"
+		},
+		{
+			"name": "Sum Assured"
+		},
+		{
+			"name": "Initial Premium"
+		},
+		{
+			"name": "Application Type"
+		},
+		{
+			"name": "Cover Type"
+		}
+	],
+
+	"preReferredEdit": [
+
+		{
+			"id": 0,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 1,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 2,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 3,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 4,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 5,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 6,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 7,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 8,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 9,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 10,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 11,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 12,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 13,
+			"wClass": "GridInpWith"
+		},
+		{
+			"id": 14,
+			"wClass": "GridInpWith"
+		}
+	]
+}

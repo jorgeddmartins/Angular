@@ -1,0 +1,17 @@
+{
+	"saletypesDta": [
+
+		{
+			"nameT": "Rookie",
+			"Llimit": 7
+		},
+		{
+			"nameT": "Gold",
+			"Llimit": 14
+		},
+		{
+			"nameT": "Silver",
+			"Llimit": 10
+		}
+	]
+}

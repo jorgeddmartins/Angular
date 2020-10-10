@@ -1,0 +1,237 @@
+
+<div class="policyTemp">
+    <section class="costumerDetails">
+        <div class="details_Left">
+
+            <div class="top_Policies">
+                <div class="costumerBoard costumerLeft marginB3">
+                    <span class="formBoard_Title title_BackWhite">Customer Contact Details</span>
+                </div>
+
+                <input *ngFor="let detacost of detacosts" type="{{ detacost.type }}" name="{{ detacost.name }}" class="{{ detacost.classMain }}" placeholder="{{ detacost.placeholder }}" />
+            </div>
+
+            <div class="costumerBoard costumerLeft">
+                <span class="formBoard_Title">Policy Notes</span>
+
+                <div class="content_Notes">
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</P>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</P>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</P>
+
+                    <div class="btn_Box">
+                        <span class="Notes_Btn ApplyBtn">Apply Now</span>
+                        <span class="Notes_Btn">Refresh</span>
+                    </div>
+
+                    <!-- <div class="Uload_fl"></div> -->
+                </div>
+
+                <section class="Uload_fl">
+                    <div class="Uload_In"></div>
+                    <div class="Uload_In flRgh_In">
+                        <div class="Uload_In" style="background: transparent; height: 87px;">
+                            <input type="file" name="file-7[]" id="file-7" class="inputfile inputfile-6" data-multiple-caption="{count} files selected" multiple />
+                            <label for="file-7">
+                                <span class="fileBros">Browser</span><strong></strong>
+                            </label>
+                            <span class="Upl_Btn">Upload</span>
+                        </div>
+                        <div class="Uload_In flRgh_In" style="background: transparent; height: 87px;">
+                            <input type="file" name="file-7[]" id="file-8" class="inputfile inputfile-6" data-multiple-caption="{count} files selected" multiple />
+                            <label for="file-8">
+                                <span class="fileBros">Browser</span><strong></strong>
+                            </label>
+                            <span class="Upl_Btn">Upload</span>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="costumerBoard costumerLeft" style="height: 31.95vh">
+                <span class="formBoard_Title">Document Notes</span>
+            </div>
+        </div>
+
+        <div class="costumerBoard costumerRight" style="height: 83.6vh;">
+            <span class="formBoard_Title">Update Policy Details</span>
+            <form action="" method="post">
+                <div class="form_Fl formWhite" id="form_Fl">
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">App No.</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Policy No.</label>
+                        <input type="text" name="title" />
+                    </div>
+
+                    <div class="boxInp estraWPlus inputDrop">
+                        <label class="boxLabel">Provider</label>
+                        <span class="coverDrop coverProvider"><input type="text" name="title" class="provider" value="Provider" readonly="readonly" /></span>
+                        <ul class="CDropDow dropProvider">
+                            <li><span class="optSelect providerOpt selected">Provider</span></li>
+                            <li><span class="optSelect providerOpt">Provider 2</span></li>
+                            <li><span class="optSelect providerOpt">Provider 3</span></li>
+                            <li><span class="optSelect providerOpt">Provider 4</span></li>
+                            <li><span class="optSelect providerOpt">Provider 5</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="boxInp estraWPlus inputDrop">
+                        <label class="boxLabel">Premium</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Commission</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Recurring</label>
+                        <input type="text" name="title" />
+                    </div>
+
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Split</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="Split" value="yes" id="YesSplit" checked>
+                            <label for="YesSplit" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="Split" value="No" id="NoSplit">
+                            <label for="NoSplit" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-poldetail"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp estraWPlus inputDrop">
+                        <label class="boxLabel">Split With</label>
+                        <span class="coverDrop coverSplitWith"><input type="text" name="title" class="splitwith" value="Split with" readonly="readonly" /></span>
+                        <ul class="CDropDow dropSpliwith">
+                            <li><span class="optSelect splitwithOpt selected">Split With</span></li>
+                            <li><span class="optSelect splitwithOpt">Split With 2</span></li>
+                            <li><span class="optSelect splitwithOpt">Split With 3</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Has Bank Details</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="bankdetails" value="yes" id="YesBank" checked>
+                            <label for="YesBank" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="bankdetails" value="No" id="NoBank">
+                            <label for="NoBank" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-poldetail"></span>
+                        </div>
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Has Start Date</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="startdate" value="yes" id="YesSdate" checked>
+                            <label for="YesSdate" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="startdate" value="No" id="NoSdate">
+                            <label for="NoSdate" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-poldetail"></span>
+                        </div>
+                    </div>
+
+                    <div class="boxInp estraWPlus inputDrop">
+                        <label class="boxLabel">Start Date</label>
+                        <span class="coverDrop coverstartDate"><input type="text" name="title" class="startDate" value="01" readonly="readonly" /></span>
+                        <ul class="CDropDow dropStartDate" id="dropStartDate"></ul>
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Pref Payment Date</label>
+                        <input type="text" name="title" />
+                    </div>
+
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">First Payment Date</label>
+                        <div class="inputBox datePicker_Fl datepicker1_Fl" style="border: 1px solid #ddd;">
+                            <input class="dobDatepicker1" id="dobDatepicker1" name="dob" type="text">
+                        </div>
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Cashback Amount</label>
+                        <input type="text" name="title" />
+                    </div>
+
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Voucher Amout</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Net Commission</label>
+                        <input type="text" name="title" />
+                    </div>
+
+                    <div class="boxInp estraWPlus inputDrop">
+                        <label class="boxLabel">Sold Status</label>
+                        <span class="coverDrop coverSoldStatus"><input type="text" name="title" class="SoldStatus" value="Sold Status 01" readonly="readonly" /></span>
+                        <ul class="CDropDow dropSoldStatus">
+                            <li><span class="optSelect SoldStatusOpt">Sold Status 01</span></li>
+                            <li><span class="optSelect SoldStatusOpt">Sold Status 02</span></li>
+                            <li><span class="optSelect SoldStatusOpt">Sold Status 03</span></li>
+                        </ul>
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Is Policy Discounted</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="Policy" value="yes" id="YesPolicy" checked>
+                            <label for="YesPolicy" class="switch-label switch-label-off">Yes</label>
+                            <input type="radio" class="switch-input" name="Policy" value="No" id="NoPolicy">
+                            <label for="NoPolicy" class="switch-label switch-label-on">No</label>
+                            <span class="switch-selection-poldetail"></span>
+                        </div>
+                    </div>
+
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Bank Name</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Acc. No.</label>
+                        <input type="text" name="title" />
+                    </div>
+
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Sort Code</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp estraWPlus">
+                        <label class="boxLabel">Card Holder Name</label>
+                        <input type="text" name="title" />
+                    </div>
+                </div>
+
+                <div class="bottomForm">
+                    <div class="boxInp">
+                        <label class="boxLabel">GP Name</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="boxInp">
+                        <label class="boxLabel">GP Details</label>
+                        <textarea></textarea>
+                    </div>
+                </div>
+
+                <div class="boxInp extraBtn">
+                    <a routerLink="/policydetail" class="addPoliBtn">Add Policy Details</a>
+                </div>
+            </form>
+        </div>
+
+    </section>
+</div>
+
+
+<!-- UpLoad Replace Modal -->
+<div class="replacePop replPoDelete">
+    <div class="closeReplPop"></div>
+    <div class="replNote_Content">
+        <i aria-hidden="true" class="closeReplace fa fa-close"></i>
+        <span class="RepMsg">Are You Sure You want to Continue?</span>
+        <span class="Replac_Btn">Replace</span>
+        <span class="Replac_Btn">Merge</span>
+        <span class="Replac_Btn">Cancel</span>
+    </div>
+</div>

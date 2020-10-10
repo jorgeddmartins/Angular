@@ -1,0 +1,458 @@
+<header class="HeaderLeft">
+    <div class="HeaderLeft_In">
+        <div class="logo_Box">
+            <a href="/"><img src="/Content/images/smarterlogo.svg"></a>
+        </div>
+        @Html.Partial("_takeLead")
+        <div class="newsFloor">
+            <span class="newsTitle">Smarter News</span>
+            <span class="newsSlider" id="newsSmarter">News</span>
+        </div>
+    </div>
+    <nav role="navigation">
+        @Html.Action("TopMenu", "Layout")
+        <div class="search_Floor">
+            <span class="searchTxt">Search</span>
+            <input type="text" class="searchLead" name="search" />
+            <span class="searchIco"></span>
+            <span class="goSearch"></span>
+        </div>
+    </nav>
+</header>
+<section class="SmarterSection" role="main">
+    <div class="leadTNav">
+        <div class="LRefr_Fl">
+            <span class="referenceLead">Lead Reference</span>
+        </div>
+        <span class="LRefr_Btns bigBtn">Not Contacted</span>
+        <span class="LRefr_Btns bigBtn">No Bank Details</span>
+        <span class="LRefr_Btns bigBtn">Turned Down</span>
+        <span class="LRefr_Btns bigBtn">Quoted</span>
+        <span class="LRefr_Btns bigBtn">Contacted</span>
+    </div>
+    <div class="homeTemp">
+        <section class="costumerDetails">
+            <div class="costumerBoard costumerLeft">
+                <span class="formBoard_Title">Customer 1 Details</span>
+                <form action="#" method="post">
+                    <div class="form_Fl formWhite">
+                        <div class="boxInp">
+                            <label class="boxLabel">Title</label>
+                            <input type="text" name="title">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">First Name</label>
+                            <input type="text" name="firstname">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Last Name</label>
+                            <input type="text" name="lasttname">
+                        </div>
+                        <div class="boxInp DOBcl">
+                            <label class="boxLabel">DOB</label>
+                            <div class="inputBox datePicker_Fl datepicker1_Fl">
+                                <input class="dobDatepicker1" id="" name="dob" type="text">
+                            </div>
+                        </div>
+                        <div class="boxInp genderTemp switchTemp">
+                            <label class="boxLabel">Gender</label>
+                            <div class="switch_box">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <div class="slider round">
+                                        <div class="switchBtnG"></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="boxInp smokerTemp switchTemp">
+                            <label class="boxLabel">Smoker?</label>
+                            <div class="switch_box">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <div class="slider round">
+                                        <div class="switchBtnS"></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_Fl formGrey">
+                        <div class="boxInp">
+                            <label class="boxLabel">Address Line 1</label>
+                            <input type="text" name="address">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Address Line 2</label>
+                            <input type="text" name="address">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Town</label>
+                            <input type="text" name="town">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">City</label>
+                            <input type="text" name="city">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Country</label>
+                            <input type="text" name="country">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Post Code</label>
+                            <div class="inputBox postcode_Fl">
+                                <input name="postcode" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_Fl formWhite">
+                        <div class="boxInp boxInp100">
+                            <label class="boxLabel">Email</label>
+                            <input type="text" name="email">
+                        </div>
+                        <div class="boxInp ">
+                            <label class="boxLabel">Home Phone</label>
+                            <input type="text" name="homephone">
+                            <div class="phoneAdt_Fl">
+                                <span class="phoneAdt sc"></span>
+                                <span class="phoneAdt phoneDw"></span>
+                                <span class="phoneAdt phoneUp"></span>
+                                <span class="phoneAdt PhoneLk"></span>
+                            </div>
+                        </div>
+                        <div class="boxInp ">
+                            <label class="boxLabel">Work Phone</label>
+                            <input type="text" name="workphone">
+                            <div class="phoneAdt_Fl">
+                                <span class="phoneAdt sc"></span>
+                                <span class="phoneAdt phoneDw"></span>
+                                <span class="phoneAdt phoneUp"></span>
+                                <span class="phoneAdt PhoneLk"></span>
+                            </div>
+                        </div>
+                        <div class="boxInp ">
+                            <label class="boxLabel">Mobile Phone</label>
+                            <input type="text" name="mobilephone">
+                            <div class="phoneAdt_Fl">
+                                <span class="phoneAdt sc"></span>
+                                <span class="phoneAdt phoneDw"></span>
+                                <span class="phoneAdt phoneUp"></span>
+                                <span class="phoneAdt PhoneLk"></span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="costumerBoard costumerRight costumerRightBorder">
+                <div class="addCustomer">
+                    <button class="addCustomerBtn">Add Second Customer</button>
+                </div>
+                <span class="formBoard_Title">Customer 2 Details</span>
+                <form action="" method="post">
+                    <div class="form_Fl formWhite">
+                        <div class="boxInp">
+                            <label class="boxLabel">Title</label>
+                            <input type="text" name="title">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">First Name</label>
+                            <input type="text" name="firstname">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Last Name</label>
+                            <input type="text" name="lasttname">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">DOB</label>
+                            <div class="inputBox datePicker_Fl">
+                                <input class="datepicker2" id="datepicker2" name="dob" readonly="readonly" type="text">
+                            </div>
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel genderTemp switchTemp">Gender</label>
+                            <div class="switch_box">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <div class="slider round">
+                                        <div class="switchBtnG"></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel smokerTemp switchTemp">Smoker?</label>
+                            <div class="switch_box">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <div class="slider round">
+                                        <div class="switchBtnS"></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_Fl formGrey">
+                        <div class="boxInp">
+                            <label class="boxLabel">Address Line 1</label>
+                            <input type="text" name="address">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Address Line 2</label>
+                            <input type="text" name="address">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Town</label>
+                            <input type="text" name="town">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">City</label>
+                            <input type="text" name="city">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Country</label>
+                            <input type="text" name="country">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Post Code</label>
+                            <div class="inputBox postcode_Fl">
+                                <input name="postcode" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_Fl formWhite">
+                        <div class="boxInp boxInp100">
+                            <label class="boxLabel">Email</label>
+                            <input type="text" name="email">
+                        </div>
+                        <div class="boxInp ">
+                            <label class="boxLabel">Home Phone</label>
+                            <input type="text" name="homephone">
+                            <div class="phoneAdt_Fl">
+                                <span class="phoneAdt sc"></span>
+                                <span class="phoneAdt phoneDw"></span>
+                                <span class="phoneAdt phoneUp"></span>
+                                <span class="phoneAdt PhoneLk"></span>
+                            </div>
+                        </div>
+                        <div class="boxInp ">
+                            <label class="boxLabel">Work Phone</label>
+                            <input type="text" name="workphone">
+                            <div class="phoneAdt_Fl">
+                                <span class="phoneAdt sc"></span>
+                                <span class="phoneAdt phoneDw"></span>
+                                <span class="phoneAdt phoneUp"></span>
+                                <span class="phoneAdt PhoneLk"></span>
+                            </div>
+                        </div>
+                        <div class="boxInp ">
+                            <label class="boxLabel">Mobile Phone</label>
+                            <input type="text" name="mobilephone">
+                            <div class="phoneAdt_Fl">
+                                <span class="phoneAdt sc"></span>
+                                <span class="phoneAdt phoneDw"></span>
+                                <span class="phoneAdt phoneUp"></span>
+                                <span class="phoneAdt PhoneLk"></span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="costumerDetails">
+            <div class="costumerBoard costumerLeft">
+                <form action="#" method="post">
+                    <div class="form_Fl formGrey">
+                        <div class="boxInp">
+                            <label class="boxLabel">Sum Assured</label>
+                            <input name="address" type="text">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">CIC Sum</label>
+                            <input name="address" type="text">
+                        </div>
+                        <div class="boxInp">
+                            <label class="boxLabel">Term</label>
+                            <input name="town" type="text">
+                        </div>
+                        <div class="boxInp smllInp">
+                            <label class="boxLabel">Life</label>
+                            <div class="switch_box">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <div class="sliderSmall round">
+                                        <div class="switchBtnS"></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="boxInp smllInp">
+                            <label class="boxLabel">CIC</label>
+                            <div class="switch_box">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <div class="sliderSmall round">
+                                        <div class="switchBtnS"></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="boxInp smllInp">
+                            <label class="boxLabel">Level term</label>
+                            <div class="switch_box">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <div class="sliderSmall round">
+                                        <div class="switchBtnS"></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="boxInp smllInp">
+                            <label class="boxLabel">Guaranteed</label>
+                            <div class="switch_box">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <div class="sliderSmall round">
+                                        <div class="switchBtnS"></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="costumerBoard costumerRight" style="border: 0;">
+                <form action="#" method="post">
+                    <div class="btnsLft">
+                        <a class="QutBtn" href="/">Get Quotes</a>
+                        <span class="bttBtnlft smsBtn btnW49">Send Sms</span>
+                        <span class="bttBtnlft updaBtn btnW49">Update Lead</span>
+                    </div>
+                    <div class="downCostumer">
+                        <div class="boxInp extraW ">
+                            <label class="boxLabel">Dupliocate</label>
+                            <div class="switch_box">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <div class="sliderMedium round">
+                                        <div class="switchBtnS"></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="boxInp extraW ">
+                            <label class="boxLabel">Single / Joint</label>
+                            <div class="switch_box">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <div class="sliderMedium round">
+                                        <div class="switchBtnS"></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="boxInp extraW ">
+                            <label class="boxLabel">Lead Status</label>
+                            <input name="leadstatus" type="text">
+                        </div>
+                        <div class="boxInp extraW ">
+                            <label class="boxLabel">Initial Owner</label>
+                            <input name="initialOwner" type="text">
+                        </div>
+                    </div>
+                    <span class="bttBtnlft smsBtn assignBt btnW13">Assign</span>
+                    <span class="bttBtnlft updaBtn assignBt btnW13">Reassign</span>
+                </form>
+            </div>
+        </section>
+        <section class="costumerDetails" style="border: 1px solid #ddd; height: 149px"></section>
+        <section class="costumerDetails" style="border: 1px solid #ddd; height: 150px; margin-bottom: 0"></section>
+    </div>
+</section>
+<div class="HeaderRight">
+    <div class="topHeaderRight">
+        <div class="topHeaderRight_Floor">
+            <div class="alerts_Floor"><span class="newsSlider">Alerts</span></div>
+            @Html.Partial("_LoginPartial")
+            <div class="LocalDateTime">
+                <span class="weekDay" style="margin-right: 7px;"></span>
+                <span class="date"></span>
+                <span class="hours" style="margin-left: 7px;"></span>
+            </div>
+        </div>
+    </div>
+    <section class="taskSection">
+        <div class="topTasks">
+            <div class="topNav">
+                <span class="addTasks" data-target="#addTasksModal" data-toggle="modal">Tasks</span>
+                <!--<span class="toShow openShow">Show More +</span>-->
+            </div>
+            <div class="topNav_Floor">
+                <div class="atb_Top">
+                    <span class="atb_Header width20">Author</span>
+                    <span class="atb_Header width45">Task</span>
+                    <span class="atb_Header width17-5">Due</span>
+                    <span class="atb_Header">Created</span>
+                </div>
+                <div class="TasksTop_Fl" id="TasksTop_Fl"></div>
+            </div>
+        </div>
+        <div class="allTabs_Floor">
+            <div class="headerTabs">
+                <span class="HTab tabAll selectedHtb">All</span>
+                <span class="HTab tabNotes">Notes</span>
+                <span class="HTab Tabsms">Sms</span>
+                <span class="addNote addNoteGrey"></span>
+            </div>
+            <div class="allTabs-Content">
+                <div class="atb_Top">
+                    <span class="atb_Header width20">Author</span>
+                    <span class="atb_Header width54">Note</span>
+                    <span class="atb_Header">Created</span>
+                </div>
+                <div class="notes_Floor" id="notesFloor"></div>
+            </div>
+        </div>
+        <div class="bottomTasks">
+            <div class="topNav">
+                <span class="addBttTasks">Calls</span>
+                <!--<span class="bottomShow goTTop">Show More +</span> -->
+            </div>
+            <div class="bottomNav_Floor">
+                <div class="atb_Top">
+                    <span class="atb_Header width20">Caller</span>
+                    <span class="atb_Header width12">Extn</span>
+                    <span class="atb_Header width20">CallID</span>
+                    <span class="atb_Header width20">Number</span>
+                    <span class="atb_Header width27">Date</span>
+                </div>
+                <div class="calls_Floor" id="callsFloor"></div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="addTasksModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"></div>
+            <div class="modal-body">
+                Add a New Task
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="addNoteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"></div>
+            <div class="modal-body">
+                Add a New Note
+            </div>
+        </div>
+    </div>
+</div>
+<div class="smsNote_Fl">
+    <div class="closeSmsNote"></div>
+    <div class="smsNote_Content"></div>
+</div>

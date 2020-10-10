@@ -1,0 +1,299 @@
+{
+
+	"daysData": [
+
+		{
+			"thisDay": 1
+		},
+		{
+			"thisDay": 2
+		},
+		{
+			"thisDay": 3
+		},
+		{
+			"thisDay": 4
+		},
+		{
+			"thisDay": 5
+		},
+		{
+			"thisDay": 6
+		},
+		{
+			"thisDay": 7
+		},
+		{
+			"thisDay": 8
+		},
+		{
+			"thisDay": 9
+		},
+		{
+			"thisDay": 10
+		},
+		{
+			"thisDay": 11
+		},
+		{
+			"thisDay": 12
+		},
+		{
+			"thisDay": 13
+		},
+		{
+			"thisDay": 14
+		},
+		{
+			"thisDay": 15
+		},
+		{
+			"thisDay": 16
+		},
+		{
+			"thisDay": 17
+		},
+		{
+			"thisDay": 18
+		},
+		{
+			"thisDay": 19
+		},
+		{
+			"thisDay": 20
+		},
+		{
+			"thisDay": 21
+		},
+		{
+			"thisDay": 22
+		},
+		{
+			"thisDay": 23
+		},
+		{
+			"thisDay": 24
+		},
+		{
+			"thisDay": 25
+		},
+		{
+			"thisDay": 26
+		},
+		{
+			"thisDay": 27
+		},
+		{
+			"thisDay": 28
+		},
+		{
+			"thisDay": 29
+		},
+		{
+			"thisDay": 30
+		},
+		{
+			"thisDay": 31
+		}
+	],
+
+	"monthData": [
+
+		{
+			"thisMonth": "Jan",
+			"datamonth": 0
+		},
+		{
+			"thisMonth": "Feb",
+			"datamonth": 1
+		},
+		{
+			"thisMonth": "Mar",
+			"datamonth": 2
+		},
+		{
+			"thisMonth": "Apr",
+			"datamonth": 3
+		},
+		{
+			"thisMonth": "May",
+			"datamonth": 4
+		},
+		{
+			"thisMonth": "Jun",
+			"datamonth": 5
+		},
+		{
+			"thisMonth": "Jul",
+			"datamonth": 6
+		},
+		{
+			"thisMonth": "Aug",
+			"datamonth": 7
+		},
+		{
+			"thisMonth": "Sep",
+			"datamonth": 8
+		},
+		{
+			"thisMonth": "Oct",
+			"datamonth": 9
+		},
+		{
+			"thisMonth": "Nov",
+			"datamonth": 10
+		},
+		{
+			"thisMonth": "Dec",
+			"datamonth": 11
+		}
+	],
+
+	"timeHours": [
+
+		{
+			"hour": "00:00"
+		},
+		{
+			"hour": "00:30"
+		},
+		{
+			"hour": "01:00"
+		},
+		{
+			"hour": "01:30"
+		},
+		{
+			"hour": "02:00"
+		},
+		{
+			"hour": "02:30"
+		},
+		{
+			"hour": "03:00"
+		},
+		{
+			"hour": "03:30"
+		},
+		{
+			"hour": "04:00"
+		},
+		{
+			"hour": "04:30"
+		},
+		{
+			"hour": "05:00"
+		},
+		{
+			"hour": "05:30"
+		},
+		{
+			"hour": "06:00"
+		},
+		{
+			"hour": "06:30"
+		},
+		{
+			"hour": "07:00"
+		},
+		{
+			"hour": "07:30"
+		},
+		{
+			"hour": "08:00"
+		},
+		{
+			"hour": "08:30"
+		},
+		{
+			"hour": "09:00"
+		},
+		{
+			"hour": "09:30"
+		},
+		{
+			"hour": "10:00"
+		},
+		{
+			"hour": "10:30"
+		},
+		{
+			"hour": "11:00"
+		},
+		{
+			"hour": "11:30"
+		},
+		{
+			"hour": "12:00"
+		},
+		{
+			"hour": "12:30"
+		},
+		{
+			"hour": "13:00"
+		},
+		{
+			"hour": "13:30"
+		},
+		{
+			"hour": "14:00"
+		},
+		{
+			"hour": "14:30"
+		},
+		{
+			"hour": "15:00"
+		},
+		{
+			"hour": "15:30"
+		},
+		{
+			"hour": "16:00"
+		},
+		{
+			"hour": "16:30"
+		},
+		{
+			"hour": "17:00"
+		},
+		{
+			"hour": "17:30"
+		},
+		{
+			"hour": "18:00"
+		},
+		{
+			"hour": "18:30"
+		},
+		{
+			"hour": "19:00"
+		},
+		{
+			"hour": "19:30"
+		},
+		{
+			"hour": "20:00"
+		},
+		{
+			"hour": "20:30"
+		},
+		{
+			"hour": "21:00"
+		},
+		{
+			"hour": "21:30"
+		},
+		{
+			"hour": "22:00"
+		},
+		{
+			"hour": "22:30"
+		},
+		{
+			"hour": "23:00"
+		},
+		{
+			"hour": "23:30"
+		}
+	]
+}

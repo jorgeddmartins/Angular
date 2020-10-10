@@ -1,0 +1,83 @@
+
+<header>
+
+    <template class="HeaderLeft">
+        <div class="HeaderLeft_In">
+            <div class="logo_Box normal"><a routerLink="/"><img src="{{ smarterlogo }}" /></a></div>
+
+            <takelead-page></takelead-page> <!-- Take Lead Template -->
+            <newstemp-page></newstemp-page> <!-- News Template -->
+
+        </div>
+        <nav role="navigation">
+
+            <mainmenu-page></mainmenu-page> <!-- Menu Nav -->
+
+            <div class="search_Floor">
+                <!-- <span class="searchTxt">Search</span> -->
+                <input type="text" class="searchLead" name="search" />
+                <span class="searchIco"></span>
+                <span class="goSearch"></span>
+                <span class="SearchSpinner fa-spin"></span>
+            </div>
+
+        </nav>
+    </template>
+
+    <template class="HeaderRight">
+        <div class="topHeaderRight">
+            <div class="topHeaderRight_Floor">
+
+                <alerts-page></alerts-page>
+                <user-page></user-page>
+
+                <div class="LocalDateTime">
+                    <div class="weekDay"></div>
+                    <div class="date"></div>
+                    <!-- <span class="hours" style="margin-left: 7px;"></span> -->
+                </div>
+
+            </div>
+        </div>
+
+        <div class="downRightHeader"></div>
+
+        <tasksection-page></tasksection-page>
+    </template>
+
+</header>
+
+<!-- Local Areas -->
+<section class="SmarterSection" role="main">
+
+    <router-outlet></router-outlet>
+    
+</section>
+
+
+<!-- Modals  -->
+<popups-page></popups-page>
+
+
+
+<!-- <div class="dateCrtLead" style="position: relative; float: right; top: 10px; margin-right: 4px;">
+    <span class="CrTitle">Lead Created On :</span>
+    <span class="CrResult">01/10/2018 00:00:00</span>
+</div> -->
+
+
+<!-- <ul>
+    <li>
+        <Link to="/">Home</Link>
+    </li>
+    <li>
+        <Link to="/about">About</Link>
+    </li>
+    <li>
+        <Link to="/topics">Topics</Link>
+    </li>
+</ul>
+
+<Route exact path="/" component={Home} />
+<Route path="/about" component={About} />
+<Route path="/topics" component={Topics} />  -->

@@ -1,0 +1,99 @@
+<div class="myleadsTemp">
+
+    <div class="leadTNav">
+        <div class="LRefr_Fl">
+            <span class="referenceLead">My Leads (0)</span>
+        </div>
+    </div>
+
+    <div class="SearchBar_Top">
+        <div class="SearchPicker">
+            <span class="label">From</span>
+            <input type="text" class="InpSearchPicker datePickerFromPot" name="" id="datePickerFromPot" />
+            <span class="IconPicker"></span>
+        </div>
+        <div class="SearchPicker">
+            <span class="label">To</span>
+            <input type="text" class="InpSearchPicker datePickerToPot" name="" id="datePickerToPot" />
+            <span class="IconPicker"></span>
+        </div>
+        <div class="SearchPicker" style="border-left: 0;">
+            <input type="text" class="InpSearchPicker DropDownSearch" name="" value="Current month" readonly="readonly" />
+            <span class="IconArrow"></span>
+            <ul class="DropSearch"></ul>
+        </div>
+        <div class="SearchPicker" style="border-left: 0; border-right: 0;">
+            <input type="text" class="InpSearchPicker" name="" placeholder="Search" />
+        </div>
+        <div class="SearchPicker" style="border-left: 0;">
+            <input type="text" class="InpSearchPicker DropDownSale" name="" value="Sale Date" readonly="readonly" />
+            <span class="IconArrow"></span>
+            <ul class="DropSale"></ul>
+        </div>
+        <button class="getData_Btn">Get Data</button>
+    </div>
+	
+    <div class="GridSmarter">
+
+       <!-- <div class="AllPolHeader"></div> -->
+
+       <div class="AllPolHeader">
+            <span class="ThHeader">Policy Status</span>
+            <span class="ThHeader">Policy No</span>
+            <span class="ThHeader">Crm Id</span>
+            <span class="ThHeader">Last Name</span>
+            <span class="ThHeader">Partner Last Name</span>
+            <span class="ThHeader">Post Code</span>
+            <span class="ThHeader">Insurer Id</span>
+            <span class="ThHeader">Sale Date</span>
+            <span class="ThHeader">Start Date</span>
+            <span class="ThHeader">Application Type</span>
+            <span class="ThHeader">Cover Type</span>
+            <span class="ThHeader">Initial Premium</span>
+            <span class="ThHeader">Gross Comms</span>
+            <span class="ThHeader">Sales Person</span>
+            <span class="ThHeader">Ret Sold</span>
+        </div>
+
+        <div class="HeaderSearch" style="width: 100%; float: left;">
+            <input type="text" class="gridSearchIn GridInpWith" />
+            <input type="text" class="gridSearchIn GridInpWith" />
+            <input type="text" class="gridSearchIn GridInpWith" />
+            <input type="text" class="gridSearchIn GridInpWith" />
+            <input type="text" class="gridSearchIn GridInpWith" />
+            <input type="text" class="gridSearchIn GridInpWith" />
+            <input type="text" class="gridSearchIn GridInpWith" />
+            <span class="headerInpBox inpCalndar headerFirst">
+                <input type="text" class="gridSearchIn GridInpWith ThisFocusDate" id="dateFirst" />
+            </span>
+            <span class="headerInpBox inpCalndar headerSecond">
+                <input type="text" class="gridSearchIn GridInpWith ThisFocusDate" id="dateSecond" />
+            </span>
+
+            <input type="text" class="gridSearchIn GridInpWith" />
+            <input type="text" class="gridSearchIn GridInpWith" />
+            <input type="text" class="gridSearchIn GridInpWith" />
+            <input type="text" class="gridSearchIn GridInpWith" />
+            <input type="text" class="gridSearchIn GridInpWith" />
+            <input type="text" class="gridSearchIn GridInpWith" />
+        </div>
+        <div class="AllPolBody" id="StBodyPolicies"></div>
+
+        <div class="tdFoot" style="margin-top: 3px;">
+            <span class="pageNum pagingN">&lt;&lt;</span>
+            <span class="pageNum currentP SelectedFoot">1</span>
+            <span class="pageNum">&gt;&gt;</span>
+        </div>
+    </div>
+
+    <div class="GridCalendPot">
+        <div class="CloseCalend"></div>
+        <div class="GridCalendar left" id="GridCalen"><span class="calendDragTitle">Date From :</span></div>
+    </div>
+
+    <div class="HeaderGCalen">
+        <div class="CloseCalend"></div>
+        <div class="HeaderGridCalend"></div>
+    </div>
+
+</div>

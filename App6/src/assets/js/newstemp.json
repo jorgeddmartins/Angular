@@ -1,0 +1,26 @@
+{
+	"snews": [
+
+		{
+			"msg": "News 1"
+		},
+		{
+			"msg": "News 2"
+		},
+		{
+			"msg": "News 3"
+		},
+		{
+			"msg": "News 4"
+		},
+		{
+			"msg": "News 5"
+		},
+		{
+			"msg": "News 6"
+		},
+		{
+			"msg": "News 7"
+		}
+	]
+}

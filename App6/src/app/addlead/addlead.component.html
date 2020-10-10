@@ -1,0 +1,248 @@
+
+<div class="addleadTemp">
+
+    <div class="leadTNav">
+        <div class="LRefr_Fl">
+            <span class="referenceLead">Add New Lead</span>
+        </div>
+    </div> 
+	
+	<section class="costumerDetails">
+		
+		<div class="costumerBoard costumerLeft" style="width: 33.7%">
+            <span class="formBoard_Title">Customer Details</span>
+            <form action="#" method="post">
+                <div class="form_Fl formWhite">
+
+                    <div class="boxInp" *ngFor="let costumer of costumers">
+                        <label class="boxLabel">{{ costumer.name }}</label>
+                        <input type="text" name="{{ costumer.inputname }}" />
+                    </div>
+
+                    <div class="boxInp DOBcl">
+                        <label class="boxLabel">DOB</label>
+                        <div class="inputBox datePicker_Fl datepicker1_Fl">
+                            <input type="text" name="dob" class="dobDatepicker" id="dobDatepicker1" />
+                        </div>
+                    </div>
+
+                    <div class="boxInp genderTemp switchTemp">
+                        <label class="boxLabel">Gender</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="Gender" value="male" id="male" checked />
+                            <label for="male" class="switch-label switch-label-off switch-Male">Male</label>
+                            <input type="radio" class="switch-input" name="Gender" value="female" id="female">
+                            <label for="female" class="switch-label switch-label-on switch-Female">Female</label>
+                            <span class="switch-selection"></span>
+                            <input type="hidden" name="gender" id="Gender1">
+                        </div>
+                    </div>
+                    <div class="boxInp smokerTemp switchTemp">
+                        <label class="boxLabel">Smoker?</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="smoker" id="smokeYes" checked />
+                            <label for="smokeYes" class="switch-label switch-label-off switch-Yes">Yes</label>
+                            <input type="radio" class="switch-input" name="smoker" id="smokeNo">
+                            <label for="smokeNo" class="switch-label switch-label-on switch-No">No</label>
+                            <span class="switch-selection"></span>
+                            <input type="hidden" name="smoker" id="Smoker1">
+                        </div>
+                    </div>
+                </div>
+                <div class="form_Fl formGrey">
+
+                    <div class="boxInp" *ngFor="let addresse of addresses">
+                        <label class="boxLabel">{{ addresse.name }}</label>
+                        <input type="text" name="{{ addresse.inputname }}" />
+                    </div>
+
+                    <div class="boxInp">
+                        <label class="boxLabel">Post Code</label>
+                        <div class="inputBox postcode_Fl">
+                            <input type="text" name="postcode" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form_Fl formWhite">
+
+                    <div *ngFor="let costcontct of costcontcts" class="boxInp {{ costcontct.mainClass }}">
+                        <label class="boxLabel">{{ costcontct.name }}</label>
+                        <input type="text" name="{{ costcontct.inputname }}" />
+                        <div class="phoneAdt_Fl">
+                            <span class="phoneAdt sc"></span>
+                            <span class="phoneAdt phoneDw"></span>
+                            <span class="phoneAdt phoneUp"></span>
+                            <span class="phoneAdt PhoneLk"></span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="costumerBoard costumeraddLead costumerRightBorder" style="width: 33.7%; float: left; margin-left: 7px;">
+            <div class="addCustomer">
+                <button class="addCustomerBtn">Add Second Customer</button>
+            </div>
+
+            <span class="formBoard_Title">Customer 2 Details</span>
+            <form action="" method="post">
+                <div class="form_Fl formWhite">
+
+                    <div class="boxInp" *ngFor="let costumer of costumers">
+                        <label class="boxLabel">{{ costumer.name }}</label>
+                        <input type="text" name="{{ costumer.inputname }}" />
+                    </div>
+
+                    <div class="boxInp">
+                        <label class="boxLabel">DOB</label>
+                        <div class="inputBox datePicker_Fl">
+                            <input type="text" id="datepicker2" class="datepicker2" name="dob" />
+                        </div>
+                    </div>
+                    <div class="boxInp">
+                        <label class="boxLabel genderTemp switchTemp">Gender</label>
+                        <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="Gender2" value="male" id="male2" checked>
+                            <label for="male2" class="switch-label switch-label-off switch-Male">Male</label>
+                            <input type="radio" class="switch-input" name="Gender2" value="female" id="female2">
+                            <label for="female2" class="switch-label switch-label-on switch-Female">Female</label>
+                            <span class="switch-selection"></span>
+                            <input type="hidden" name="gender" id="Gender1">
+                        </div>
+                    </div>
+                    <div class="boxInp">
+                        <label class="boxLabel smokerTemp switchTemp">Smoker?</label>
+                       <div class="switch-radio">
+                            <input type="radio" class="switch-input" name="smoker2" id="smokeYes2" checked>
+                            <label for="smokeYes2" class="switch-label switch-label-off switch-Yes">Yes</label>
+                            <input type="radio" class="switch-input" name="smoker2" id="smokeNo2">
+                            <label for="smokeNo2" class="switch-label switch-label-on switch-No">No</label>
+                            <span class="switch-selection"></span>
+                            <input type="hidden" name="smoker" id="Smoker1">
+                        </div>
+                    </div>
+                </div>
+                <div class="form_Fl formGrey">
+                    <div class="boxInp" *ngFor="let addresse of addresses">
+                        <label class="boxLabel">{{ addresse.name }}</label>
+                        <input type="text" name="{{ addresse.inputname }}" />
+                    </div>
+                    <div class="boxInp">
+                        <label class="boxLabel">Post Code</label>
+                        <div class="inputBox postcode_Fl">
+                            <input type="text" name="postcode" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form_Fl formWhite">
+                    <div *ngFor="let costcontct of costcontcts" class="boxInp {{ costcontct.mainClass }}">
+                        <label class="boxLabel">{{ costcontct.name }}</label>
+                        <input type="text" name="{{ costcontct.inputname }}" />
+                        <div class="phoneAdt_Fl">
+                            <span class="phoneAdt sc"></span>
+                            <span class="phoneAdt phoneDw"></span>
+                            <span class="phoneAdt phoneUp"></span>
+                            <span class="phoneAdt PhoneLk"></span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="addNewLead">
+        	<div class="top_addNewLead">
+        		
+        		<div class="boxInp">
+        			<label class="boxLabel">Sum Assured</label>
+        			<input type="text" name="sumassured">
+        		</div>
+        		<div class="boxInp">
+        			<label class="boxLabel">Term</label>
+        			<input type="text" name="term">
+        		</div>
+
+        		<div class="boxInp">
+        			<label class="boxLabel">Life</label>
+        			<span class="inptCover lifeAddLead">
+	        			<input type="text" class="lifeDrop" name="life" value="Life" readonly="readonly" />
+	        		</span>
+	        		<ul class="dropAddLead lifeAddLeadDrop">
+	        			<li><span class="optSelect lifeAddOpt selected">Life 1</span></li>
+	        			<li><span class="optSelect lifeAddOpt">Life 2</span></li>
+	        			<li><span class="optSelect lifeAddOpt">Life 3</span></li>
+	        			<li><span class="optSelect lifeAddOpt">Life 4</span></li>
+	        			<li><span class="optSelect lifeAddOpt">Life 5</span></li>
+	        			<li><span class="optSelect lifeAddOpt">Life 6</span></li>
+	        			<li><span class="optSelect lifeAddOpt">Life 7</span></li>
+	        		</ul>
+        		</div>
+        		<div class="boxInp">
+        			<label class="boxLabel">CIC</label>
+        			<span class="inptCover cicAddLead">
+	        			<input type="text" class="cicDrop" name="cic" value="CIC" readonly="readonly" />
+	        		</span>
+	        		<ul class="dropAddLead cicAddLeadDrop">
+	        			<li><span class="optSelect cicAddOpt selected">Cic 1</span></li>
+	        			<li><span class="optSelect cicAddOpt">Cic 2</span></li>
+	        			<li><span class="optSelect cicAddOpt">Cic 3</span></li>
+	        			<li><span class="optSelect cicAddOpt">Cic 4</span></li>
+	        			<li><span class="optSelect cicAddOpt">Cic 5</span></li>
+	        			<li><span class="optSelect cicAddOpt">Cic 6</span></li>
+	        			<li><span class="optSelect cicAddOpt">Cic 7</span></li>
+	        		</ul>
+        		</div>
+
+        		<div class="boxInp">
+        			<label class="boxLabel">CI Amount</label>
+        			<input type="text" name="ciamount">
+        		</div>
+        		<div class="boxInp">
+        			<label class="boxLabel">Level Term</label>
+        			<span class="inptCover levelAddLead">
+	        			<input type="text" class="levelDrop" name="levelterm" value="Level Term" readonly="readonly" />
+	        		</span>
+	        		<ul class="dropAddLead levelAddLeadDrop">
+	        			<li><span class="optSelect levelAddOpt selected">Level Term 1</span></li>
+	        			<li><span class="optSelect levelAddOpt">Level Term 2</span></li>
+	        			<li><span class="optSelect levelAddOpt">Level Term 3</span></li>
+	        			<li><span class="optSelect levelAddOpt">Level Term 4</span></li>
+	        			<li><span class="optSelect levelAddOpt">Level Term 5</span></li>
+	        			<li><span class="optSelect levelAddOpt">Level Term 6</span></li>
+	        			<li><span class="optSelect levelAddOpt">Level Term 7</span></li>
+	        		</ul>
+        		</div>
+
+        		<div class="boxInp" style="width: 98.2%;">
+        			<label class="boxLabel">Guaranteed</label>
+        			<span class="inptCover guarteedAddLead">
+	        			<input type="text" class="guaranteedDrop" name="guaranteed" value="Guaranteed" readonly="readonly" />
+	        		</span>
+	        		<ul class="dropAddLead guaranteedAddLeadDrop">
+	        			<li><span class="optSelect guaranteedAddOpt selected">Guaranteed 1</span></li>
+	        			<li><span class="optSelect guaranteedAddOpt">Guaranteed 2</span></li>
+	        			<li><span class="optSelect guaranteedAddOpt">Guaranteed 3</span></li>
+	        			<li><span class="optSelect guaranteedAddOpt">Guaranteed 4</span></li>
+	        			<li><span class="optSelect guaranteedAddOpt">Guaranteed 5</span></li>
+	        			<li><span class="optSelect guaranteedAddOpt">Guaranteed 6</span></li>
+	        			<li><span class="optSelect guaranteedAddOpt">Guaranteed 7</span></li>
+	        		</ul>
+        		</div>
+        	</div>
+        	<div class="bottom_addNewLead">
+        		<div class="boxInp">
+        			<label class="boxLabel">Source</label>
+        			<input type="text" name="source" placeholder="Customer Referal" />
+        		</div>
+        		<div class="boxInp">
+        			<label class="boxLabel">Single / Joint</label>
+        			<input type="text" name="levelterm" />
+        		</div>
+        	</div>
+        	<div class="boxInp" style="width: 100%; margin: 0;"><a class="addLeadBtn normal" routerLink="/">Add New Lead</a></div>
+        </div>
+
+	</section>
+
+</div>
+

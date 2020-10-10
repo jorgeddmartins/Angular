@@ -1,0 +1,117 @@
+{
+
+	"resultsDataHeader": [
+
+		{
+			"dateTime": "02/10/2018 14:25",
+			"cover": "LEV LI",
+			"forData": "Life joint",
+			"over": "25 years",
+			"guaranteed": "Guaranteed",
+			"commret": "100%"
+		},
+		{
+			"dateTime": "02/10/2018 14:25",
+			"cover": "LEV LI",
+			"forData": "Life joint",
+			"over": "25 years",
+			"guaranteed": "Guaranteed",
+			"commret": "100%"
+		}
+	],
+
+	"resultsData": [
+
+		{
+			"image": "assets/img/vitality.svg",
+			"price": "22.87",
+			"li": "500000",
+			"com": "641.66",
+			"ess": "1.50pp"
+		},
+		{
+			"image": "assets/img/royal-london.svg",
+			"price": "22.87",
+			"li": "500000",
+			"com": "641.66",
+			"ess": "1.50pp"
+		},
+		{
+			"image": "assets/img/zurich.svg",
+			"price": "22.87",
+			"li": "500000",
+			"com": "641.66",
+			"ess": "1.50pp"
+		},
+		{
+			"image": "assets/img/exeter-family-friendly.svg",
+			"price": "22.87",
+			"li": "500000",
+			"com": "641.66",
+			"ess": "1.50pp"
+		},
+		{
+			"image": "assets/img/legalgeneral.svg",
+			"price": "22.87",
+			"li": "500000",
+			"com": "641.66",
+			"ess": "1.50pp"
+		},
+		{
+			"image": "assets/img/liverpool-victoria-logo.svg",
+			"price": "22.87",
+			"li": "500000",
+			"com": "641.66",
+			"ess": "1.50pp"
+		},
+		{
+			"image": "assets/img/aig.svg",
+			"price": "22.87",
+			"li": "500000",
+			"com": "641.66",
+			"ess": "1.50pp"
+		},
+		{
+			"image": "assets/img/aviva.svg",
+			"price": "22.87",
+			"li": "500000",
+			"com": "641.66",
+			"ess": "1.50pp"
+		},
+		{
+			"image": "assets/img/canada-life.svg",
+			"price": "22.87",
+			"li": "500000",
+			"com": "641.66",
+			"ess": "1.50pp"
+		},
+		{
+			"image": "assets/img/vitality.svg",
+			"price": "22.87",
+			"li": "500000",
+			"com": "641.66",
+			"ess": "1.50pp"
+		},
+		{
+			"image": "assets/img/legalgeneral.svg",
+			"price": "22.87",
+			"li": "500000",
+			"com": "641.66",
+			"ess": "1.50pp"
+		},
+		{
+			"image": "assets/img/vitality.svg",
+			"price": "22.87",
+			"li": "500000",
+			"com": "641.66",
+			"ess": "1.50pp"
+		}
+	],
+
+	"historyData": [
+
+		{
+
+		}
+	]
+}

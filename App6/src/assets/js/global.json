@@ -1,0 +1,713 @@
+{
+	"globalNotes": [
+
+		{
+			"backClass": "noteWhite addThNote", 
+			"name": "Joe Doe",
+			"icoClass": "icoNote",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey addThNote", 
+			"name": "Joe Doe",
+			"icoClass": "icoNote",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteWhite addThSms", 
+			"name": "Joe Doe",
+			"icoClass": "icoSms",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing, sit amet, consectetur adipiscing",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey addThNote", 
+			"name": "Joe Doe",
+			"icoClass": "icoNote",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteWhite addThSms", 
+			"name": "Joe Doe",
+			"icoClass": "icoSms",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey addThNote", 
+			"name": "Joe Doe",
+			"icoClass": "icoNote",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteWhite addThNote", 
+			"name": "Joe Doe",
+			"icoClass": "icoNote",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey addThNote", 
+			"name": "Joe Doe",
+			"icoClass": "icoNote",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteWhite addThSms", 
+			"name": "Joe Doe",
+			"icoClass": "icoSms",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey addThSms", 
+			"name": "Joe Doe",
+			"icoClass": "icoSms",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteWhite addThNote", 
+			"name": "Joe Doe",
+			"icoClass": "icoNote",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey addThNote", 
+			"name": "Joe Doe",
+			"icoClass": "icoNote",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteWhite addThNote", 
+			"name": "Joe Doe",
+			"icoClass": "icoNote",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey addThSms", 
+			"name": "Joe Doe",
+			"icoClass": "icoSms",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteWhite addThSms", 
+			"name": "Joe Doe",
+			"icoClass": "icoSms",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey addThNote", 
+			"name": "Joe Doe",
+			"icoClass": "icoNote",
+			"note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"date": "20/07/2018"
+		}
+	],
+
+	"tasksNotes": [
+
+		{
+			"backClass": "noteWhite", 
+			"author": "Joe Doe",
+			"task": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"due": "20/07/2018",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey", 
+			"author": "Joe Doe",
+			"task": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..",
+			"due": "20/07/2018",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteWhite", 
+			"author": "Joe Doe",
+			"task": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"due": "20/07/2018",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey", 
+			"author": "Joe Doe",
+			"task": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"due": "20/07/2018",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteWhite", 
+			"author": "Joe Doe",
+			"task": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"due": "20/07/2018",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey", 
+			"author": "Joe Doe",
+			"task": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"due": "20/07/2018",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteWhite", 
+			"author": "Joe Doe",
+			"task": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"due": "20/07/2018",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey", 
+			"author": "Joe Doe",
+			"task": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"due": "20/07/2018",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteWhite", 
+			"author": "Joe Doe",
+			"task": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"due": "20/07/2018",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey", 
+			"author": "Joe Doe",
+			"task": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"due": "20/07/2018",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteWhite", 
+			"author": "Joe Doe",
+			"task": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"due": "20/07/2018",
+			"date": "20/07/2018"
+		},
+		{
+			"backClass": "noteGrey", 
+			"author": "Joe Doe",
+			"task": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"due": "20/07/2018",
+			"date": "20/07/2018"
+		}
+	],
+
+	"callsNotes": [
+
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:03"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-dot-circle-o",
+			"fontSize": "13px",
+			"colorIcon": "#cc0000",
+			"timecall": "download"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:03"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:13"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:05"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-dot-circle-o",
+			"fontSize": "13px",
+			"colorIcon": "#cc0000",
+			"timecall": "download"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:30"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:23"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:07"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:20"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:02"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-dot-circle-o",
+			"fontSize": "13px",
+			"colorIcon": "#cc0000",
+			"timecall": "download"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:03"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-dot-circle-o",
+			"fontSize": "13px",
+			"colorIcon": "#cc0000",
+			"timecall": "download"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:45"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:03"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:13"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:43"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-dot-circle-o",
+			"fontSize": "13px",
+			"colorIcon": "#cc0000",
+			"timecall": "download"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:37"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:03"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-dot-circle-o",
+			"fontSize": "13px",
+			"colorIcon": "#cc0000",
+			"timecall": "download"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:20"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:08"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-dot-circle-o",
+			"fontSize": "13px",
+			"colorIcon": "#cc0000",
+			"timecall": "download"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-dot-circle-o",
+			"fontSize": "13px",
+			"colorIcon": "#cc0000",
+			"timecall": "download"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:09"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:13"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:03"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:10"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:04"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-dot-circle-o",
+			"fontSize": "13px",
+			"colorIcon": "#cc0000",
+			"timecall": "download"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:11"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:10"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:04"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-dot-circle-o",
+			"fontSize": "13px",
+			"colorIcon": "#cc0000",
+			"timecall": "download"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:18"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:22"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-dot-circle-o",
+			"fontSize": "13px",
+			"colorIcon": "#cc0000",
+			"timecall": "download"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:07"
+		},
+		{
+			"backClass": "noteWhite", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-dot-circle-o",
+			"fontSize": "13px",
+			"colorIcon": "#cc0000",
+			"timecall": "download"
+		},
+		{
+			"backClass": "noteGrey", 
+			"caller": "Joe Doe",
+			"extn": "222",
+			"callerid": "0788989AD",
+			"number": "0786543766",
+			"date": "20/07/2018 12:30pm",
+			"iconCall": "fa-play",
+			"fontSize": "",
+			"colorIcon": "#0A9A7A",
+			"timecall": "00:00:10"
+		}
+	]
+}

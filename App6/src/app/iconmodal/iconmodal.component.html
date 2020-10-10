@@ -1,0 +1,56 @@
+
+<div class="IconModalTemp">
+
+    <div class="leadTNav">
+        <div class="LRefr_Fl">
+            <span class="referenceLead">Ico Modal</span>
+        </div>
+    </div>
+
+	<div class="imagesettings">
+    <div class="close-floor">
+        <span class="fa fa-remove closesettings">
+            <span class="coseTooltip">Close</span>
+        </span>
+        <h5>{{ iconmenuTitle }}</h5>
+        <span class="lnr lnr-diamond"></span>
+    </div>
+    <div class="content-floor">
+        
+        <span class="cont-label">Icon library</span>
+        <div class="position-floor">
+            <div class="library-floor"><span>Font Awesome 5.0.13</span></div>
+            <em>Select Icon Library</em>
+            <ul class="labraryDrop">
+                <li *ngFor="let dropfont of dropfonts"><span class="{{ dropfont.mainClass }}">{{ dropfont.fontName }}</span></li>
+                <div class="sub-icomenu">
+
+                    <li *ngFor="let icomoon of icomoons"><span class="{{ icomoon.mainClass }}">{{ icomoon.fontName }}</span></li>
+
+                </div>
+            </ul>
+        </div>
+        <span class="cont-label">Icon</span>
+        <div class="iconActive-floor">
+            <span class="ico-stage"></span>
+        </div>
+
+        <div class="iconSearch-floor">
+            <input type="text" class="auto-search" placeholder="Search for an Icon..." autofocus="autofocus" />
+            <i aria-hidden="true" class="fa fa-search"></i>
+        </div>
+
+        <div class="position-floor">
+            <div class="icons-floor">
+                <div class="iconsFloor-in content" id="iconsFloor-innav"></div>
+            </div>
+            <em>Select Icon from Library</em>
+        </div>
+
+        <div class="save-blk">
+            <button class="saveChanges saveNotallowed">Save Changes</button>
+        </div>
+    </div>
+</div>
+
+</div>

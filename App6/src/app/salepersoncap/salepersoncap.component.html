@@ -1,0 +1,32 @@
+
+<div class="salepersoncapTemp">
+
+    <div class="leadTNav">
+        <div class="LRefr_Fl">
+            <span class="referenceLead">Sales Persons Cap</span>
+        </div>
+    </div>
+    
+    <div class="GridSmarter">
+
+        <div class="AllPolHeader">
+            <span *ngFor="let salesGridHead of salesGridHeads" class="ThHeader salesGWith">{{ salesGridHead.name }}</span>
+        </div>
+        <div class="HeaderSearch" style="width: 100%; float: left;">
+            <input type="text" class="salesGWith gridSearchIn" onkeyup="saleSearch(this)" />
+            <input type="text" class="salesGWith gridSearchIn" onkeyup="saleSearch(this)" />
+            <input type="text" class="salesGWith gridSearchIn" />
+            <input type="text" class="salesGWith gridSearchIn" />
+            <input type="text" class="salesGWith gridSearchIn" />
+        </div>
+
+        <div class="AllPolBody" id="StBodySalePerson"></div>
+
+        <div class="tdFoot" style="margin-top: 3px;">
+            <span class="pageNum pagingN">&lt;&lt;</span>
+            <span *ngFor="let salesFooterNum of salesFooterNums" class="pageNum currentP {{ salesFooterNum.cClass }}">{{ salesFooterNum.num }}</span>
+            <span class="pageNum">&gt;&gt;</span>
+        </div>
+
+    </div>
+</div>

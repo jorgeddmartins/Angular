@@ -1,0 +1,67 @@
+
+<div class="bugReport">
+	<div id="draggableBugReport" class="bugReport_Content">
+		<div class="modalContent_Header">
+			<h6><strong>Jorge Martins</strong>, Please provide your feedback on the Bug below:</h6>
+		</div>
+
+		<div class="modalContent_Body">
+			<div class="load_content">
+				<div class="form-group">
+					<label><span>*</span> What went wrong?</label>
+					<textarea></textarea>
+				</div>
+				<div class="form-group">
+					<div class="priority_Left priority-group" id="priority-group">
+						<label><span>*</span> Priority</label>
+
+						<div class="priority_Select PrioritySelc PriorityNow">
+							<input type="text" id="PrioritySelc" readonly="readonly" value="- Please select -" />
+							<div class="PriorityDrop PrioritySelc_Fl">
+								<span class="option optionPri select">- Please select -</span>
+								<span class="option optionPri ">Minor</span>
+								<span class="option optionPri ">Trivial</span>
+								<span class="option optionPri ">Blocker</span>
+								<span class="option optionPri ">Critical</span>
+								<span class="option optionPri ">Major</span>
+							</div>
+						</div>
+						
+					</div>
+					<div class="priority_Right priority-group" id="priority-group">
+						<label><span>*</span> Type</label>
+						
+						<div class="priority_Select typeSelc PriorityNow">
+							<input type="text" id="typeSelc" readonly="readonly" value="- Please select -" />
+							<div class="PriorityDrop typeSelc_Fl">
+								<span class="option optionType select">- Please select -</span>
+								<span class="option optionType">Bug</span>
+								<span class="option optionType">Task</span>
+								<span class="option optionType">New Feature</span>
+								<span class="option optionType">Improvement</span>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="Files">Attach File(s)</label>
+					<div class="fileUpload blue-btn btn btn-file">
+                        <span>Choose Files to upload</span>
+                        <input class="uploadlogo" id="Files" multiple="" name="Files" type="file">
+                    </div>
+                    <span class="grabFiles"></span>
+                    <div class="loadImage"></div>
+                    <span class="toolLoadI">Click on the Image To Delete it!</span>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="modalContent_Footer">
+			<!-- <a class="btnStop" href="#">Close</a> -->
+			<button class="btnStopSub">Submit</button>
+		</div>
+	</div>
+</div>

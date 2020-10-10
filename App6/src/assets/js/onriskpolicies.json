@@ -1,0 +1,106 @@
+{
+
+	"onriskheader": [
+
+		{
+			"name": "Policy Status"
+		},
+		{
+			"name": "Risk Status"
+		},
+		{
+			"name": "Sale Type"
+		},
+		{
+			"name": "CRM Id"
+		},
+		{
+			"name": "Surname"
+		},
+		{
+			"name": "Partner Surname"
+		},
+		{
+			"name": "Policy No"
+		},
+		{
+			"name": "Post Code"
+		},
+		{
+			"name": "Insurer Id"
+		},
+		{
+			"name": "Date On Risk"
+		},
+		{
+			"name": "On Risk Ageing"
+		},
+		{
+			"name": "Sum Assured"
+		},
+		{
+			"name": "Payment Type"
+		},
+		{
+			"name": "Premium Type"
+		},
+		{
+			"name": "Term"
+		}
+	],
+
+	"onriskBody": [
+
+		{
+			"policy": "Risk",
+			"policyN": "Confirmed",
+			"firstn": "New Sale",
+			"partn": 1001060,
+			"postC": "Holman",
+			"insuR": "",
+			"saleDt": "Aegon123",
+			"startDt": "TR14 7UR",
+			"applic": "Aegon",
+			"coverT": "02/01/2019",
+			"initialPol": "STP",
+			"grossComms": "£9,762.00",
+			"slPer": "Monthly",
+			"retSl": "Reviewable",
+			"process": 25
+		},
+		{
+			"policy": "Risk",
+			"policyN": "Confirmed",
+			"firstn": "New Sale",
+			"partn": 1001340,
+			"postC": "Knox",
+			"insuR": "",
+			"saleDt": "12345TestPN",
+			"startDt": "NR15 1HR",
+			"applic": "LV=",
+			"coverT": "02/01/2019",
+			"initialPol": "STP",
+			"grossComms": "£100,000.00",
+			"slPer": "Monthly",
+			"retSl": "Guaranteed",
+			"process": 20
+		},
+		{
+			"policy": "Risk",
+			"policyN": "Confirmed",
+			"firstn": "New Sale",
+			"partn": 1001352,
+			"postC": "Bumble",
+			"insuR": "",
+			"saleDt": "TestBM",
+			"startDt": "TW16 7HP",
+			"applic": "The Exeter",
+			"coverT": "02/01/2019",
+			"initialPol": "STP",
+			"grossComms": "£250,000.00",
+			"slPer": "Monthly",
+			"retSl": "Guaranteed",
+			"process": 20
+		}
+	]
+}

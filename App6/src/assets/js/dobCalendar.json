@@ -1,0 +1,352 @@
+{
+	"daysData": [
+
+		{
+			"thisDay": 1
+		},
+		{
+			"thisDay": 2
+		},
+		{
+			"thisDay": 3
+		},
+		{
+			"thisDay": 4
+		},
+		{
+			"thisDay": 5
+		},
+		{
+			"thisDay": 6
+		},
+		{
+			"thisDay": 7
+		},
+		{
+			"thisDay": 8
+		},
+		{
+			"thisDay": 9
+		},
+		{
+			"thisDay": 10
+		},
+		{
+			"thisDay": 11
+		},
+		{
+			"thisDay": 12
+		},
+		{
+			"thisDay": 13
+		},
+		{
+			"thisDay": 14
+		},
+		{
+			"thisDay": 15
+		},
+		{
+			"thisDay": 16
+		},
+		{
+			"thisDay": 17
+		},
+		{
+			"thisDay": 18
+		},
+		{
+			"thisDay": 19
+		},
+		{
+			"thisDay": 20
+		},
+		{
+			"thisDay": 21
+		},
+		{
+			"thisDay": 22
+		},
+		{
+			"thisDay": 23
+		},
+		{
+			"thisDay": 24
+		},
+		{
+			"thisDay": 25
+		},
+		{
+			"thisDay": 26
+		},
+		{
+			"thisDay": 27
+		},
+		{
+			"thisDay": 28
+		},
+		{
+			"thisDay": 29
+		},
+		{
+			"thisDay": 30
+		},
+		{
+			"thisDay": 31
+		}
+	],
+
+	"monthData": [
+
+		{
+			"thisMonth": "Jan"
+		},
+		{
+			"thisMonth": "Feb"
+		},
+		{
+			"thisMonth": "Mar"
+		},
+		{
+			"thisMonth": "Apr"
+		},
+		{
+			"thisMonth": "May"
+		},
+		{
+			"thisMonth": "Jun"
+		},
+		{
+			"thisMonth": "Jul"
+		},
+		{
+			"thisMonth": "Aug"
+		},
+		{
+			"thisMonth": "Sep"
+		},
+		{
+			"thisMonth": "Oct"
+		},
+		{
+			"thisMonth": "Nov"
+		},
+		{
+			"thisMonth": "Dec"
+		}
+	],
+
+	"yearData": [
+
+		{
+			"thisYear": 1935
+		},
+		{
+			"thisYear": 1936
+		},
+		{
+			"thisYear": 1937
+		},
+		{
+			"thisYear": 1938
+		},
+		{
+			"thisYear": 1939
+		},
+		{
+			"thisYear": 1940
+		},
+		{
+			"thisYear": 1941
+		},
+		{
+			"thisYear": 1942
+		},
+		{
+			"thisYear": 1943
+		},
+		{
+			"thisYear": 1944
+		},
+		{
+			"thisYear": 1945
+		},
+		{
+			"thisYear": 1946
+		},
+		{
+			"thisYear": 1947
+		},
+		{
+			"thisYear": 1948
+		},
+		{
+			"thisYear": 1949
+		},
+		{
+			"thisYear": 1950
+		},
+		{
+			"thisYear": 1951
+		},
+		{
+			"thisYear": 1952
+		},
+		{
+			"thisYear": 1953
+		},
+		{
+			"thisYear": 1954
+		},
+		{
+			"thisYear": 1955
+		},
+		{
+			"thisYear": 1956
+		},
+		{
+			"thisYear": 1957
+		},
+		{
+			"thisYear": 1958
+		},
+		{
+			"thisYear": 1959
+		},
+		{
+			"thisYear": 1960
+		},
+		{
+			"thisYear": 1961
+		},
+		{
+			"thisYear": 1962
+		},
+		{
+			"thisYear": 1963
+		},
+		{
+			"thisYear": 1964
+		},
+		{
+			"thisYear": 1965
+		},
+		{
+			"thisYear": 1966
+		},
+		{
+			"thisYear": 1967
+		},
+		{
+			"thisYear": 1968
+		},
+		{
+			"thisYear": 1969
+		},
+		{
+			"thisYear": 1970
+		},
+		{
+			"thisYear": 1971
+		},
+		{
+			"thisYear": 1972
+		},
+		{
+			"thisYear": 1973
+		},
+		{
+			"thisYear": 1974
+		},
+		{
+			"thisYear": 1975
+		},
+		{
+			"thisYear": 1976
+		},
+		{
+			"thisYear": 1977
+		},
+		{
+			"thisYear": 1978
+		},
+		{
+			"thisYear": 1979
+		},
+		{
+			"thisYear": 1980
+		},
+		{
+			"thisYear": 1981
+		},
+		{
+			"thisYear": 1982
+		},
+		{
+			"thisYear": 1983
+		},
+		{
+			"thisYear": 1984
+		},
+		{
+			"thisYear": 1985
+		},
+		{
+			"thisYear": 1986
+		},
+		{
+			"thisYear": 1987
+		},
+		{
+			"thisYear": 1988
+		},
+		{
+			"thisYear": 1989
+		},
+		{
+			"thisYear": 1990
+		},
+		{
+			"thisYear": 1991
+		},
+		{
+			"thisYear": 1992
+		},
+		{
+			"thisYear": 1993
+		},
+		{
+			"thisYear": 1994
+		},
+		{
+			"thisYear": 1995
+		},
+		{
+			"thisYear": 1996
+		},
+		{
+			"thisYear": 1997
+		},
+		{
+			"thisYear": 1998
+		},
+		{
+			"thisYear": 1999
+		},
+		{
+			"thisYear": 2000
+		},
+		{
+			"thisYear": 2001
+		},
+		{
+			"thisYear": 2002
+		},
+		{
+			"thisYear": 2003
+		},
+		{
+			"thisYear": 2004
+		}
+	]
+}

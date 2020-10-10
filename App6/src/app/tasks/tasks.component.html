@@ -1,0 +1,72 @@
+
+<div class="tasksTemp">
+
+    <div class="leadTNav">
+        <div class="LRefr_Fl">
+            <span class="referenceLead">Tasks</span>
+        </div>
+    </div>
+
+    <div class="SearchBar_Top">
+
+        <!-- Date From -->
+        <div class="SearchPicker">
+            <span class="label">From</span>
+            <input type="text" class="InpSearchPicker datePickerFromPot" name="" id="datePickerFromPot" />
+            <span class="IconPicker"></span>
+        </div>
+
+        <!-- Date To -->
+        <div class="SearchPicker">
+            <span class="label">To</span>
+            <input type="text" class="InpSearchPicker datePickerToPot" name="" id="datePickerToPot" />
+            <span class="IconPicker"></span>
+        </div>
+
+        <!-- Drop Down For Sales Person -->
+        <div class="SearchPicker" style="border-left: 0;">
+            <input type="text" class="InpSearchPicker DropDownSalesPerdon" name="" value="Sales Person" readonly="readonly" />
+            <span class="IconArrow"></span>
+            <ul class="DropSearch DropSalesPerson"></ul>
+        </div>
+
+        <!-- Drop Down For Tasks -->
+        <div class="SearchPicker" style="border-left: 0;">
+            <input type="text" class="InpSearchPicker DropDownTasks" name="" value="Task" readonly="readonly" />
+            <span class="IconArrow"></span>
+            <ul class="DropSale DropTasks">
+                <!-- <li class="DropSearchOPt">All</li>
+                <li class="DropSearchOPt">Callback</li>
+                <li class="DropSearchOPt">Cutomer Referral</li>
+                <li class="DropSearchOPt">Chase GP</li>
+                <li class="DropSearchOPt">Chase Insurer</li> -->
+            </ul>
+        </div>
+        <button class="getData_Btn">Get Data</button>
+    </div>
+
+    <div class="GridSmarter">
+
+        <!-- Theader Injection -->
+        <div class="AllPolHeader"></div>
+
+        <!-- Theader Edit Fiels Injection -->
+        <div class="HeaderSearch"></div>
+
+        <!-- TBody Injection -->
+        <div class="AllPolBody" id="StBodyOnRiskPolicies"></div>
+
+        <!-- TFoot Steps Injection -->
+        <div class="tdFoot" style="margin-top: 3px;">
+            <span class="pageNum pagingN">&lt;&lt;</span>
+            <span class="pageNum currentP SelectedFoot">1</span>
+            <span class="pageNum">&gt;&gt;</span>
+        </div>
+    </div>
+
+    <!-- Search Header Calendar -->
+    <div class="GridCalendPot">
+        <div class="CloseCalend"></div>
+        <div class="GridCalendar left" id="GridCalen"><span class="calendDragTitle">Date From :</span></div>
+    </div>
+</div>
