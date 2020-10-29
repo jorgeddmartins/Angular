@@ -1,20 +1,18 @@
 <div class="container">
-  <mat-toolbar color="primary" class="main-toolbar">
-    <span>Audio Player</span>
+  <mat-toolbar color="primary" class="main-toolbar" style="background: #999">
+    <span>Play List</span>
     <span class="spacer"></span>
-    <span class="toolbar-btn" *ngIf="!auth.authenticated" (click)="auth.login()">LOGIN </span>
-    <span class="toolbar-btn" *ngIf="auth.authenticated" (click)="auth.logout()">LOGOUT</span>
-    <span class="toolbar-btn" *ngIf="auth.authenticated" routerLink="/profile">PROFILE</span>
+    <span class="toolbar-btn" *ngIf="!auth.authenticated" (click)="auth.login()">LOG ME IN </span>
+    <span class="toolbar-btn" *ngIf="auth.authenticated" (click)="auth.logout()">LOG ME OUT</span>
   </mat-toolbar>
 
   <div class="content">
       <div class="logo">
-        <mat-icon>music_note</mat-icon>
-        <div>Audio Player</div>
+        <div>Choose Your Song</div>
     </div>
 
     <mat-list color="primary" *ngIf="auth.authenticated">
-      <h3 mat-subheader>Songs</h3>
+      <h3 mat-subheader>Songs To Play</h3>
       <mat-list-item *ngFor="let file of files; let i = index" (click)="openFile(file, i)">
         <mat-icon color="primary" mat-list-icon>music_note</mat-icon>
         <h4 mat-line>{{ file.name }}</h4>
@@ -34,7 +32,7 @@
          {{ state?.readableDuration }}
       </mat-toolbar-row>
 
-      <mat-toolbar-row class="media-action-bar">
+      <mat-toolbar-row class="media-action-bar" style="background: #777">
         <button mat-button [disabled]="isFirstPlaying()" (click)="previous()">
           <mat-icon mat-list-icon>skip_previous</mat-icon>
         </button>
