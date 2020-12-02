@@ -22,16 +22,16 @@ To run the solution in the terminal: \
 
 # Explanation
 
-This is a simple UX/UI solution for the user to choose a sandwish as quick as possible with an user authentication. \
+This is a simple UX/UI solution for the user to choose a sandwich as quick as possible with an user authentication. \
 This solution is responsive for all devices ( Desktop, Smartphones, Ipad, Tables, Iphone, Android, etc ).
 
-When user opens the app, the user will see all Sandwishes displayed with all information ( Sandwish Image, Description, Price and a botton to buy the sandwish )
-When the user choose a sandwish and click on its botton to buy it, an authentication pop up shows up, in that pop up the user has to options of authentication:
+When user opens the app, the user will see all Sandwishes displayed with all information ( sandwich Image, Description, Price and a botton to buy the sandwich )
+When the user choose a sandwich and click on its botton to buy it, an authentication pop up shows up, in that pop up the user has to options of authentication:
 1- With an Email an Password \
 2- With a Google account
 
 After the authentication done, the app would drive the user to the checkout page. \
-The goal is that the user could buy a sandwish in just 2 / 3 minutes maximum and to be as much user freindly possible. \
+The goal is that the user could buy a sandwich in just 2 / 3 minutes maximum and to be as much user freindly possible. \
 After the user be logged In, the user can navigate to the "My Orders" and can reorder again the same order in just one click.
 
 # Conclusion
