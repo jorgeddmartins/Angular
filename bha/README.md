@@ -25,7 +25,7 @@ To run the solution in the terminal: \
 This is a simple UX/UI solution for the user to choose a sandwich as quick as possible with an user authentication. \
 This solution is responsive for all devices ( Desktop, Smartphones, Ipad, Tables, Iphone, Android, etc ).
 
-When user opens the app, the user will see all Sandwishes displayed with all information ( sandwich Image, Description, Price and a botton to buy the sandwich )
+When user opens the app, the user will see all Sandwiches displayed with all information ( sandwich Image, Description, Price and a botton to buy the sandwich )
 When the user choose a sandwich and click on its botton to buy it, an authentication pop up shows up, in that pop up the user has to options of authentication:
 1- With an Email an Password \
 2- With a Google account
