@@ -1,0 +1,119 @@
+// Variables
+$width: 100%;
+$dark: #000000;
+$white: #ffffff;
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: #{$radius};
+    -moz-border-radius: #{$radius};
+    -ms-border-radius: #{$radius};
+    border-radius: #{$radius};
+}
+
+header, nav {
+	display: block;
+}
+
+header {
+
+	position: fixed;
+	width: $width;
+	height: 50px;
+	left: 0;
+	top: 0;
+	background: #f9f9f9;
+	border-bottom: 1px solid #eee;
+	z-index: 2;
+	padding: 12px;
+	text-align: center;
+
+	.logo_bx {
+		width: 100px;
+	    position: absolute;
+	    left: 12px;
+	    top: 4px;
+	    img {
+	    	width: $width;
+	    }
+	}
+
+	nav, 
+	.navMob {
+		a {
+			color: $dark;
+		    text-decoration: none;
+		    font-size: 13px;
+		    font-weight: 700;
+		    margin: 10px;
+		    display: inline-block;
+		    margin-top: 7px;
+		}
+	}
+	nav {
+		display: none;
+	}
+
+	.avatar {
+		position: absolute;
+	    top: 2px;
+	    right: 12px;
+	    width: 45px;
+	    height: 45px;
+	    background: $white;
+	    padding: 5px;
+	    @include border-radius($width / 2);
+	    img {
+	    	width: 100%;
+	    	@include border-radius($width / 2);
+	    }
+	}
+
+	.mob_m {
+		display: none;
+	}
+}
+
+@media screen and (orientation: portrait) {
+
+	header {
+		.logo_bx {
+		    left: 60px;
+		}
+		nav {
+			position: absolute;
+			width: $width;
+			top: 50px;
+			left: 0;
+			z-index: 10;
+			background: #f9f9f9;
+			text-align: left; 
+			padding: 13px; 
+			display: block; 
+			a {
+				width: $width;
+				display: inline-block;
+			}
+		}
+		.navMob {
+			display: none;
+		}
+		.mob_m {
+			position: absolute;
+			left: 12px;
+			top: 10px;
+			width: 30px;
+			height: 30px;
+			display: block;
+			cursor: pointer;
+			img {
+				width: $width;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 220px) {
+	.logo_bx {
+		display: none;
+	}
+}

@@ -1,0 +1,95 @@
+// Variables
+$width: 100%;
+$dark: #000000;
+$white: #ffffff;
+
+// Mixins
+@mixin border-radius($radius) {
+    -webkit-border-radius: #{$radius};
+    -moz-border-radius: #{$radius};
+    -ms-border-radius: #{$radius};
+    border-radius: #{$radius};
+}
+
+.avatar {
+	position: absolute;
+    top: -50px;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background: $white;
+    @include border-radius($width / 2);
+    transform: translate(-50%, 0);
+	-webkit-transform: translate(-50%, 0);
+	-moz-transform: translate(-50%, 0);
+    z-index: 1;
+    padding: 5px;
+    img {
+    	width: 100%;
+    	@include border-radius($width / 2);
+    }
+}
+.AuthTitle {
+	position: relative;
+	width: $width;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 17px;
+    padding-top: 42px;
+    padding-bottom: 10px;
+	&:last-of-type {
+		padding-bottom: 25px;
+		padding-top: 0;
+		text-transform: initial;
+		color: #999;
+		padding-bottom: 24px;
+	}
+}
+
+// Start Form For the User Authentication
+form {
+	display: block;
+	padding: 20px;
+	padding-bottom: 10px;
+	input {
+		width: $width;
+		height: 45px;
+		padding: 10px;
+		border: 0;
+		border-bottom: 1px solid #eee;
+		float: left;
+		margin-bottom: 20px;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+		&:focus {
+			outline: 0;
+		}
+	}
+	button {
+		width: 100%;
+		border: 0;
+		background: #222d71;
+		color: $white;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		height: 40px;
+		text-transform: uppercase;
+		font-size: 12px;
+		@include border-radius(50px);
+		cursor: pointer;
+		display: inline-block;
+		margin-top: 25px;
+		&:focus {
+			outline: 0;
+		}
+		&:last-of-type {
+			background: #4285f4;
+		}
+	}
+}
+// End Form For the User Authentication

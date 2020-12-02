@@ -1,0 +1,26 @@
+
+<!-- Start User Authentication -->
+<div id="userAuth">
+
+    <!-- User Avatar -->
+    <span class="avatar"><img src="{{ userImg }}" /></span>
+
+    <!-- User Name -->
+    <span class="AuthTitle">Hi, {{ user }}</span>
+    <span class="AuthTitle">Please, Login to Complete your order</span>
+
+    <form action="" method="">
+        
+        <!-- Input for the user Email -->
+        <input type="text" name="email" placeholder="What is Your Email" />
+
+        <!-- Input for the user Password -->
+        <input type="password" name="password" placeholder="What is Your Password" />
+
+        <button type="submit" (click)="authUser()">Log Me In</button>
+
+        <button>Log Me In with My Google Account</button>
+
+    </form>
+</div>
+<!-- End User Authentication -->

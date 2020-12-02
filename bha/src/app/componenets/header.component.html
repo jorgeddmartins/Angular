@@ -1,0 +1,18 @@
+
+<!-- Start Header -->
+<header>
+    <div class="logo_bx"><img src="{{ logoImg }}" /></div>
+
+    <span class="mob_m" (click)="mtoggle()"><img src="{{ menuImg }}" /></span>
+
+    <nav *ngIf="shownow">
+        <a *ngFor="let menu of menus" routerLink="{{ menu.url }}">{{ menu.name }}</a>
+    </nav>
+
+    <div class="navMob">
+        <a *ngFor="let menu of menus" routerLink="{{ menu.url }}">{{ menu.name }}</a>
+    </div>
+
+    <div class="avatar"><img src="{{ userImg }}" /></div>
+</header>
+<!-- End Header-->

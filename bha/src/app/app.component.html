@@ -1,0 +1,36 @@
+
+<!-- start Header -->
+<header-app></header-app>
+<!-- End Header -->
+
+<section>
+    <div class="meal_blk" *ngFor="let deal of deals">
+        <div class="meal_In">
+            <div class="img_box">
+                <img src="{{ deal.img }}"/>
+            </div>
+            <span class="desc">{{ deal.desc }}</span>
+            <span class="price"><em>{{ deal.deal }}:</em>  £{{ deal.price }}</span>
+
+            <div class="btn_box">
+
+                <button (click)="authShow()">Buy this Meal</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="authOverlay" *ngIf="show">
+        
+        <div class="userAuth">
+            <span class="closeAuth" (click)="authShow()"></span>
+
+            <!-- Start User Autentication -->
+            <user-auth></user-auth>
+            <!-- End User Autentication -->
+        </div> 
+    </div>
+</section>
+
+
+<router-outlet></router-outlet>
