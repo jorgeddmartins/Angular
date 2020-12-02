@@ -26,7 +26,6 @@ export class HeaderComponent {
 
   			{ url: '/', name: 'Deals of the day' },
   			{ url: '/', name: 'Drinks' },
-  			{ url: '/', name: 'Weekend Fun' },
   			{ url: '/', name: 'Our Specials' },
   			{ url: '/', name: 'My Orders' }
   		]
